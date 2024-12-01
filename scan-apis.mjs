@@ -178,7 +178,7 @@ function extractNpmVersion(projectName, packageName) {
       .exec(`pnpm --dir ./${projectName}/ list ${packageName} --depth=2`, {
         silent: true,
       })
-      .stdout.match(`${packageName} (?<version>\\S+)`)?.groups.version ??
+      .stdout.match(`${packageName} (?<version>[\\w.-]+)`)?.groups.version ??
     `${packageName}@???`
   );
 }
