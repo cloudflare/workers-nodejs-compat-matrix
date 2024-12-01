@@ -492,7 +492,7 @@
       "context": "missing",
       "count": "function",
       "countReset": "function",
-      "createTask": "missing",
+      "createTask": "function",
       "debug": "function",
       "dir": "function",
       "dirxml": "function",
@@ -1440,7 +1440,7 @@
         "context": "missing",
         "count": "function",
         "countReset": "function",
-        "createTask": "missing",
+        "createTask": "function",
         "debug": "function",
         "dir": "function",
         "dirxml": "function",
@@ -1818,7 +1818,7 @@
         "features": "object",
         "finalization": "missing",
         "getActiveResourcesInfo": "missing",
-        "getBuiltinModule": "missing",
+        "getBuiltinModule": "function",
         "getMaxListeners": "function",
         "getegid": "function",
         "geteuid": "function",
@@ -2007,10 +2007,12 @@
         "debug": "missing",
         "inspector": "boolean",
         "ipv6": "missing",
+        "require_module": "missing",
         "tls": "missing",
         "tls_alpn": "missing",
         "tls_ocsp": "missing",
         "tls_sni": "missing",
+        "typescript": "missing",
         "uv": "missing"
       },
       "finalization": {
@@ -2020,7 +2022,7 @@
         "unregister": "missing"
       },
       "getActiveResourcesInfo": "missing",
-      "getBuiltinModule": "missing",
+      "getBuiltinModule": "function",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -4424,7 +4426,7 @@
       "context": "missing",
       "count": "function",
       "countReset": "function",
-      "createTask": "missing",
+      "createTask": "function",
       "debug": "function",
       "dir": "function",
       "dirxml": "function",
@@ -6447,7 +6449,7 @@
       "*self*": "object"
     },
     "Server": "function",
-    "ServerResponse": "class",
+    "ServerResponse": "function",
     "WebSocket": "missing",
     "_connectionListener": "missing",
     "createServer": "function",
@@ -6527,7 +6529,7 @@
         "*self*": "object"
       },
       "Server": "function",
-      "ServerResponse": "class",
+      "ServerResponse": "function",
       "WebSocket": "missing",
       "_connectionListener": "missing",
       "createServer": "function",
@@ -7320,14 +7322,14 @@
   "inspector": {
     "*self*": "object",
     "Network": {
-      "*self*": "missing",
-      "loadingFailed": "missing",
-      "loadingFinished": "missing",
-      "requestWillBeSent": "missing",
-      "responseReceived": "missing"
+      "*self*": "object",
+      "loadingFailed": "function",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
     },
-    "Session": "stub",
-    "close": "stub",
+    "Session": "class",
+    "close": "function",
     "console": {
       "*self*": "object",
       "assert": "function",
@@ -7357,14 +7359,14 @@
     "default": {
       "*self*": "object",
       "Network": {
-        "*self*": "missing",
-        "loadingFailed": "missing",
-        "loadingFinished": "missing",
-        "requestWillBeSent": "missing",
-        "responseReceived": "missing"
+        "*self*": "object",
+        "loadingFailed": "function",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
       },
-      "Session": "stub",
-      "close": "stub",
+      "Session": "class",
+      "close": "function",
       "console": {
         "*self*": "object",
         "assert": "function",
@@ -7391,25 +7393,25 @@
         "trace": "function",
         "warn": "function"
       },
-      "open": "stub",
+      "open": "function",
       "url": "function",
-      "waitForDebugger": "stub"
+      "waitForDebugger": "function"
     },
-    "open": "stub",
+    "open": "function",
     "url": "function",
-    "waitForDebugger": "stub"
+    "waitForDebugger": "function"
   },
   "inspector/promises": {
     "*self*": "object",
     "Network": {
-      "*self*": "missing",
-      "loadingFailed": "missing",
-      "loadingFinished": "missing",
-      "requestWillBeSent": "missing",
-      "responseReceived": "missing"
+      "*self*": "object",
+      "loadingFailed": "function",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
     },
-    "Session": "stub",
-    "close": "stub",
+    "Session": "class",
+    "close": "function",
     "console": {
       "*self*": "object",
       "assert": "function",
@@ -7439,14 +7441,14 @@
     "default": {
       "*self*": "object",
       "Network": {
-        "*self*": "missing",
-        "loadingFailed": "missing",
-        "loadingFinished": "missing",
-        "requestWillBeSent": "missing",
-        "responseReceived": "missing"
+        "*self*": "object",
+        "loadingFailed": "function",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
       },
-      "Session": "stub",
-      "close": "stub",
+      "Session": "class",
+      "close": "function",
       "console": {
         "*self*": "object",
         "assert": "function",
@@ -7473,13 +7475,13 @@
         "trace": "function",
         "warn": "function"
       },
-      "open": "stub",
+      "open": "function",
       "url": "function",
-      "waitForDebugger": "stub"
+      "waitForDebugger": "function"
     },
-    "open": "stub",
+    "open": "function",
     "url": "function",
-    "waitForDebugger": "stub"
+    "waitForDebugger": "function"
   },
   "module": {
     "*self*": "object",
@@ -7542,7 +7544,8 @@
       },
       "createRequire": "function",
       "enableCompileCache": "missing",
-      "findSourceMap": "missing",
+      "findSourceMap": "function",
+      "flushCompileCache": "missing",
       "getCompileCacheDir": "missing",
       "globalPaths": "object",
       "isBuiltin": "function",
@@ -7564,6 +7567,7 @@
     },
     "enableCompileCache": "missing",
     "findSourceMap": "function",
+    "flushCompileCache": "missing",
     "getCompileCacheDir": "missing",
     "globalPaths": "object",
     "isBuiltin": "function",
@@ -7597,21 +7601,21 @@
       "connect": "function",
       "createConnection": "function",
       "createServer": "function",
-      "getDefaultAutoSelectFamily": "missing",
-      "getDefaultAutoSelectFamilyAttemptTimeout": "missing",
+      "getDefaultAutoSelectFamily": "function",
+      "getDefaultAutoSelectFamilyAttemptTimeout": "function",
       "isIP": "function",
       "isIPv4": "function",
       "isIPv6": "function",
-      "setDefaultAutoSelectFamily": "missing",
-      "setDefaultAutoSelectFamilyAttemptTimeout": "missing"
+      "setDefaultAutoSelectFamily": "function",
+      "setDefaultAutoSelectFamilyAttemptTimeout": "function"
     },
-    "getDefaultAutoSelectFamily": "missing",
-    "getDefaultAutoSelectFamilyAttemptTimeout": "missing",
+    "getDefaultAutoSelectFamily": "function",
+    "getDefaultAutoSelectFamilyAttemptTimeout": "function",
     "isIP": "function",
     "isIPv4": "function",
     "isIPv6": "function",
-    "setDefaultAutoSelectFamily": "missing",
-    "setDefaultAutoSelectFamilyAttemptTimeout": "missing"
+    "setDefaultAutoSelectFamily": "function",
+    "setDefaultAutoSelectFamilyAttemptTimeout": "function"
   },
   "os": {
     "*self*": "object",
@@ -8457,7 +8461,7 @@
         "NODE_PERFORMANCE_MILESTONE_V8_START": "missing"
       },
       "createHistogram": "missing",
-      "monitorEventLoopDelay": "stub",
+      "monitorEventLoopDelay": "function",
       "performance": {
         "*self*": "object",
         "addEventListener": "function",
@@ -8482,7 +8486,7 @@
         "toJSON": "function"
       }
     },
-    "monitorEventLoopDelay": "stub",
+    "monitorEventLoopDelay": "function",
     "performance": {
       "*self*": "object",
       "addEventListener": "function",
@@ -8767,10 +8771,12 @@
         "debug": "missing",
         "inspector": "boolean",
         "ipv6": "missing",
+        "require_module": "missing",
         "tls": "missing",
         "tls_alpn": "missing",
         "tls_ocsp": "missing",
         "tls_sni": "missing",
+        "typescript": "missing",
         "uv": "missing"
       },
       "finalization": {
@@ -8780,7 +8786,7 @@
         "unregister": "missing"
       },
       "getActiveResourcesInfo": "missing",
-      "getBuiltinModule": "missing",
+      "getBuiltinModule": "function",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -9265,10 +9271,12 @@
       "debug": "missing",
       "inspector": "missing",
       "ipv6": "missing",
+      "require_module": "missing",
       "tls": "missing",
       "tls_alpn": "missing",
       "tls_ocsp": "missing",
       "tls_sni": "missing",
+      "typescript": "missing",
       "uv": "missing"
     },
     "finalization": {
@@ -9278,7 +9286,7 @@
       "unregister": "missing"
     },
     "getActiveResourcesInfo": "missing",
-    "getBuiltinModule": "missing",
+    "getBuiltinModule": "function",
     "getegid": "function",
     "geteuid": "function",
     "getgid": "function",
@@ -10422,7 +10430,7 @@
       "parseEnv": "missing",
       "promisify": "function",
       "stripVTControlCharacters": "function",
-      "styleText": "missing",
+      "styleText": "function",
       "toUSVString": "function",
       "transferableAbortController": "missing",
       "transferableAbortSignal": "missing",
@@ -10501,7 +10509,7 @@
     "parseEnv": "missing",
     "promisify": "function",
     "stripVTControlCharacters": "function",
-    "styleText": "missing",
+    "styleText": "function",
     "toUSVString": "function",
     "transferableAbortController": "missing",
     "transferableAbortSignal": "missing",
@@ -10764,7 +10772,7 @@
       "parseEnv": "missing",
       "promisify": "function",
       "stripVTControlCharacters": "function",
-      "styleText": "missing",
+      "styleText": "function",
       "toUSVString": "function",
       "transferableAbortController": "missing",
       "transferableAbortSignal": "missing",
@@ -10843,7 +10851,7 @@
     "parseEnv": "missing",
     "promisify": "function",
     "stripVTControlCharacters": "function",
-    "styleText": "missing",
+    "styleText": "function",
     "toUSVString": "function",
     "transferableAbortController": "missing",
     "transferableAbortSignal": "missing",
@@ -11114,6 +11122,7 @@
       "getEnvironmentData": "function",
       "isMainThread": "boolean",
       "isMarkedAsUntransferable": "missing",
+      "markAsUncloneable": "missing",
       "markAsUntransferable": "stub",
       "moveMessagePortToContext": "stub",
       "parentPort": "null",
@@ -11129,6 +11138,7 @@
     "getEnvironmentData": "function",
     "isMainThread": "boolean",
     "isMarkedAsUntransferable": "missing",
+    "markAsUncloneable": "missing",
     "markAsUntransferable": "stub",
     "moveMessagePortToContext": "stub",
     "parentPort": "null",
@@ -11287,7 +11297,7 @@
       "Z_SYNC_FLUSH": "number",
       "Z_VERSION_ERROR": "number"
     },
-    "crc32": "missing",
+    "crc32": "function",
     "createBrotliCompress": "function",
     "createBrotliDecompress": "function",
     "createDeflate": "function",
@@ -11487,7 +11497,7 @@
         "Z_SYNC_FLUSH": "number",
         "Z_VERSION_ERROR": "number"
       },
-      "crc32": "missing",
+      "crc32": "function",
       "createBrotliCompress": "function",
       "createBrotliDecompress": "function",
       "createDeflate": "function",
