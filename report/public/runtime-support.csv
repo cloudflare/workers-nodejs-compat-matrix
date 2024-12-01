@@ -1,5 +1,5 @@
 Module,Path,baseline,node22,node20,node18,bun,deno,workerd,wranglerV3,wranglerUnenv
-,,,22.11.0,20.18.1,18.20.5,1.1.38,2.1.2,(PRIVATE),3.91.0,3.91.0
+,,,22.11.0,20.18.1,18.20.5,1.1.38,2.1.2,1.20241127.0,3.91.0,3.91.0
 *globals*,*self*,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported,supported,supported,supported,supported
