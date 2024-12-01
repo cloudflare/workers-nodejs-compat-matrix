@@ -4,7 +4,7 @@
   "node22": "22.11.0",
   "bun": "1.1.38",
   "deno": "2.1.2",
-  "workerd": "(PRIVATE)",
+  "workerd": "1.20241127.0",
   "wranglerV3": "3.91.0",
   "wranglerUnenv": "3.91.0"
 }
