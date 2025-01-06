@@ -1,16 +1,16 @@
 [
   [
     "Totals",
-    10764,
-    10764,
-    "10649/0/0/115",
-    "10517/4/0/243",
-    "10227/9/0/528",
-    "7594/53/0/3117",
-    "7704/31/78/2951",
-    "3699/22/0/7043",
-    "1735/36/0/8993",
-    "6725/167/2827/1045"
+    10774,
+    10774,
+    "10659/0/0/115",
+    "10517/4/0/253",
+    "10227/9/0/538",
+    "7596/53/0/3125",
+    "7708/31/78/2957",
+    "3743/22/0/7009",
+    "1735/36/0/9003",
+    "6741/174/2826/1033"
   ],
   [
     "*globals*",
@@ -23,7 +23,7 @@
     "1093/7/0/1284",
     "1228/0/0/1156",
     "605/0/0/1779",
-    "1548/30/490/316"
+    "1548/33/487/316"
   ],
   [
     "*globals*.*self*",
@@ -6874,7 +6874,7 @@
     "0/0/0/641",
     "484/0/0/157",
     "0/0/0/641",
-    "559/2/40/40"
+    "559/3/39/40"
   ],
   [
     "*globals*.global.*self*",
@@ -14050,7 +14050,7 @@
     "0/0/0/95",
     "6/0/0/89",
     "0/0/0/95",
-    "56/2/36/1"
+    "56/3/35/1"
   ],
   [
     "*globals*.global.process.*self*",
@@ -14492,7 +14492,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "mismatch"
   ],
   [
     "*globals*.global.process.emit",
@@ -15389,7 +15389,7 @@
     "451/0/0/190",
     "484/0/0/157",
     "353/0/0/288",
-    "559/2/40/40"
+    "559/3/39/40"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -22565,7 +22565,7 @@
     "63/0/0/32",
     "6/0/0/89",
     "0/0/0/95",
-    "56/2/36/1"
+    "56/3/35/1"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -23007,7 +23007,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "mismatch"
   ],
   [
     "*globals*.globalThis.process.emit",
@@ -24528,7 +24528,7 @@
     "276/5/0/256",
     "6/0/0/531",
     "0/0/0/537",
-    "83/23/397/34"
+    "83/24/396/34"
   ],
   [
     "*globals*.process.*self*",
@@ -25295,7 +25295,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "mismatch"
   ],
   [
     "*globals*.process.emit",
@@ -33144,7 +33144,7 @@
     "94/0/0/0",
     "90/0/0/4",
     "0/0/0/94",
-    "72/0/0/22",
+    "74/0/0/20",
     "0/0/0/94",
     "0/1/0/93",
     "1/4/43/46"
@@ -33170,7 +33170,7 @@
     "47/0/0/0",
     "45/0/0/2",
     "0/0/0/47",
-    "36/0/0/11",
+    "37/0/0/10",
     "0/0/0/47",
     "0/0/0/47",
     "0/4/43/0"
@@ -33209,7 +33209,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -33846,7 +33846,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported"
@@ -62770,7 +62770,7 @@
     "294/0/0/39",
     "292/4/0/37",
     "327/4/0/2",
-    "293/4/0/36",
+    "295/4/0/34",
     "299/2/18/14",
     "134/1/0/198",
     "2/0/0/331",
@@ -62796,7 +62796,7 @@
     "143/0/0/21",
     "143/2/0/19",
     "161/2/0/1",
-    "143/2/0/19",
+    "144/2/0/18",
     "144/1/9/10",
     "61/1/0/102",
     "1/0/0/163",
@@ -64356,7 +64356,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "stub",
     "supported",
     "unsupported",
@@ -66462,7 +66462,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "stub",
     "supported",
     "unsupported",
@@ -67556,7 +67556,7 @@
     "190/0/0/0",
     "132/0/0/58",
     "182/0/0/8",
-    "90/0/0/100",
+    "92/0/0/98",
     "2/0/0/188",
     "114/0/76/0"
   ],
@@ -67582,7 +67582,7 @@
     "95/0/0/0",
     "66/0/0/29",
     "91/0/0/4",
-    "45/0/0/50",
+    "46/0/0/49",
     "1/0/0/94",
     "57/0/38/0"
   ],
@@ -67920,7 +67920,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -69155,7 +69155,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70078,7 +70078,7 @@
     "92/0/0/0",
     "36/0/0/56",
     "88/0/0/4",
-    "50/0/0/42",
+    "92/0/0/0",
     "0/1/0/91",
     "54/0/38/0"
   ],
@@ -70104,7 +70104,7 @@
     "46/0/0/0",
     "18/0/0/28",
     "44/0/0/2",
-    "25/0/0/21",
+    "46/0/0/0",
     "0/0/0/46",
     "27/0/19/0"
   ],
@@ -70416,7 +70416,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70455,7 +70455,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -70468,7 +70468,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -70481,7 +70481,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70494,7 +70494,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70507,7 +70507,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70520,7 +70520,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70533,7 +70533,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70546,7 +70546,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70559,7 +70559,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70572,7 +70572,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70585,7 +70585,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70598,7 +70598,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70611,7 +70611,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70624,7 +70624,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70637,7 +70637,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70650,7 +70650,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70663,7 +70663,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70676,7 +70676,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70689,7 +70689,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -70702,7 +70702,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71001,7 +71001,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71040,7 +71040,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -71053,7 +71053,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -71066,7 +71066,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71079,7 +71079,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71092,7 +71092,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71105,7 +71105,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71118,7 +71118,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71131,7 +71131,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71144,7 +71144,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71157,7 +71157,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71170,7 +71170,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71183,7 +71183,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71196,7 +71196,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71209,7 +71209,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71222,7 +71222,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71235,7 +71235,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71248,7 +71248,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71261,7 +71261,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71274,7 +71274,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -71287,7 +71287,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "stub"
   ],
@@ -94498,16 +94498,16 @@
   ],
   [
     "module",
-    76,
-    76,
-    "72/0/0/4",
-    "58/0/0/18",
-    "58/0/0/18",
-    "55/12/0/9",
-    "47/4/0/25",
-    "7/1/0/68",
-    "1/1/0/74",
-    "20/7/24/25"
+    78,
+    78,
+    "74/0/0/4",
+    "58/0/0/20",
+    "58/0/0/20",
+    "55/12/0/11",
+    "49/4/0/25",
+    "7/1/0/70",
+    "1/1/0/76",
+    "30/7/26/15"
   ],
   [
     "module.*self*",
@@ -94524,16 +94524,16 @@
   ],
   [
     "module.default",
-    42,
-    42,
-    "40/0/0/2",
-    "35/0/0/7",
-    "35/0/0/7",
-    "28/6/0/8",
-    "28/2/0/12",
-    "3/1/0/38",
-    "0/1/0/41",
-    "10/4/12/16"
+    43,
+    43,
+    "41/0/0/2",
+    "35/0/0/8",
+    "35/0/0/8",
+    "28/6/0/9",
+    "29/2/0/12",
+    "3/1/0/39",
+    "0/1/0/42",
+    "13/4/13/13"
   ],
   [
     "module.default.*self*",
@@ -94602,16 +94602,16 @@
   ],
   [
     "module.default._extensions",
-    4,
-    4,
-    "4/0/0/0",
-    "4/0/0/0",
-    "4/0/0/0",
-    "1/3/0/0",
-    "4/0/0/0",
-    "0/0/0/4",
-    "0/0/0/4",
-    "1/0/3/0"
+    5,
+    5,
+    "5/0/0/0",
+    "4/0/0/1",
+    "4/0/0/1",
+    "1/3/0/1",
+    "5/0/0/0",
+    "0/0/0/5",
+    "0/0/0/5",
+    "1/0/3/1"
   ],
   [
     "module.default._extensions.*self*",
@@ -94651,6 +94651,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "module.default._extensions..mjs",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.default._extensions..node",
@@ -94819,7 +94832,7 @@
     "0/0/0/2",
     "0/0/0/2",
     "0/0/0/2",
-    "0/0/0/2"
+    "2/0/0/0"
   ],
   [
     "module.default.constants.*self*",
@@ -94832,7 +94845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default.constants.compileCacheStatus",
@@ -94845,7 +94858,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default.createRequire",
@@ -94858,7 +94871,7 @@
     "supported",
     "supported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "module.default.enableCompileCache",
@@ -94871,7 +94884,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default.findSourceMap",
@@ -94910,7 +94923,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default.globalPaths",
@@ -95174,16 +95187,16 @@
   ],
   [
     "module._extensions",
-    4,
-    4,
-    "4/0/0/0",
-    "4/0/0/0",
-    "4/0/0/0",
-    "1/3/0/0",
-    "4/0/0/0",
-    "0/0/0/4",
-    "0/0/0/4",
-    "1/0/3/0"
+    5,
+    5,
+    "5/0/0/0",
+    "4/0/0/1",
+    "4/0/0/1",
+    "1/3/0/1",
+    "5/0/0/0",
+    "0/0/0/5",
+    "0/0/0/5",
+    "1/0/3/1"
   ],
   [
     "module._extensions.*self*",
@@ -95223,6 +95236,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "module._extensions..mjs",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module._extensions..node",
@@ -95365,7 +95391,7 @@
     "0/0/0/6",
     "0/0/0/6",
     "0/0/0/6",
-    "0/0/0/6"
+    "6/0/0/0"
   ],
   [
     "module.constants.*self*",
@@ -95378,7 +95404,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.constants.compileCacheStatus",
@@ -95391,7 +95417,7 @@
     "0/0/0/5",
     "0/0/0/5",
     "0/0/0/5",
-    "0/0/0/5"
+    "5/0/0/0"
   ],
   [
     "module.constants.compileCacheStatus.*self*",
@@ -95404,7 +95430,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.constants.compileCacheStatus.ALREADY_ENABLED",
@@ -95417,7 +95443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.constants.compileCacheStatus.DISABLED",
@@ -95430,7 +95456,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.constants.compileCacheStatus.ENABLED",
@@ -95443,7 +95469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.constants.compileCacheStatus.FAILED",
@@ -95456,7 +95482,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.createRequire",
@@ -95469,7 +95495,7 @@
     "supported",
     "supported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "module.enableCompileCache",
@@ -95482,7 +95508,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.findSourceMap",
@@ -95521,7 +95547,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.globalPaths",
@@ -107364,7 +107390,7 @@
     "636/14/0/832",
     "12/0/0/1470",
     "39/0/0/1443",
-    "155/58/1100/169"
+    "155/60/1098/169"
   ],
   [
     "process.*self*",
@@ -107390,7 +107416,7 @@
     "276/5/0/256",
     "6/0/0/531",
     "23/0/0/514",
-    "83/23/397/34"
+    "83/24/396/34"
   ],
   [
     "process.default.*self*",
@@ -108157,7 +108183,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "mismatch"
   ],
   [
     "process.default.emit",
@@ -116607,7 +116633,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "mismatch"
   ],
   [
     "process.emitWarning",
@@ -130508,16 +130534,16 @@
   ],
   [
     "sys",
-    176,
-    176,
-    "176/0/0/0",
-    "174/0/0/2",
-    "170/0/0/6",
-    "158/0/0/18",
-    "156/0/0/20",
-    "136/0/0/40",
-    "46/0/0/130",
-    "162/0/12/2"
+    180,
+    180,
+    "180/0/0/0",
+    "174/0/0/6",
+    "170/0/0/10",
+    "158/0/0/22",
+    "156/0/0/24",
+    "136/0/0/44",
+    "46/0/0/134",
+    "164/0/12/4"
   ],
   [
     "sys.*self*",
@@ -130534,16 +130560,16 @@
   ],
   [
     "sys.default",
-    88,
-    88,
-    "88/0/0/0",
-    "87/0/0/1",
-    "85/0/0/3",
-    "79/0/0/9",
-    "78/0/0/10",
-    "68/0/0/20",
-    "23/0/0/65",
-    "81/0/6/1"
+    90,
+    90,
+    "90/0/0/0",
+    "87/0/0/3",
+    "85/0/0/5",
+    "79/0/0/11",
+    "78/0/0/12",
+    "68/0/0/22",
+    "23/0/0/67",
+    "82/0/6/2"
   ],
   [
     "sys.default.*self*",
@@ -130751,6 +130777,19 @@
     "unsupported",
     "supported",
     "unsupported",
+    "supported"
+  ],
+  [
+    "sys.default.getCallSites",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -130765,6 +130804,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "sys.default.getSystemErrorMessage",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "sys.default.getSystemErrorName",
@@ -131895,6 +131947,19 @@
     "unsupported",
     "supported",
     "unsupported",
+    "supported"
+  ],
+  [
+    "sys.getCallSites",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -131909,6 +131974,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "sys.getSystemErrorMessage",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "sys.getSystemErrorName",
@@ -134681,16 +134759,16 @@
   ],
   [
     "util",
-    176,
-    176,
-    "176/0/0/0",
-    "174/0/0/2",
-    "170/0/0/6",
-    "158/0/0/18",
-    "156/0/0/20",
-    "136/0/0/40",
-    "46/0/0/130",
-    "162/0/12/2"
+    180,
+    180,
+    "180/0/0/0",
+    "174/0/0/6",
+    "170/0/0/10",
+    "158/0/0/22",
+    "156/0/0/24",
+    "136/0/0/44",
+    "46/0/0/134",
+    "164/0/12/4"
   ],
   [
     "util.*self*",
@@ -134707,16 +134785,16 @@
   ],
   [
     "util.default",
-    88,
-    88,
-    "88/0/0/0",
-    "87/0/0/1",
-    "85/0/0/3",
-    "79/0/0/9",
-    "78/0/0/10",
-    "68/0/0/20",
-    "23/0/0/65",
-    "81/0/6/1"
+    90,
+    90,
+    "90/0/0/0",
+    "87/0/0/3",
+    "85/0/0/5",
+    "79/0/0/11",
+    "78/0/0/12",
+    "68/0/0/22",
+    "23/0/0/67",
+    "82/0/6/2"
   ],
   [
     "util.default.*self*",
@@ -134924,6 +135002,19 @@
     "unsupported",
     "supported",
     "unsupported",
+    "supported"
+  ],
+  [
+    "util.default.getCallSites",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -134938,6 +135029,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "util.default.getSystemErrorMessage",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "util.default.getSystemErrorName",
@@ -136068,6 +136172,19 @@
     "unsupported",
     "supported",
     "unsupported",
+    "supported"
+  ],
+  [
+    "util.getCallSites",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -136082,6 +136199,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "util.getSystemErrorMessage",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "util.getSystemErrorName",
@@ -139032,7 +139162,7 @@
     "24/0/2/0",
     "0/0/0/26",
     "16/0/0/10",
-    "14/2/8/2"
+    "14/4/8/0"
   ],
   [
     "vm.*self*",
@@ -139058,7 +139188,7 @@
     "12/0/1/0",
     "0/0/0/13",
     "8/0/0/5",
-    "7/1/4/1"
+    "7/2/4/0"
   ],
   [
     "vm.default.*self*",
@@ -139110,7 +139240,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "1/1/0/1"
+    "1/2/0/0"
   ],
   [
     "vm.default.constants.*self*",
@@ -139136,7 +139266,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "vm.default.constants.USE_MAIN_CONTEXT_DEFAULT_LOADER",
@@ -139279,7 +139409,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "1/1/0/1"
+    "1/2/0/0"
   ],
   [
     "vm.constants.*self*",
@@ -139305,7 +139435,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "vm.constants.USE_MAIN_CONTEXT_DEFAULT_LOADER",
@@ -139500,7 +139630,7 @@
     "26/0/6/6",
     "0/0/0/38",
     "0/1/0/37",
-    "34/0/0/4"
+    "36/0/2/0"
   ],
   [
     "worker_threads.*self*",
@@ -139526,7 +139656,7 @@
     "13/0/3/3",
     "0/0/0/19",
     "0/0/0/19",
-    "17/0/0/2"
+    "18/0/1/0"
   ],
   [
     "worker_threads.default.*self*",
@@ -139656,7 +139786,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.default.markAsUntransferable",
@@ -139708,7 +139838,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "worker_threads.default.receiveMessageOnPort",
@@ -139903,7 +140033,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.markAsUntransferable",
@@ -139955,7 +140085,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "worker_threads.receiveMessageOnPort",

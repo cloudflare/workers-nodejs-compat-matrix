@@ -2619,7 +2619,7 @@
   "_http_common": {
     "*self*": "object",
     "CRLF": "string",
-    "HTTPParser": "missing",
+    "HTTPParser": "function",
     "_checkInvalidHeaderChar": "function",
     "_checkIsHttpToken": "function",
     "chunkExpression": {
@@ -2659,7 +2659,7 @@
     "default": {
       "*self*": "object",
       "CRLF": "string",
-      "HTTPParser": "missing",
+      "HTTPParser": "function",
       "_checkInvalidHeaderChar": "function",
       "_checkIsHttpToken": "function",
       "chunkExpression": {
@@ -7493,6 +7493,7 @@
       "*self*": "object",
       ".js": "function",
       ".json": "function",
+      ".mjs": "function",
       ".node": "function"
     },
     "_findPath": "function",
@@ -7525,6 +7526,7 @@
         "*self*": "object",
         ".js": "function",
         ".json": "function",
+        ".mjs": "function",
         ".node": "function"
       },
       "_findPath": "function",
@@ -10405,7 +10407,9 @@
       "format": "function",
       "formatWithOptions": "function",
       "getCallSite": "missing",
+      "getCallSites": "missing",
       "getSystemErrorMap": "missing",
+      "getSystemErrorMessage": "missing",
       "getSystemErrorName": "function",
       "inherits": "function",
       "inspect": "function",
@@ -10484,7 +10488,9 @@
     "format": "function",
     "formatWithOptions": "function",
     "getCallSite": "missing",
+    "getCallSites": "missing",
     "getSystemErrorMap": "missing",
+    "getSystemErrorMessage": "missing",
     "getSystemErrorName": "function",
     "inherits": "function",
     "inspect": "function",
@@ -10747,7 +10753,9 @@
       "format": "function",
       "formatWithOptions": "function",
       "getCallSite": "missing",
+      "getCallSites": "missing",
       "getSystemErrorMap": "missing",
+      "getSystemErrorMessage": "missing",
       "getSystemErrorName": "function",
       "inherits": "function",
       "inspect": "function",
@@ -10826,7 +10834,9 @@
     "format": "function",
     "formatWithOptions": "function",
     "getCallSite": "missing",
+    "getCallSites": "missing",
     "getSystemErrorMap": "missing",
+    "getSystemErrorMessage": "missing",
     "getSystemErrorName": "function",
     "inherits": "function",
     "inspect": "function",
