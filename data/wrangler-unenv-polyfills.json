@@ -1137,7 +1137,7 @@
         "cwd": "function",
         "debugPort": "number",
         "dlopen": "stub",
-        "domain": "stub",
+        "domain": "undefined",
         "emit": "function",
         "emitWarning": "function",
         "env": "object",
@@ -1806,7 +1806,7 @@
         "cwd": "function",
         "debugPort": "number",
         "dlopen": "stub",
-        "domain": "stub",
+        "domain": "undefined",
         "emit": "function",
         "emitWarning": "function",
         "env": "object",
@@ -1990,7 +1990,7 @@
       "cwd": "function",
       "debugPort": "number",
       "dlopen": "stub",
-      "domain": "stub",
+      "domain": "undefined",
       "emit": "function",
       "emitWarning": "function",
       "env": {
@@ -7493,6 +7493,7 @@
       "*self*": "object",
       ".js": "stub",
       ".json": "stub",
+      ".mjs": "missing",
       ".node": "stub"
     },
     "_findPath": "stub",
@@ -7505,16 +7506,16 @@
     "_resolveLookupPaths": "stub",
     "builtinModules": "object",
     "constants": {
-      "*self*": "missing",
+      "*self*": "object",
       "compileCacheStatus": {
-        "*self*": "missing",
-        "ALREADY_ENABLED": "missing",
-        "DISABLED": "missing",
-        "ENABLED": "missing",
-        "FAILED": "missing"
+        "*self*": "object",
+        "ALREADY_ENABLED": "number",
+        "DISABLED": "number",
+        "ENABLED": "number",
+        "FAILED": "number"
       }
     },
-    "createRequire": "function",
+    "createRequire": "stub",
     "default": {
       "*self*": "object",
       "Module": "object",
@@ -7525,6 +7526,7 @@
         "*self*": "object",
         ".js": "stub",
         ".json": "stub",
+        ".mjs": "missing",
         ".node": "stub"
       },
       "_findPath": "stub",
@@ -7539,14 +7541,14 @@
       "_stat": "missing",
       "builtinModules": "object",
       "constants": {
-        "*self*": "missing",
-        "compileCacheStatus": "missing"
+        "*self*": "object",
+        "compileCacheStatus": "object"
       },
-      "createRequire": "function",
-      "enableCompileCache": "missing",
+      "createRequire": "stub",
+      "enableCompileCache": "function",
       "findSourceMap": "function",
       "flushCompileCache": "missing",
-      "getCompileCacheDir": "missing",
+      "getCompileCacheDir": "function",
       "globalPaths": "object",
       "isBuiltin": "function",
       "length": "missing",
@@ -7565,10 +7567,10 @@
       "wrap": "function",
       "wrapper": "missing"
     },
-    "enableCompileCache": "missing",
+    "enableCompileCache": "function",
     "findSourceMap": "function",
     "flushCompileCache": "missing",
-    "getCompileCacheDir": "missing",
+    "getCompileCacheDir": "function",
     "globalPaths": "object",
     "isBuiltin": "function",
     "register": "stub",
@@ -8754,7 +8756,7 @@
       "cwd": "function",
       "debugPort": "number",
       "dlopen": "stub",
-      "domain": "stub",
+      "domain": "undefined",
       "emit": "function",
       "emitWarning": "function",
       "env": {
@@ -9256,7 +9258,7 @@
       }
     },
     "dlopen": "stub",
-    "domain": "stub",
+    "domain": "undefined",
     "emitWarning": "function",
     "env": {
       "*self*": "object"
@@ -10404,8 +10406,10 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
-      "getCallSite": "missing",
+      "getCallSite": "function",
+      "getCallSites": "missing",
       "getSystemErrorMap": "stub",
+      "getSystemErrorMessage": "missing",
       "getSystemErrorName": "stub",
       "inherits": "function",
       "inspect": "function",
@@ -10483,8 +10487,10 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
-    "getCallSite": "missing",
+    "getCallSite": "function",
+    "getCallSites": "missing",
     "getSystemErrorMap": "stub",
+    "getSystemErrorMessage": "missing",
     "getSystemErrorName": "stub",
     "inherits": "function",
     "inspect": "function",
@@ -10746,8 +10752,10 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
-      "getCallSite": "missing",
+      "getCallSite": "function",
+      "getCallSites": "missing",
       "getSystemErrorMap": "stub",
+      "getSystemErrorMessage": "missing",
       "getSystemErrorName": "stub",
       "inherits": "function",
       "inspect": "function",
@@ -10825,8 +10833,10 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
-    "getCallSite": "missing",
+    "getCallSite": "function",
+    "getCallSites": "missing",
     "getSystemErrorMap": "stub",
+    "getSystemErrorMessage": "missing",
     "getSystemErrorName": "stub",
     "inherits": "function",
     "inspect": "function",
@@ -11069,7 +11079,7 @@
     "compileFunction": "stub",
     "constants": {
       "*self*": "object",
-      "DONT_CONTEXTIFY": "missing",
+      "DONT_CONTEXTIFY": "number",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "number"
     },
     "createContext": "function",
@@ -11080,7 +11090,7 @@
       "compileFunction": "stub",
       "constants": {
         "*self*": "object",
-        "DONT_CONTEXTIFY": "missing",
+        "DONT_CONTEXTIFY": "number",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "number"
       },
       "createContext": "function",
@@ -11122,11 +11132,11 @@
       "getEnvironmentData": "function",
       "isMainThread": "boolean",
       "isMarkedAsUntransferable": "function",
-      "markAsUncloneable": "missing",
+      "markAsUncloneable": "function",
       "markAsUntransferable": "function",
       "moveMessagePortToContext": "function",
       "parentPort": "null",
-      "postMessageToThread": "missing",
+      "postMessageToThread": "stub",
       "receiveMessageOnPort": "function",
       "resourceLimits": {
         "*self*": "object"
@@ -11138,11 +11148,11 @@
     "getEnvironmentData": "function",
     "isMainThread": "boolean",
     "isMarkedAsUntransferable": "function",
-    "markAsUncloneable": "missing",
+    "markAsUncloneable": "function",
     "markAsUntransferable": "function",
     "moveMessagePortToContext": "function",
     "parentPort": "null",
-    "postMessageToThread": "missing",
+    "postMessageToThread": "stub",
     "receiveMessageOnPort": "function",
     "resourceLimits": {
       "*self*": "object"
