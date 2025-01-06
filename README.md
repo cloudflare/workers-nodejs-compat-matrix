@@ -34,6 +34,7 @@ pnpm install
 
 > [!IMPORTANT]
 > Update Bun and Deno, i.e. using `brew upgrade`on mac.
+> Update `wrangler` and `workerd` in `pnpm-workspace.yaml` from wrangler's [package.json](https://github.com/cloudflare/workers-sdk/blob/main/packages/wrangler/package.json)
 
 > [!IMPORTANT]
 > This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm generate`.
