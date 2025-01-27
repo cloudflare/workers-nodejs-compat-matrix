@@ -1,16 +1,16 @@
 [
   [
     "Totals",
-    10801,
-    10801,
-    "10686/0/0/115",
-    "10534/4/0/263",
-    "10244/9/0/548",
-    "8720/58/0/2023",
-    "7711/31/78/2981",
-    "3923/22/0/6856",
-    "1731/36/0/9034",
-    "7292/209/1309/1991"
+    10783,
+    10783,
+    "10668/0/0/115",
+    "10517/4/0/262",
+    "10227/9/0/547",
+    "8704/58/0/2021",
+    "7708/31/78/2966",
+    "3923/22/0/6838",
+    "1735/36/0/9012",
+    "7273/207/1309/1994"
   ],
   [
     "*globals*",
@@ -56278,16 +56278,16 @@
   ],
   [
     "constants",
-    510,
-    510,
-    "476/0/0/34",
-    "476/0/0/34",
-    "506/0/0/4",
-    "430/0/0/80",
-    "500/0/0/10",
-    "0/0/0/510",
-    "482/0/0/28",
-    "476/0/0/34"
+    502,
+    502,
+    "468/0/0/34",
+    "468/0/0/34",
+    "498/0/0/4",
+    "422/0/0/80",
+    "495/0/0/7",
+    "0/0/0/502",
+    "486/0/0/16",
+    "468/0/0/34"
   ],
   [
     "constants.*self*",
@@ -56330,16 +56330,16 @@
   ],
   [
     "constants.default",
-    255,
-    255,
-    "238/0/0/17",
-    "238/0/0/17",
-    "253/0/0/2",
-    "215/0/0/40",
-    "250/0/0/5",
-    "0/0/0/255",
-    "241/0/0/14",
-    "238/0/0/17"
+    251,
+    251,
+    "234/0/0/17",
+    "234/0/0/17",
+    "249/0/0/2",
+    "211/0/0/40",
+    "248/0/0/3",
+    "0/0/0/251",
+    "243/0/0/8",
+    "234/0/0/17"
   ],
   [
     "constants.default.*self*",
@@ -57707,19 +57707,6 @@
     "supported"
   ],
   [
-    "constants.default.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.default.O_DIRECTORY",
     0,
     "supported",
@@ -57756,19 +57743,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.default.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -57825,6 +57799,19 @@
   ],
   [
     "constants.default.O_RDWR",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "supported",
+    "supported"
+  ],
+  [
+    "constants.default.O_SYMLINK",
     0,
     "supported",
     "supported",
@@ -58097,19 +58084,6 @@
     "supported"
   ],
   [
-    "constants.default.RTLD_DEEPBIND",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.default.RTLD_GLOBAL",
     0,
     "supported",
@@ -58279,6 +58253,19 @@
     "supported"
   ],
   [
+    "constants.default.SIGINFO",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "supported",
+    "supported"
+  ],
+  [
     "constants.default.SIGINT",
     0,
     "supported",
@@ -58344,19 +58331,6 @@
     "supported"
   ],
   [
-    "constants.default.SIGPOLL",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.default.SIGPROF",
     0,
     "supported",
@@ -58367,19 +58341,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.default.SIGPWR",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -58406,19 +58367,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.default.SIGSTKFLT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -60983,19 +60931,6 @@
     "supported"
   ],
   [
-    "constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.O_DIRECTORY",
     0,
     "supported",
@@ -61032,19 +60967,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -61101,6 +61023,19 @@
   ],
   [
     "constants.O_RDWR",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "supported",
+    "supported"
+  ],
+  [
+    "constants.O_SYMLINK",
     0,
     "supported",
     "supported",
@@ -61373,19 +61308,6 @@
     "supported"
   ],
   [
-    "constants.RTLD_DEEPBIND",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.RTLD_GLOBAL",
     0,
     "supported",
@@ -61555,6 +61477,19 @@
     "supported"
   ],
   [
+    "constants.SIGINFO",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "supported"
+  ],
+  [
     "constants.SIGINT",
     0,
     "supported",
@@ -61620,19 +61555,6 @@
     "supported"
   ],
   [
-    "constants.SIGPOLL",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "constants.SIGPROF",
     0,
     "supported",
@@ -61643,19 +61565,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.SIGPWR",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -61682,19 +61591,6 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
-  ],
-  [
-    "constants.SIGSTKFLT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
     "supported"
   ],
   [
@@ -72398,16 +72294,16 @@
   ],
   [
     "fs",
-    452,
-    452,
-    "452/0/0/0",
-    "446/0/0/6",
-    "438/0/0/14",
-    "442/4/0/6",
-    "410/0/2/40",
-    "0/0/0/452",
-    "2/0/0/450",
-    "242/2/202/6"
+    449,
+    449,
+    "449/0/0/0",
+    "443/0/0/6",
+    "435/0/0/14",
+    "439/4/0/6",
+    "413/0/2/34",
+    "0/0/0/449",
+    "2/0/0/447",
+    "238/0/202/9"
   ],
   [
     "fs.*self*",
@@ -72424,16 +72320,16 @@
   ],
   [
     "fs.default",
-    197,
-    197,
-    "197/0/0/0",
-    "194/0/0/3",
-    "191/0/0/6",
-    "192/2/0/3",
-    "179/0/1/17",
-    "0/0/0/197",
-    "1/0/0/196",
-    "93/1/101/2"
+    196,
+    196,
+    "196/0/0/0",
+    "193/0/0/3",
+    "190/0/0/6",
+    "191/2/0/3",
+    "180/0/1/15",
+    "0/0/0/196",
+    "1/0/0/195",
+    "92/0/101/3"
   ],
   [
     "fs.default.*self*",
@@ -72736,16 +72632,16 @@
   ],
   [
     "fs.default.constants",
-    59,
-    59,
-    "59/0/0/0",
-    "59/0/0/0",
-    "57/0/0/2",
-    "59/0/0/0",
-    "55/0/0/4",
-    "0/0/0/59",
-    "0/0/0/59",
-    "57/0/0/2"
+    58,
+    58,
+    "58/0/0/0",
+    "58/0/0/0",
+    "56/0/0/2",
+    "58/0/0/0",
+    "56/0/0/2",
+    "0/0/0/58",
+    "0/0/0/58",
+    "55/0/0/3"
   ],
   [
     "fs.default.constants.*self*",
@@ -72865,19 +72761,6 @@
     "supported"
   ],
   [
-    "fs.default.constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "fs.default.constants.O_DIRECTORY",
     0,
     "supported",
@@ -72912,19 +72795,6 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "fs.default.constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -72993,6 +72863,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "fs.default.constants.O_SYMLINK",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "fs.default.constants.O_SYNC",
@@ -73837,7 +73720,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "fs.default.lchmodSync",
@@ -75310,16 +75193,16 @@
   ],
   [
     "fs.constants",
-    59,
-    59,
-    "59/0/0/0",
-    "59/0/0/0",
-    "57/0/0/2",
-    "59/0/0/0",
-    "55/0/0/4",
-    "0/0/0/59",
-    "0/0/0/59",
-    "57/0/0/2"
+    58,
+    58,
+    "58/0/0/0",
+    "58/0/0/0",
+    "56/0/0/2",
+    "58/0/0/0",
+    "56/0/0/2",
+    "0/0/0/58",
+    "0/0/0/58",
+    "55/0/0/3"
   ],
   [
     "fs.constants.*self*",
@@ -75439,19 +75322,6 @@
     "supported"
   ],
   [
-    "fs.constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "fs.constants.O_DIRECTORY",
     0,
     "supported",
@@ -75486,19 +75356,6 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "fs.constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -75567,6 +75424,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "fs.constants.O_SYMLINK",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "fs.constants.O_SYNC",
@@ -76411,7 +76281,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "fs.lchmodSync",
@@ -76649,16 +76519,16 @@
   ],
   [
     "fs.promises",
-    91,
-    91,
-    "91/0/0/0",
-    "90/0/0/1",
-    "88/0/0/3",
-    "90/0/0/1",
-    "85/0/0/6",
-    "0/0/0/91",
-    "0/0/0/91",
-    "58/0/31/2"
+    90,
+    90,
+    "90/0/0/0",
+    "89/0/0/1",
+    "87/0/0/3",
+    "89/0/0/1",
+    "86/0/0/4",
+    "0/0/0/90",
+    "0/0/0/90",
+    "56/0/31/3"
   ],
   [
     "fs.promises.*self*",
@@ -76727,16 +76597,16 @@
   ],
   [
     "fs.promises.constants",
-    59,
-    59,
-    "59/0/0/0",
-    "59/0/0/0",
-    "57/0/0/2",
-    "59/0/0/0",
-    "55/0/0/4",
-    "0/0/0/59",
-    "0/0/0/59",
-    "57/0/0/2"
+    58,
+    58,
+    "58/0/0/0",
+    "58/0/0/0",
+    "56/0/0/2",
+    "58/0/0/0",
+    "56/0/0/2",
+    "0/0/0/58",
+    "0/0/0/58",
+    "55/0/0/3"
   ],
   [
     "fs.promises.constants.*self*",
@@ -76856,19 +76726,6 @@
     "supported"
   ],
   [
-    "fs.promises.constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "fs.promises.constants.O_DIRECTORY",
     0,
     "supported",
@@ -76903,19 +76760,6 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "fs.promises.constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -76984,6 +76828,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "fs.promises.constants.O_SYMLINK",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "fs.promises.constants.O_SYNC",
@@ -78365,16 +78222,16 @@
   ],
   [
     "fs/promises",
-    182,
-    182,
-    "182/0/0/0",
-    "180/0/0/2",
-    "176/0/0/6",
-    "180/0/0/2",
-    "167/0/0/15",
-    "0/0/0/182",
-    "0/1/0/181",
-    "116/0/62/4"
+    180,
+    180,
+    "180/0/0/0",
+    "178/0/0/2",
+    "174/0/0/6",
+    "178/0/0/2",
+    "169/0/0/11",
+    "0/0/0/180",
+    "0/1/0/179",
+    "112/0/62/6"
   ],
   [
     "fs/promises.*self*",
@@ -78391,16 +78248,16 @@
   ],
   [
     "fs/promises.default",
-    91,
-    91,
-    "91/0/0/0",
-    "90/0/0/1",
-    "88/0/0/3",
-    "90/0/0/1",
-    "85/0/0/6",
-    "0/0/0/91",
-    "0/0/0/91",
-    "58/0/31/2"
+    90,
+    90,
+    "90/0/0/0",
+    "89/0/0/1",
+    "87/0/0/3",
+    "89/0/0/1",
+    "86/0/0/4",
+    "0/0/0/90",
+    "0/0/0/90",
+    "56/0/31/3"
   ],
   [
     "fs/promises.default.*self*",
@@ -78469,16 +78326,16 @@
   ],
   [
     "fs/promises.default.constants",
-    59,
-    59,
-    "59/0/0/0",
-    "59/0/0/0",
-    "57/0/0/2",
-    "59/0/0/0",
-    "55/0/0/4",
-    "0/0/0/59",
-    "0/0/0/59",
-    "57/0/0/2"
+    58,
+    58,
+    "58/0/0/0",
+    "58/0/0/0",
+    "56/0/0/2",
+    "58/0/0/0",
+    "56/0/0/2",
+    "0/0/0/58",
+    "0/0/0/58",
+    "55/0/0/3"
   ],
   [
     "fs/promises.default.constants.*self*",
@@ -78598,19 +78455,6 @@
     "supported"
   ],
   [
-    "fs/promises.default.constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "fs/promises.default.constants.O_DIRECTORY",
     0,
     "supported",
@@ -78645,19 +78489,6 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "fs/promises.default.constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -78726,6 +78557,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "fs/promises.default.constants.O_SYMLINK",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "fs/promises.default.constants.O_SYNC",
@@ -79652,16 +79496,16 @@
   ],
   [
     "fs/promises.constants",
-    59,
-    59,
-    "59/0/0/0",
-    "59/0/0/0",
-    "57/0/0/2",
-    "59/0/0/0",
-    "55/0/0/4",
-    "0/0/0/59",
-    "0/0/0/59",
-    "57/0/0/2"
+    58,
+    58,
+    "58/0/0/0",
+    "58/0/0/0",
+    "56/0/0/2",
+    "58/0/0/0",
+    "56/0/0/2",
+    "0/0/0/58",
+    "0/0/0/58",
+    "55/0/0/3"
   ],
   [
     "fs/promises.constants.*self*",
@@ -79781,19 +79625,6 @@
     "supported"
   ],
   [
-    "fs/promises.constants.O_DIRECT",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "fs/promises.constants.O_DIRECTORY",
     0,
     "supported",
@@ -79828,19 +79659,6 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "fs/promises.constants.O_NOATIME",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -79909,6 +79727,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "fs/promises.constants.O_SYMLINK",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "fs/promises.constants.O_SYNC",
@@ -96396,16 +96227,16 @@
   ],
   [
     "os",
-    181,
-    181,
-    "181/0/0/0",
-    "181/0/0/0",
-    "181/0/0/0",
-    "181/0/0/0",
-    "181/0/0/0",
-    "0/0/0/181",
-    "28/0/0/153",
-    "179/0/2/0"
+    178,
+    178,
+    "178/0/0/0",
+    "178/0/0/0",
+    "178/0/0/0",
+    "178/0/0/0",
+    "178/0/0/0",
+    "0/0/0/178",
+    "28/0/0/150",
+    "176/0/2/0"
   ],
   [
     "os.*self*",
@@ -96864,16 +96695,16 @@
   ],
   [
     "os.constants",
-    129,
-    129,
-    "129/0/0/0",
-    "129/0/0/0",
-    "129/0/0/0",
-    "129/0/0/0",
-    "129/0/0/0",
-    "0/0/0/129",
-    "0/0/0/129",
-    "129/0/0/0"
+    126,
+    126,
+    "126/0/0/0",
+    "126/0/0/0",
+    "126/0/0/0",
+    "126/0/0/0",
+    "126/0/0/0",
+    "0/0/0/126",
+    "0/0/0/126",
+    "126/0/0/0"
   ],
   [
     "os.constants.*self*",
@@ -96903,32 +96734,19 @@
   ],
   [
     "os.constants.dlopen",
-    6,
-    6,
-    "6/0/0/0",
-    "6/0/0/0",
-    "6/0/0/0",
-    "6/0/0/0",
-    "6/0/0/0",
-    "0/0/0/6",
-    "0/0/0/6",
-    "6/0/0/0"
+    5,
+    5,
+    "5/0/0/0",
+    "5/0/0/0",
+    "5/0/0/0",
+    "5/0/0/0",
+    "5/0/0/0",
+    "0/0/0/5",
+    "0/0/0/5",
+    "5/0/0/0"
   ],
   [
     "os.constants.dlopen.*self*",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "os.constants.dlopen.RTLD_DEEPBIND",
     0,
     "supported",
     "supported",
@@ -98151,16 +97969,16 @@
   ],
   [
     "os.constants.signals",
-    34,
-    34,
-    "34/0/0/0",
-    "34/0/0/0",
-    "34/0/0/0",
-    "34/0/0/0",
-    "34/0/0/0",
-    "0/0/0/34",
-    "0/0/0/34",
-    "34/0/0/0"
+    32,
+    32,
+    "32/0/0/0",
+    "32/0/0/0",
+    "32/0/0/0",
+    "32/0/0/0",
+    "32/0/0/0",
+    "0/0/0/32",
+    "0/0/0/32",
+    "32/0/0/0"
   ],
   [
     "os.constants.signals.*self*",
@@ -98280,6 +98098,19 @@
     "supported"
   ],
   [
+    "os.constants.signals.SIGINFO",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "os.constants.signals.SIGINT",
     0,
     "supported",
@@ -98345,33 +98176,7 @@
     "supported"
   ],
   [
-    "os.constants.signals.SIGPOLL",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
     "os.constants.signals.SIGPROF",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "os.constants.signals.SIGPWR",
     0,
     "supported",
     "supported",
@@ -98398,19 +98203,6 @@
   ],
   [
     "os.constants.signals.SIGSEGV",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "supported"
-  ],
-  [
-    "os.constants.signals.SIGSTKFLT",
     0,
     "supported",
     "supported",
@@ -107680,16 +107472,16 @@
   ],
   [
     "process",
-    1486,
-    1486,
-    "1468/0/0/18",
-    "1439/0/0/47",
-    "1395/5/0/86",
-    "683/11/0/792",
-    "636/14/0/836",
-    "12/0/0/1474",
-    "39/0/0/1447",
-    "431/78/62/915"
+    1484,
+    1484,
+    "1466/0/0/18",
+    "1438/0/0/46",
+    "1394/5/0/85",
+    "683/11/0/790",
+    "636/14/0/834",
+    "12/0/0/1472",
+    "39/0/0/1445",
+    "431/78/62/913"
   ],
   [
     "process.*self*",
@@ -115480,16 +115272,16 @@
   ],
   [
     "process.config",
-    106,
-    106,
-    "101/0/0/5",
-    "100/0/0/6",
-    "90/0/0/16",
-    "4/0/0/102",
-    "0/0/0/106",
-    "0/0/0/106",
-    "1/0/0/105",
-    "1/0/0/105"
+    104,
+    104,
+    "99/0/0/5",
+    "99/0/0/5",
+    "89/0/0/15",
+    "4/0/0/100",
+    "0/0/0/104",
+    "0/0/0/104",
+    "1/0/0/103",
+    "1/0/0/103"
   ],
   [
     "process.config.*self*",
@@ -115610,16 +115402,16 @@
   ],
   [
     "process.config.variables",
-    98,
-    98,
-    "93/0/0/5",
-    "93/0/0/5",
-    "83/0/0/15",
-    "2/0/0/96",
-    "0/0/0/98",
-    "0/0/0/98",
-    "0/0/0/98",
-    "0/0/0/98"
+    96,
+    96,
+    "91/0/0/5",
+    "92/0/0/4",
+    "82/0/0/14",
+    "2/0/0/94",
+    "0/0/0/96",
+    "0/0/0/96",
+    "0/0/0/96",
+    "0/0/0/96"
   ],
   [
     "process.config.variables.*self*",
@@ -115629,6 +115421,19 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.config.variables.arm_fpu",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -115766,19 +115571,6 @@
   ],
   [
     "process.config.variables.force_dynamic_crt",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
-  ],
-  [
-    "process.config.variables.gas_version",
     0,
     "supported",
     "supported",
@@ -116091,19 +115883,6 @@
   ],
   [
     "process.config.variables.node_release_urlbase",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
-  ],
-  [
-    "process.config.variables.node_section_ordering_info",
     0,
     "supported",
     "supported",
@@ -116753,37 +116532,11 @@
     "unsupported"
   ],
   [
-    "process.config.variables.v8_enable_short_builtin_calls",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
-  ],
-  [
     "process.config.variables.v8_enable_v8_checks",
     0,
     "supported",
     "unsupported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
-  ],
-  [
-    "process.config.variables.v8_enable_wasm_simd256_revec",
-    0,
-    "supported",
-    "supported",
-    "unsupported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -116884,6 +116637,19 @@
   ],
   [
     "process.config.variables.want_separate_host_toolset",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.config.variables.xcode_version",
     0,
     "supported",
     "supported",
