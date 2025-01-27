@@ -50,11 +50,11 @@ pnpm install
 - Generate the report
 
   ```shell
-  pnpm generate
+  node --run generate
   ```
 
 ## Serve a local version of the report
 
 ```shell
-pnpm report:dev
+node --run report:dev
 ```
