@@ -6,11 +6,11 @@
     "10668/0/0/115",
     "10517/4/0/262",
     "10227/9/0/547",
-    "8704/58/0/2021",
+    "8710/58/0/2015",
     "7708/31/78/2966",
     "3923/22/0/6838",
     "1735/36/0/9012",
-    "7273/207/1309/1994"
+    "8048/201/1279/1255"
   ],
   [
     "*globals*",
@@ -19,11 +19,11 @@
     "2377/0/0/8",
     "2311/0/0/74",
     "2190/0/0/195",
-    "1884/6/0/495",
+    "1886/6/0/493",
     "1093/7/0/1285",
     "1228/0/0/1157",
     "605/0/0/1780",
-    "1686/48/124/527"
+    "1878/45/118/344"
   ],
   [
     "*globals*.*self*",
@@ -6874,7 +6874,7 @@
     "0/0/0/641",
     "484/0/0/157",
     "0/0/0/641",
-    "559/3/39/40"
+    "562/3/36/40"
   ],
   [
     "*globals*.global.*self*",
@@ -14050,7 +14050,7 @@
     "0/0/0/95",
     "6/0/0/89",
     "0/0/0/95",
-    "56/3/35/1"
+    "59/3/32/1"
   ],
   [
     "*globals*.global.process.*self*",
@@ -15194,7 +15194,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.global.process.stdin",
@@ -15207,7 +15207,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.global.process.stdout",
@@ -15220,7 +15220,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.global.process.title",
@@ -15389,7 +15389,7 @@
     "451/0/0/190",
     "484/0/0/157",
     "353/0/0/288",
-    "559/3/39/40"
+    "562/3/36/40"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -22565,7 +22565,7 @@
     "63/0/0/32",
     "6/0/0/89",
     "0/0/0/95",
-    "56/3/35/1"
+    "59/3/32/1"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -23709,7 +23709,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.stdin",
@@ -23722,7 +23722,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.stdout",
@@ -23735,7 +23735,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.title",
@@ -24524,11 +24524,11 @@
     "533/0/0/5",
     "519/0/0/19",
     "515/0/0/23",
-    "291/4/0/243",
+    "293/4/0/241",
     "276/5/0/257",
     "6/0/0/532",
     "0/0/0/538",
-    "221/39/33/245"
+    "407/36/33/62"
   ],
   [
     "*globals*.process.*self*",
@@ -26439,7 +26439,7 @@
     "45/1/0/76",
     "0/0/0/122",
     "0/0/0/122",
-    "46/6/0/70"
+    "108/5/0/9"
   ],
   [
     "*globals*.process.stderr.*self*",
@@ -26478,7 +26478,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._connecting",
@@ -26491,7 +26491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._destroy",
@@ -26543,7 +26543,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._getpeername",
@@ -26556,7 +26556,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._getsockname",
@@ -26569,7 +26569,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._hadError",
@@ -26582,7 +26582,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._handle",
@@ -26608,7 +26608,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._isStdio",
@@ -26647,7 +26647,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._parent",
@@ -26660,7 +26660,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._pendingData",
@@ -26699,7 +26699,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._readableState",
@@ -26712,7 +26712,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._reset",
@@ -26725,7 +26725,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._server",
@@ -26777,7 +26777,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._unrefTimer",
@@ -26790,7 +26790,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._writableState",
@@ -26803,7 +26803,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._write",
@@ -26816,7 +26816,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._writeGeneric",
@@ -26829,7 +26829,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr._writev",
@@ -26842,7 +26842,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.addListener",
@@ -26855,7 +26855,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.address",
@@ -26894,7 +26894,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.bufferSize",
@@ -26907,7 +26907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "*globals*.process.stderr.bytesRead",
@@ -26959,7 +26959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.connect",
@@ -26998,7 +26998,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.destroy",
@@ -27011,7 +27011,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.destroySoon",
@@ -27050,7 +27050,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.emit",
@@ -27063,7 +27063,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.end",
@@ -27102,7 +27102,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.every",
@@ -27115,7 +27115,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.fd",
@@ -27141,7 +27141,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.find",
@@ -27154,7 +27154,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.flatMap",
@@ -27167,7 +27167,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.forEach",
@@ -27180,7 +27180,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.getMaxListeners",
@@ -27193,7 +27193,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.isPaused",
@@ -27206,7 +27206,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.iterator",
@@ -27219,7 +27219,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.listenerCount",
@@ -27232,7 +27232,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.listeners",
@@ -27245,7 +27245,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.localAddress",
@@ -27271,7 +27271,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stderr.localPort",
@@ -27297,7 +27297,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.off",
@@ -27310,7 +27310,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.on",
@@ -27323,7 +27323,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.once",
@@ -27336,7 +27336,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.pause",
@@ -27375,7 +27375,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.prependListener",
@@ -27388,7 +27388,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.prependOnceListener",
@@ -27401,7 +27401,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.push",
@@ -27414,7 +27414,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.rawListeners",
@@ -27427,7 +27427,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.read",
@@ -27440,7 +27440,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.readable",
@@ -27479,7 +27479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.readableDidRead",
@@ -27596,7 +27596,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.ref",
@@ -27622,7 +27622,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stderr.remoteFamily",
@@ -27635,7 +27635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stderr.remotePort",
@@ -27648,7 +27648,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stderr.removeAllListeners",
@@ -27661,7 +27661,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.removeListener",
@@ -27674,7 +27674,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.resetAndDestroy",
@@ -27726,7 +27726,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.setEncoding",
@@ -27765,7 +27765,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.setNoDelay",
@@ -27804,7 +27804,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.take",
@@ -27817,7 +27817,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.toArray",
@@ -27830,7 +27830,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.uncork",
@@ -27843,7 +27843,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.unpipe",
@@ -27856,7 +27856,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.unref",
@@ -27882,7 +27882,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.wrap",
@@ -27895,7 +27895,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.writable",
@@ -27921,7 +27921,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr.writableCorked",
@@ -28034,11 +28034,11 @@
     "120/0/0/1",
     "121/0/0/0",
     "121/0/0/0",
-    "63/1/0/57",
+    "65/1/0/55",
     "78/1/0/42",
     "0/0/0/121",
     "0/0/0/121",
-    "46/6/0/69"
+    "108/5/0/8"
   ],
   [
     "*globals*.process.stdin.*self*",
@@ -28077,7 +28077,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._connecting",
@@ -28090,7 +28090,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._destroy",
@@ -28142,7 +28142,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._getpeername",
@@ -28155,7 +28155,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._getsockname",
@@ -28168,7 +28168,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._hadError",
@@ -28181,7 +28181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._handle",
@@ -28207,7 +28207,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._maxListeners",
@@ -28233,7 +28233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._parent",
@@ -28246,7 +28246,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._pendingData",
@@ -28285,7 +28285,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._readableState",
@@ -28298,7 +28298,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._reset",
@@ -28311,7 +28311,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._server",
@@ -28350,7 +28350,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._unrefTimer",
@@ -28363,7 +28363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._writableState",
@@ -28376,7 +28376,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._write",
@@ -28389,7 +28389,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._writeGeneric",
@@ -28402,7 +28402,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin._writev",
@@ -28415,7 +28415,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.addListener",
@@ -28428,7 +28428,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.address",
@@ -28467,7 +28467,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.bufferSize",
@@ -28480,7 +28480,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdin.bytesRead",
@@ -28532,7 +28532,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.connect",
@@ -28571,7 +28571,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.destroy",
@@ -28584,7 +28584,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.destroySoon",
@@ -28636,7 +28636,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.emit",
@@ -28649,7 +28649,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.end",
@@ -28688,7 +28688,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.every",
@@ -28701,7 +28701,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.fd",
@@ -28727,7 +28727,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.find",
@@ -28740,7 +28740,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.flatMap",
@@ -28753,7 +28753,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.forEach",
@@ -28766,7 +28766,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.getMaxListeners",
@@ -28779,7 +28779,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.isPaused",
@@ -28792,7 +28792,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.iterator",
@@ -28805,7 +28805,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.listenerCount",
@@ -28818,7 +28818,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.listeners",
@@ -28831,7 +28831,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.localAddress",
@@ -28857,7 +28857,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdin.localPort",
@@ -28883,7 +28883,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.off",
@@ -28896,7 +28896,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.on",
@@ -28909,7 +28909,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.once",
@@ -28922,7 +28922,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.pause",
@@ -28961,7 +28961,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.prependListener",
@@ -28974,7 +28974,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.prependOnceListener",
@@ -28987,7 +28987,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.push",
@@ -29000,7 +29000,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.rawListeners",
@@ -29013,7 +29013,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.read",
@@ -29026,7 +29026,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.readable",
@@ -29065,7 +29065,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.readableDidRead",
@@ -29182,7 +29182,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.ref",
@@ -29191,7 +29191,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -29208,7 +29208,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdin.remoteFamily",
@@ -29221,7 +29221,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdin.remotePort",
@@ -29234,7 +29234,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdin.removeAllListeners",
@@ -29247,7 +29247,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.removeListener",
@@ -29260,7 +29260,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.resetAndDestroy",
@@ -29312,7 +29312,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.setEncoding",
@@ -29351,7 +29351,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.setNoDelay",
@@ -29390,7 +29390,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.take",
@@ -29403,7 +29403,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.toArray",
@@ -29416,7 +29416,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.uncork",
@@ -29429,7 +29429,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.unpipe",
@@ -29442,7 +29442,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.unref",
@@ -29451,7 +29451,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -29468,7 +29468,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.wrap",
@@ -29481,7 +29481,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.writable",
@@ -29507,7 +29507,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdin.writableCorked",
@@ -29624,7 +29624,7 @@
     "45/1/0/77",
     "0/0/0/123",
     "0/0/0/123",
-    "46/6/0/71"
+    "108/5/0/10"
   ],
   [
     "*globals*.process.stdout.*self*",
@@ -29663,7 +29663,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._connecting",
@@ -29676,7 +29676,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._destroy",
@@ -29728,7 +29728,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._getpeername",
@@ -29741,7 +29741,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._getsockname",
@@ -29754,7 +29754,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._hadError",
@@ -29767,7 +29767,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._handle",
@@ -29793,7 +29793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._isStdio",
@@ -29832,7 +29832,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._parent",
@@ -29845,7 +29845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._pendingData",
@@ -29884,7 +29884,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._readableState",
@@ -29897,7 +29897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._reset",
@@ -29910,7 +29910,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._server",
@@ -29962,7 +29962,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._unrefTimer",
@@ -29975,7 +29975,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._writableState",
@@ -29988,7 +29988,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._write",
@@ -30001,7 +30001,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._writeGeneric",
@@ -30014,7 +30014,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout._writev",
@@ -30027,7 +30027,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.addListener",
@@ -30040,7 +30040,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.address",
@@ -30079,7 +30079,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.bufferSize",
@@ -30092,7 +30092,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdout.bytesRead",
@@ -30144,7 +30144,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.connect",
@@ -30183,7 +30183,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.destroy",
@@ -30196,7 +30196,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.destroySoon",
@@ -30248,7 +30248,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.emit",
@@ -30261,7 +30261,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.end",
@@ -30300,7 +30300,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.every",
@@ -30313,7 +30313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.fd",
@@ -30339,7 +30339,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.find",
@@ -30352,7 +30352,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.flatMap",
@@ -30365,7 +30365,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.forEach",
@@ -30378,7 +30378,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.getMaxListeners",
@@ -30391,7 +30391,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.isPaused",
@@ -30404,7 +30404,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.iterator",
@@ -30417,7 +30417,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.listenerCount",
@@ -30430,7 +30430,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.listeners",
@@ -30443,7 +30443,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.localAddress",
@@ -30469,7 +30469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdout.localPort",
@@ -30495,7 +30495,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.off",
@@ -30508,7 +30508,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.on",
@@ -30521,7 +30521,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.once",
@@ -30534,7 +30534,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.pause",
@@ -30573,7 +30573,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.prependListener",
@@ -30586,7 +30586,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.prependOnceListener",
@@ -30599,7 +30599,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.push",
@@ -30612,7 +30612,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.rawListeners",
@@ -30625,7 +30625,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.read",
@@ -30638,7 +30638,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.readable",
@@ -30677,7 +30677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.readableDidRead",
@@ -30794,7 +30794,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.ref",
@@ -30820,7 +30820,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdout.remoteFamily",
@@ -30833,7 +30833,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdout.remotePort",
@@ -30846,7 +30846,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "*globals*.process.stdout.removeAllListeners",
@@ -30859,7 +30859,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.removeListener",
@@ -30872,7 +30872,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.resetAndDestroy",
@@ -30924,7 +30924,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.setEncoding",
@@ -30963,7 +30963,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.setNoDelay",
@@ -31002,7 +31002,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.take",
@@ -31015,7 +31015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.toArray",
@@ -31028,7 +31028,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.uncork",
@@ -31041,7 +31041,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.unpipe",
@@ -31054,7 +31054,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.unref",
@@ -31080,7 +31080,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.wrap",
@@ -31093,7 +31093,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.writable",
@@ -31119,7 +31119,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stdout.writableCorked",
@@ -95716,7 +95716,7 @@
     "32/0/4/2",
     "32/0/0/6",
     "2/0/0/36",
-    "18/0/20/0"
+    "32/0/0/6"
   ],
   [
     "net.*self*",
@@ -95742,7 +95742,7 @@
     "16/0/2/1",
     "17/0/0/2",
     "1/0/0/18",
-    "9/0/10/0"
+    "17/0/0/2"
   ],
   [
     "net.default.*self*",
@@ -95833,7 +95833,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "net.default._normalizeArgs",
@@ -95846,7 +95846,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default._setSimultaneousAccepts",
@@ -95859,7 +95859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "net.default.connect",
@@ -95872,7 +95872,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.createConnection",
@@ -95885,7 +95885,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.createServer",
@@ -95898,7 +95898,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.getDefaultAutoSelectFamily",
@@ -95911,7 +95911,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.getDefaultAutoSelectFamilyAttemptTimeout",
@@ -95924,7 +95924,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.isIP",
@@ -95976,7 +95976,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.default.setDefaultAutoSelectFamilyAttemptTimeout",
@@ -95989,7 +95989,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.BlockList",
@@ -96054,7 +96054,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "net._createServerHandle",
@@ -96067,7 +96067,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "net._normalizeArgs",
@@ -96080,7 +96080,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "net._setSimultaneousAccepts",
@@ -96093,7 +96093,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "net.connect",
@@ -96106,7 +96106,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.createConnection",
@@ -96119,7 +96119,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.createServer",
@@ -96132,7 +96132,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.getDefaultAutoSelectFamily",
@@ -96145,7 +96145,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.getDefaultAutoSelectFamilyAttemptTimeout",
@@ -96158,7 +96158,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.isIP",
@@ -96210,7 +96210,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net.setDefaultAutoSelectFamilyAttemptTimeout",
@@ -96223,7 +96223,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "os",
@@ -107477,11 +107477,11 @@
     "1466/0/0/18",
     "1438/0/0/46",
     "1394/5/0/85",
-    "683/11/0/790",
+    "687/11/0/786",
     "636/14/0/834",
     "12/0/0/1472",
     "39/0/0/1445",
-    "431/78/62/913"
+    "998/75/62/349"
   ],
   [
     "process.*self*",
@@ -107503,11 +107503,11 @@
     "533/0/0/5",
     "519/0/0/19",
     "515/0/0/23",
-    "291/4/0/243",
+    "293/4/0/241",
     "276/5/0/257",
     "6/0/0/532",
     "23/0/0/515",
-    "221/39/33/245"
+    "407/36/33/62"
   ],
   [
     "process.default.*self*",
@@ -109418,7 +109418,7 @@
     "45/1/0/76",
     "0/0/0/122",
     "0/0/0/122",
-    "46/6/0/70"
+    "108/5/0/9"
   ],
   [
     "process.default.stderr.*self*",
@@ -109457,7 +109457,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._connecting",
@@ -109470,7 +109470,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._destroy",
@@ -109522,7 +109522,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._getpeername",
@@ -109535,7 +109535,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._getsockname",
@@ -109548,7 +109548,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._hadError",
@@ -109561,7 +109561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._handle",
@@ -109587,7 +109587,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._isStdio",
@@ -109626,7 +109626,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._parent",
@@ -109639,7 +109639,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._pendingData",
@@ -109678,7 +109678,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._readableState",
@@ -109691,7 +109691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._reset",
@@ -109704,7 +109704,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._server",
@@ -109756,7 +109756,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._unrefTimer",
@@ -109769,7 +109769,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._writableState",
@@ -109782,7 +109782,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._write",
@@ -109795,7 +109795,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._writeGeneric",
@@ -109808,7 +109808,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr._writev",
@@ -109821,7 +109821,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.addListener",
@@ -109834,7 +109834,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.address",
@@ -109873,7 +109873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.bufferSize",
@@ -109886,7 +109886,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.default.stderr.bytesRead",
@@ -109938,7 +109938,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.connect",
@@ -109977,7 +109977,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.destroy",
@@ -109990,7 +109990,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.destroySoon",
@@ -110029,7 +110029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.emit",
@@ -110042,7 +110042,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.end",
@@ -110081,7 +110081,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.every",
@@ -110094,7 +110094,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.fd",
@@ -110120,7 +110120,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.find",
@@ -110133,7 +110133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.flatMap",
@@ -110146,7 +110146,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.forEach",
@@ -110159,7 +110159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.getMaxListeners",
@@ -110172,7 +110172,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.isPaused",
@@ -110185,7 +110185,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.iterator",
@@ -110198,7 +110198,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.listenerCount",
@@ -110211,7 +110211,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.listeners",
@@ -110224,7 +110224,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.localAddress",
@@ -110250,7 +110250,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.default.stderr.localPort",
@@ -110276,7 +110276,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.off",
@@ -110289,7 +110289,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.on",
@@ -110302,7 +110302,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.once",
@@ -110315,7 +110315,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.pause",
@@ -110354,7 +110354,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.prependListener",
@@ -110367,7 +110367,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.prependOnceListener",
@@ -110380,7 +110380,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.push",
@@ -110393,7 +110393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.rawListeners",
@@ -110406,7 +110406,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.read",
@@ -110419,7 +110419,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.readable",
@@ -110458,7 +110458,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.readableDidRead",
@@ -110575,7 +110575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.ref",
@@ -110601,7 +110601,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stderr.remoteFamily",
@@ -110614,7 +110614,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stderr.remotePort",
@@ -110627,7 +110627,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stderr.removeAllListeners",
@@ -110640,7 +110640,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.removeListener",
@@ -110653,7 +110653,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.resetAndDestroy",
@@ -110705,7 +110705,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.setEncoding",
@@ -110744,7 +110744,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.setNoDelay",
@@ -110783,7 +110783,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.take",
@@ -110796,7 +110796,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.toArray",
@@ -110809,7 +110809,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.uncork",
@@ -110822,7 +110822,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.unpipe",
@@ -110835,7 +110835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.unref",
@@ -110861,7 +110861,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.wrap",
@@ -110874,7 +110874,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.writable",
@@ -110900,7 +110900,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stderr.writableCorked",
@@ -111013,11 +111013,11 @@
     "120/0/0/1",
     "121/0/0/0",
     "121/0/0/0",
-    "63/1/0/57",
+    "65/1/0/55",
     "78/1/0/42",
     "0/0/0/121",
     "0/0/0/121",
-    "46/6/0/69"
+    "108/5/0/8"
   ],
   [
     "process.default.stdin.*self*",
@@ -111056,7 +111056,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._connecting",
@@ -111069,7 +111069,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._destroy",
@@ -111121,7 +111121,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._getpeername",
@@ -111134,7 +111134,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._getsockname",
@@ -111147,7 +111147,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._hadError",
@@ -111160,7 +111160,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._handle",
@@ -111186,7 +111186,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._maxListeners",
@@ -111212,7 +111212,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._parent",
@@ -111225,7 +111225,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._pendingData",
@@ -111264,7 +111264,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._readableState",
@@ -111277,7 +111277,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._reset",
@@ -111290,7 +111290,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._server",
@@ -111329,7 +111329,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._unrefTimer",
@@ -111342,7 +111342,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._writableState",
@@ -111355,7 +111355,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._write",
@@ -111368,7 +111368,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._writeGeneric",
@@ -111381,7 +111381,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin._writev",
@@ -111394,7 +111394,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.addListener",
@@ -111407,7 +111407,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.address",
@@ -111446,7 +111446,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.bufferSize",
@@ -111459,7 +111459,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.default.stdin.bytesRead",
@@ -111511,7 +111511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.connect",
@@ -111550,7 +111550,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.destroy",
@@ -111563,7 +111563,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.destroySoon",
@@ -111615,7 +111615,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.emit",
@@ -111628,7 +111628,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.end",
@@ -111667,7 +111667,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.every",
@@ -111680,7 +111680,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.fd",
@@ -111706,7 +111706,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.find",
@@ -111719,7 +111719,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.flatMap",
@@ -111732,7 +111732,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.forEach",
@@ -111745,7 +111745,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.getMaxListeners",
@@ -111758,7 +111758,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.isPaused",
@@ -111771,7 +111771,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.iterator",
@@ -111784,7 +111784,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.listenerCount",
@@ -111797,7 +111797,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.listeners",
@@ -111810,7 +111810,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.localAddress",
@@ -111836,7 +111836,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.default.stdin.localPort",
@@ -111862,7 +111862,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.off",
@@ -111875,7 +111875,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.on",
@@ -111888,7 +111888,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.once",
@@ -111901,7 +111901,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.pause",
@@ -111940,7 +111940,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.prependListener",
@@ -111953,7 +111953,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.prependOnceListener",
@@ -111966,7 +111966,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.push",
@@ -111979,7 +111979,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.rawListeners",
@@ -111992,7 +111992,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.read",
@@ -112005,7 +112005,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.readable",
@@ -112044,7 +112044,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.readableDidRead",
@@ -112161,7 +112161,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.ref",
@@ -112170,7 +112170,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -112187,7 +112187,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdin.remoteFamily",
@@ -112200,7 +112200,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdin.remotePort",
@@ -112213,7 +112213,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdin.removeAllListeners",
@@ -112226,7 +112226,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.removeListener",
@@ -112239,7 +112239,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.resetAndDestroy",
@@ -112291,7 +112291,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.setEncoding",
@@ -112330,7 +112330,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.setNoDelay",
@@ -112369,7 +112369,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.take",
@@ -112382,7 +112382,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.toArray",
@@ -112395,7 +112395,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.uncork",
@@ -112408,7 +112408,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.unpipe",
@@ -112421,7 +112421,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.unref",
@@ -112430,7 +112430,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -112447,7 +112447,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.wrap",
@@ -112460,7 +112460,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.writable",
@@ -112486,7 +112486,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdin.writableCorked",
@@ -112603,7 +112603,7 @@
     "45/1/0/77",
     "0/0/0/123",
     "0/0/0/123",
-    "46/6/0/71"
+    "108/5/0/10"
   ],
   [
     "process.default.stdout.*self*",
@@ -112642,7 +112642,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._connecting",
@@ -112655,7 +112655,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._destroy",
@@ -112707,7 +112707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._getpeername",
@@ -112720,7 +112720,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._getsockname",
@@ -112733,7 +112733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._hadError",
@@ -112746,7 +112746,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._handle",
@@ -112772,7 +112772,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._isStdio",
@@ -112811,7 +112811,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._parent",
@@ -112824,7 +112824,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._pendingData",
@@ -112863,7 +112863,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._readableState",
@@ -112876,7 +112876,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._reset",
@@ -112889,7 +112889,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._server",
@@ -112941,7 +112941,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._unrefTimer",
@@ -112954,7 +112954,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._writableState",
@@ -112967,7 +112967,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._write",
@@ -112980,7 +112980,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._writeGeneric",
@@ -112993,7 +112993,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout._writev",
@@ -113006,7 +113006,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.addListener",
@@ -113019,7 +113019,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.address",
@@ -113058,7 +113058,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.bufferSize",
@@ -113071,7 +113071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.default.stdout.bytesRead",
@@ -113123,7 +113123,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.connect",
@@ -113162,7 +113162,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.destroy",
@@ -113175,7 +113175,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.destroySoon",
@@ -113227,7 +113227,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.emit",
@@ -113240,7 +113240,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.end",
@@ -113279,7 +113279,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.every",
@@ -113292,7 +113292,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.fd",
@@ -113318,7 +113318,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.find",
@@ -113331,7 +113331,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.flatMap",
@@ -113344,7 +113344,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.forEach",
@@ -113357,7 +113357,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.getMaxListeners",
@@ -113370,7 +113370,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.isPaused",
@@ -113383,7 +113383,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.iterator",
@@ -113396,7 +113396,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.listenerCount",
@@ -113409,7 +113409,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.listeners",
@@ -113422,7 +113422,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.localAddress",
@@ -113448,7 +113448,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.default.stdout.localPort",
@@ -113474,7 +113474,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.off",
@@ -113487,7 +113487,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.on",
@@ -113500,7 +113500,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.once",
@@ -113513,7 +113513,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.pause",
@@ -113552,7 +113552,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.prependListener",
@@ -113565,7 +113565,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.prependOnceListener",
@@ -113578,7 +113578,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.push",
@@ -113591,7 +113591,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.rawListeners",
@@ -113604,7 +113604,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.read",
@@ -113617,7 +113617,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.readable",
@@ -113656,7 +113656,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.readableDidRead",
@@ -113773,7 +113773,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.ref",
@@ -113799,7 +113799,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdout.remoteFamily",
@@ -113812,7 +113812,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdout.remotePort",
@@ -113825,7 +113825,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.default.stdout.removeAllListeners",
@@ -113838,7 +113838,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.removeListener",
@@ -113851,7 +113851,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.resetAndDestroy",
@@ -113903,7 +113903,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.setEncoding",
@@ -113942,7 +113942,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.setNoDelay",
@@ -113981,7 +113981,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.take",
@@ -113994,7 +113994,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.toArray",
@@ -114007,7 +114007,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.uncork",
@@ -114020,7 +114020,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.unpipe",
@@ -114033,7 +114033,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.unref",
@@ -114059,7 +114059,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.wrap",
@@ -114072,7 +114072,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.writable",
@@ -114098,7 +114098,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.stdout.writableCorked",
@@ -117699,7 +117699,7 @@
     "78/3/0/148",
     "0/0/0/229",
     "0/0/0/229",
-    "46/6/0/177"
+    "173/6/0/50"
   ],
   [
     "process.stderr.*self*",
@@ -117738,7 +117738,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._connecting",
@@ -117751,7 +117751,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._destroy",
@@ -117777,7 +117777,7 @@
     "1/1/0/7",
     "0/0/0/9",
     "0/0/0/9",
-    "1/0/0/8"
+    "2/0/0/7"
   ],
   [
     "process.stderr._events.*self*",
@@ -117842,7 +117842,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._events.error",
@@ -117920,7 +117920,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._getpeername",
@@ -117933,7 +117933,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._getsockname",
@@ -117946,7 +117946,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._hadError",
@@ -117959,7 +117959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._handle",
@@ -118388,7 +118388,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._isStdio",
@@ -118427,7 +118427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._parent",
@@ -118440,7 +118440,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._pendingData",
@@ -118479,7 +118479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState",
@@ -118492,7 +118492,7 @@
     "0/0/0/35",
     "0/0/0/35",
     "0/0/0/35",
-    "0/0/0/35"
+    "32/0/0/3"
   ],
   [
     "process.stderr._readableState.*self*",
@@ -118505,7 +118505,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.autoDestroy",
@@ -118518,7 +118518,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.awaitDrainWriters",
@@ -118531,7 +118531,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.buffer",
@@ -118544,7 +118544,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.bufferIndex",
@@ -118570,7 +118570,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.closed",
@@ -118583,7 +118583,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.constructed",
@@ -118596,7 +118596,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.dataEmitted",
@@ -118609,7 +118609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.decoder",
@@ -118622,7 +118622,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.defaultEncoding",
@@ -118635,7 +118635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.destroyed",
@@ -118648,7 +118648,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.emitClose",
@@ -118661,7 +118661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.emittedReadable",
@@ -118674,7 +118674,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.encoding",
@@ -118687,7 +118687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.endEmitted",
@@ -118700,7 +118700,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.ended",
@@ -118713,7 +118713,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.errorEmitted",
@@ -118726,7 +118726,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.errored",
@@ -118739,7 +118739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.flowing",
@@ -118752,7 +118752,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.highWaterMark",
@@ -118765,7 +118765,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.length",
@@ -118778,7 +118778,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.multiAwaitDrain",
@@ -118791,7 +118791,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.needReadable",
@@ -118804,7 +118804,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.objectMode",
@@ -118817,7 +118817,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.paused",
@@ -118830,7 +118830,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.pipes",
@@ -118843,7 +118843,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.pipesCount",
@@ -118856,7 +118856,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.readable",
@@ -118882,7 +118882,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.reading",
@@ -118895,7 +118895,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.readingMore",
@@ -118908,7 +118908,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.resumeScheduled",
@@ -118921,7 +118921,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._readableState.state",
@@ -118947,7 +118947,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._reset",
@@ -118960,7 +118960,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._server",
@@ -119012,7 +119012,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._unrefTimer",
@@ -119025,7 +119025,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState",
@@ -119038,7 +119038,7 @@
     "34/1/0/1",
     "0/0/0/36",
     "0/0/0/36",
-    "0/0/0/36"
+    "34/1/0/1"
   ],
   [
     "process.stderr._writableState.*self*",
@@ -119051,7 +119051,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.afterWriteTickInfo",
@@ -119064,7 +119064,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.allBuffers",
@@ -119077,7 +119077,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.allNoop",
@@ -119090,7 +119090,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.autoDestroy",
@@ -119103,7 +119103,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.bufferProcessing",
@@ -119116,7 +119116,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.buffered",
@@ -119129,7 +119129,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.bufferedIndex",
@@ -119142,7 +119142,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.bufferedRequestCount",
@@ -119155,7 +119155,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.closeEmitted",
@@ -119168,7 +119168,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.closed",
@@ -119181,7 +119181,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.constructed",
@@ -119194,7 +119194,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.corked",
@@ -119207,7 +119207,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.decodeStrings",
@@ -119220,7 +119220,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.defaultEncoding",
@@ -119233,7 +119233,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.destroyed",
@@ -119246,7 +119246,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.emitClose",
@@ -119259,7 +119259,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.ended",
@@ -119272,7 +119272,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.ending",
@@ -119285,7 +119285,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.errorEmitted",
@@ -119298,7 +119298,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.errored",
@@ -119311,7 +119311,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.finalCalled",
@@ -119324,7 +119324,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.finished",
@@ -119337,7 +119337,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.getBuffer",
@@ -119350,7 +119350,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.highWaterMark",
@@ -119363,7 +119363,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.length",
@@ -119376,7 +119376,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.needDrain",
@@ -119389,7 +119389,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.objectMode",
@@ -119402,7 +119402,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.onwrite",
@@ -119415,7 +119415,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.pendingcb",
@@ -119428,7 +119428,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.prefinished",
@@ -119441,7 +119441,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.sync",
@@ -119454,7 +119454,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.writable",
@@ -119480,7 +119480,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stderr._writableState.writelen",
@@ -119493,7 +119493,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writableState.writing",
@@ -119506,7 +119506,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._write",
@@ -119519,7 +119519,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writeGeneric",
@@ -119532,7 +119532,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr._writev",
@@ -119545,7 +119545,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.addListener",
@@ -119558,7 +119558,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.address",
@@ -119597,7 +119597,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.bufferSize",
@@ -119610,7 +119610,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.stderr.bytesRead",
@@ -119662,7 +119662,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.connect",
@@ -119701,7 +119701,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.destroy",
@@ -119714,7 +119714,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.destroySoon",
@@ -119753,7 +119753,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.emit",
@@ -119766,7 +119766,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.end",
@@ -119805,7 +119805,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.every",
@@ -119818,7 +119818,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.fd",
@@ -119844,7 +119844,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.find",
@@ -119857,7 +119857,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.flatMap",
@@ -119870,7 +119870,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.forEach",
@@ -119883,7 +119883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.getMaxListeners",
@@ -119896,7 +119896,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.isPaused",
@@ -119909,7 +119909,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.iterator",
@@ -119922,7 +119922,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.listenerCount",
@@ -119935,7 +119935,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.listeners",
@@ -119948,7 +119948,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.localAddress",
@@ -119974,7 +119974,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stderr.localPort",
@@ -120000,7 +120000,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.off",
@@ -120013,7 +120013,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.on",
@@ -120026,7 +120026,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.once",
@@ -120039,7 +120039,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.pause",
@@ -120078,7 +120078,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.prependListener",
@@ -120091,7 +120091,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.prependOnceListener",
@@ -120104,7 +120104,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.push",
@@ -120117,7 +120117,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.rawListeners",
@@ -120130,7 +120130,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.read",
@@ -120143,7 +120143,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.readable",
@@ -120182,7 +120182,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.readableDidRead",
@@ -120299,7 +120299,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.ref",
@@ -120325,7 +120325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stderr.remoteFamily",
@@ -120338,7 +120338,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stderr.remotePort",
@@ -120351,7 +120351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stderr.removeAllListeners",
@@ -120364,7 +120364,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.removeListener",
@@ -120377,7 +120377,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.resetAndDestroy",
@@ -120429,7 +120429,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.setEncoding",
@@ -120468,7 +120468,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.setNoDelay",
@@ -120507,7 +120507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.take",
@@ -120520,7 +120520,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.toArray",
@@ -120533,7 +120533,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.uncork",
@@ -120546,7 +120546,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.unpipe",
@@ -120559,7 +120559,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.unref",
@@ -120585,7 +120585,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.wrap",
@@ -120598,7 +120598,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.writable",
@@ -120624,7 +120624,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stderr.writableCorked",
@@ -120737,11 +120737,11 @@
     "227/0/0/2",
     "228/0/0/1",
     "220/1/0/8",
-    "98/4/0/127",
+    "100/4/0/125",
     "143/3/0/83",
     "0/0/0/229",
     "0/0/0/229",
-    "46/6/0/177"
+    "173/6/0/50"
   ],
   [
     "process.stdin.*self*",
@@ -120780,7 +120780,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._connecting",
@@ -120793,7 +120793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._destroy",
@@ -120819,7 +120819,7 @@
     "1/1/0/8",
     "0/0/0/10",
     "0/0/0/10",
-    "1/0/0/9"
+    "2/0/0/8"
   ],
   [
     "process.stdin._events.*self*",
@@ -120884,7 +120884,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._events.error",
@@ -120975,7 +120975,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._getpeername",
@@ -120988,7 +120988,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._getsockname",
@@ -121001,7 +121001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._hadError",
@@ -121014,7 +121014,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._handle",
@@ -121456,7 +121456,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._maxListeners",
@@ -121482,7 +121482,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._parent",
@@ -121495,7 +121495,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._pendingData",
@@ -121534,7 +121534,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState",
@@ -121547,7 +121547,7 @@
     "32/0/0/2",
     "0/0/0/34",
     "0/0/0/34",
-    "0/0/0/34"
+    "32/0/0/2"
   ],
   [
     "process.stdin._readableState.*self*",
@@ -121560,7 +121560,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.autoDestroy",
@@ -121573,7 +121573,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.awaitDrainWriters",
@@ -121586,7 +121586,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.buffer",
@@ -121599,7 +121599,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.bufferIndex",
@@ -121625,7 +121625,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.closed",
@@ -121638,7 +121638,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.constructed",
@@ -121651,7 +121651,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.dataEmitted",
@@ -121664,7 +121664,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.decoder",
@@ -121677,7 +121677,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.defaultEncoding",
@@ -121690,7 +121690,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.destroyed",
@@ -121703,7 +121703,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.emitClose",
@@ -121716,7 +121716,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.emittedReadable",
@@ -121729,7 +121729,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.encoding",
@@ -121742,7 +121742,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.endEmitted",
@@ -121755,7 +121755,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.ended",
@@ -121768,7 +121768,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.errorEmitted",
@@ -121781,7 +121781,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.errored",
@@ -121794,7 +121794,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.flowing",
@@ -121807,7 +121807,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.highWaterMark",
@@ -121820,7 +121820,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.length",
@@ -121833,7 +121833,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.multiAwaitDrain",
@@ -121846,7 +121846,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.needReadable",
@@ -121859,7 +121859,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.objectMode",
@@ -121872,7 +121872,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.paused",
@@ -121885,7 +121885,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.pipes",
@@ -121898,7 +121898,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.pipesCount",
@@ -121911,7 +121911,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.readableListening",
@@ -121924,7 +121924,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.reading",
@@ -121937,7 +121937,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.readingMore",
@@ -121950,7 +121950,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.resumeScheduled",
@@ -121963,7 +121963,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._readableState.state",
@@ -121989,7 +121989,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._reset",
@@ -122002,7 +122002,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._server",
@@ -122041,7 +122041,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._unrefTimer",
@@ -122054,7 +122054,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState",
@@ -122067,7 +122067,7 @@
     "35/1/0/0",
     "0/0/0/36",
     "0/0/0/36",
-    "0/0/0/36"
+    "34/1/0/1"
   ],
   [
     "process.stdin._writableState.*self*",
@@ -122080,7 +122080,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.afterWriteTickInfo",
@@ -122093,7 +122093,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.allBuffers",
@@ -122106,7 +122106,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.allNoop",
@@ -122119,7 +122119,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.autoDestroy",
@@ -122132,7 +122132,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.bufferProcessing",
@@ -122145,7 +122145,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.buffered",
@@ -122158,7 +122158,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.bufferedIndex",
@@ -122171,7 +122171,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.bufferedRequestCount",
@@ -122184,7 +122184,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.closeEmitted",
@@ -122197,7 +122197,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.closed",
@@ -122210,7 +122210,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.constructed",
@@ -122223,7 +122223,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.corked",
@@ -122236,7 +122236,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.decodeStrings",
@@ -122249,7 +122249,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.defaultEncoding",
@@ -122262,7 +122262,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.destroyed",
@@ -122275,7 +122275,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.emitClose",
@@ -122288,7 +122288,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.ended",
@@ -122301,7 +122301,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.ending",
@@ -122314,7 +122314,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.errorEmitted",
@@ -122327,7 +122327,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.errored",
@@ -122340,7 +122340,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.finalCalled",
@@ -122353,7 +122353,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.finished",
@@ -122366,7 +122366,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.getBuffer",
@@ -122379,7 +122379,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.highWaterMark",
@@ -122392,7 +122392,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.length",
@@ -122405,7 +122405,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.needDrain",
@@ -122418,7 +122418,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.objectMode",
@@ -122431,7 +122431,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.onwrite",
@@ -122444,7 +122444,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.pendingcb",
@@ -122457,7 +122457,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.prefinished",
@@ -122470,7 +122470,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.sync",
@@ -122483,7 +122483,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.writable",
@@ -122509,7 +122509,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stdin._writableState.writelen",
@@ -122522,7 +122522,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writableState.writing",
@@ -122535,7 +122535,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._write",
@@ -122548,7 +122548,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writeGeneric",
@@ -122561,7 +122561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin._writev",
@@ -122574,7 +122574,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.addListener",
@@ -122587,7 +122587,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.address",
@@ -122626,7 +122626,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.bufferSize",
@@ -122639,7 +122639,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.stdin.bytesRead",
@@ -122691,7 +122691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.connect",
@@ -122730,7 +122730,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.destroy",
@@ -122743,7 +122743,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.destroySoon",
@@ -122795,7 +122795,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.emit",
@@ -122808,7 +122808,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.end",
@@ -122847,7 +122847,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.every",
@@ -122860,7 +122860,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.fd",
@@ -122886,7 +122886,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.find",
@@ -122899,7 +122899,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.flatMap",
@@ -122912,7 +122912,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.forEach",
@@ -122925,7 +122925,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.getMaxListeners",
@@ -122938,7 +122938,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.isPaused",
@@ -122951,7 +122951,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.iterator",
@@ -122964,7 +122964,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.listenerCount",
@@ -122977,7 +122977,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.listeners",
@@ -122990,7 +122990,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.localAddress",
@@ -123016,7 +123016,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stdin.localPort",
@@ -123042,7 +123042,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.off",
@@ -123055,7 +123055,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.on",
@@ -123068,7 +123068,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.once",
@@ -123081,7 +123081,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.pause",
@@ -123120,7 +123120,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.prependListener",
@@ -123133,7 +123133,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.prependOnceListener",
@@ -123146,7 +123146,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.push",
@@ -123159,7 +123159,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.rawListeners",
@@ -123172,7 +123172,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.read",
@@ -123185,7 +123185,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.readable",
@@ -123224,7 +123224,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.readableDidRead",
@@ -123341,7 +123341,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.ref",
@@ -123350,7 +123350,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -123367,7 +123367,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdin.remoteFamily",
@@ -123380,7 +123380,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdin.remotePort",
@@ -123393,7 +123393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdin.removeAllListeners",
@@ -123406,7 +123406,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.removeListener",
@@ -123419,7 +123419,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.resetAndDestroy",
@@ -123471,7 +123471,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.setEncoding",
@@ -123510,7 +123510,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.setNoDelay",
@@ -123549,7 +123549,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.take",
@@ -123562,7 +123562,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.toArray",
@@ -123575,7 +123575,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.uncork",
@@ -123588,7 +123588,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.unpipe",
@@ -123601,7 +123601,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.unref",
@@ -123610,7 +123610,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -123627,7 +123627,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.wrap",
@@ -123640,7 +123640,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.writable",
@@ -123666,7 +123666,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdin.writableCorked",
@@ -123783,7 +123783,7 @@
     "78/3/0/149",
     "0/0/0/230",
     "0/0/0/230",
-    "46/6/0/178"
+    "173/6/0/51"
   ],
   [
     "process.stdout.*self*",
@@ -123822,7 +123822,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._connecting",
@@ -123835,7 +123835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._destroy",
@@ -123861,7 +123861,7 @@
     "1/1/0/7",
     "0/0/0/9",
     "0/0/0/9",
-    "1/0/0/8"
+    "2/0/0/7"
   ],
   [
     "process.stdout._events.*self*",
@@ -123926,7 +123926,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._events.error",
@@ -124004,7 +124004,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._getpeername",
@@ -124017,7 +124017,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._getsockname",
@@ -124030,7 +124030,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._hadError",
@@ -124043,7 +124043,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._handle",
@@ -124472,7 +124472,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._isStdio",
@@ -124511,7 +124511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._parent",
@@ -124524,7 +124524,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._pendingData",
@@ -124563,7 +124563,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState",
@@ -124576,7 +124576,7 @@
     "0/0/0/35",
     "0/0/0/35",
     "0/0/0/35",
-    "0/0/0/35"
+    "32/0/0/3"
   ],
   [
     "process.stdout._readableState.*self*",
@@ -124589,7 +124589,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.autoDestroy",
@@ -124602,7 +124602,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.awaitDrainWriters",
@@ -124615,7 +124615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.buffer",
@@ -124628,7 +124628,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.bufferIndex",
@@ -124654,7 +124654,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.closed",
@@ -124667,7 +124667,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.constructed",
@@ -124680,7 +124680,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.dataEmitted",
@@ -124693,7 +124693,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.decoder",
@@ -124706,7 +124706,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.defaultEncoding",
@@ -124719,7 +124719,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.destroyed",
@@ -124732,7 +124732,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.emitClose",
@@ -124745,7 +124745,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.emittedReadable",
@@ -124758,7 +124758,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.encoding",
@@ -124771,7 +124771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.endEmitted",
@@ -124784,7 +124784,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.ended",
@@ -124797,7 +124797,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.errorEmitted",
@@ -124810,7 +124810,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.errored",
@@ -124823,7 +124823,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.flowing",
@@ -124836,7 +124836,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.highWaterMark",
@@ -124849,7 +124849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.length",
@@ -124862,7 +124862,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.multiAwaitDrain",
@@ -124875,7 +124875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.needReadable",
@@ -124888,7 +124888,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.objectMode",
@@ -124901,7 +124901,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.paused",
@@ -124914,7 +124914,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.pipes",
@@ -124927,7 +124927,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.pipesCount",
@@ -124940,7 +124940,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.readable",
@@ -124966,7 +124966,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.reading",
@@ -124979,7 +124979,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.readingMore",
@@ -124992,7 +124992,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.resumeScheduled",
@@ -125005,7 +125005,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._readableState.state",
@@ -125031,7 +125031,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._reset",
@@ -125044,7 +125044,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._server",
@@ -125096,7 +125096,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._unrefTimer",
@@ -125109,7 +125109,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState",
@@ -125122,7 +125122,7 @@
     "34/1/0/1",
     "0/0/0/36",
     "0/0/0/36",
-    "0/0/0/36"
+    "34/1/0/1"
   ],
   [
     "process.stdout._writableState.*self*",
@@ -125135,7 +125135,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.afterWriteTickInfo",
@@ -125148,7 +125148,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.allBuffers",
@@ -125161,7 +125161,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.allNoop",
@@ -125174,7 +125174,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.autoDestroy",
@@ -125187,7 +125187,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.bufferProcessing",
@@ -125200,7 +125200,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.buffered",
@@ -125213,7 +125213,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.bufferedIndex",
@@ -125226,7 +125226,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.bufferedRequestCount",
@@ -125239,7 +125239,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.closeEmitted",
@@ -125252,7 +125252,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.closed",
@@ -125265,7 +125265,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.constructed",
@@ -125278,7 +125278,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.corked",
@@ -125291,7 +125291,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.decodeStrings",
@@ -125304,7 +125304,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.defaultEncoding",
@@ -125317,7 +125317,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.destroyed",
@@ -125330,7 +125330,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.emitClose",
@@ -125343,7 +125343,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.ended",
@@ -125356,7 +125356,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.ending",
@@ -125369,7 +125369,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.errorEmitted",
@@ -125382,7 +125382,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.errored",
@@ -125395,7 +125395,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.finalCalled",
@@ -125408,7 +125408,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.finished",
@@ -125421,7 +125421,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.getBuffer",
@@ -125434,7 +125434,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.highWaterMark",
@@ -125447,7 +125447,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.length",
@@ -125460,7 +125460,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.needDrain",
@@ -125473,7 +125473,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.objectMode",
@@ -125486,7 +125486,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.onwrite",
@@ -125499,7 +125499,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.pendingcb",
@@ -125512,7 +125512,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.prefinished",
@@ -125525,7 +125525,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.sync",
@@ -125538,7 +125538,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.writable",
@@ -125564,7 +125564,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stdout._writableState.writelen",
@@ -125577,7 +125577,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writableState.writing",
@@ -125590,7 +125590,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._write",
@@ -125603,7 +125603,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writeGeneric",
@@ -125616,7 +125616,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout._writev",
@@ -125629,7 +125629,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.addListener",
@@ -125642,7 +125642,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.address",
@@ -125681,7 +125681,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.bufferSize",
@@ -125694,7 +125694,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "process.stdout.bytesRead",
@@ -125746,7 +125746,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.connect",
@@ -125785,7 +125785,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.destroy",
@@ -125798,7 +125798,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.destroySoon",
@@ -125850,7 +125850,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.emit",
@@ -125863,7 +125863,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.end",
@@ -125902,7 +125902,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.every",
@@ -125915,7 +125915,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.fd",
@@ -125941,7 +125941,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.find",
@@ -125954,7 +125954,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.flatMap",
@@ -125967,7 +125967,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.forEach",
@@ -125980,7 +125980,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.getMaxListeners",
@@ -125993,7 +125993,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.isPaused",
@@ -126006,7 +126006,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.iterator",
@@ -126019,7 +126019,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.listenerCount",
@@ -126032,7 +126032,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.listeners",
@@ -126045,7 +126045,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.localAddress",
@@ -126071,7 +126071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "process.stdout.localPort",
@@ -126097,7 +126097,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.off",
@@ -126110,7 +126110,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.on",
@@ -126123,7 +126123,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.once",
@@ -126136,7 +126136,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.pause",
@@ -126175,7 +126175,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.prependListener",
@@ -126188,7 +126188,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.prependOnceListener",
@@ -126201,7 +126201,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.push",
@@ -126214,7 +126214,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.rawListeners",
@@ -126227,7 +126227,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.read",
@@ -126240,7 +126240,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.readable",
@@ -126279,7 +126279,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.readableDidRead",
@@ -126396,7 +126396,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.ref",
@@ -126422,7 +126422,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdout.remoteFamily",
@@ -126435,7 +126435,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdout.remotePort",
@@ -126448,7 +126448,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "process.stdout.removeAllListeners",
@@ -126461,7 +126461,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.removeListener",
@@ -126474,7 +126474,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.resetAndDestroy",
@@ -126526,7 +126526,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.setEncoding",
@@ -126565,7 +126565,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.setNoDelay",
@@ -126604,7 +126604,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.take",
@@ -126617,7 +126617,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.toArray",
@@ -126630,7 +126630,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.uncork",
@@ -126643,7 +126643,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.unpipe",
@@ -126656,7 +126656,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.unref",
@@ -126682,7 +126682,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.wrap",
@@ -126695,7 +126695,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.writable",
@@ -126721,7 +126721,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.stdout.writableCorked",
@@ -133052,7 +133052,7 @@
     "26/0/0/8",
     "32/0/0/2",
     "22/0/0/12",
-    "30/0/4/0"
+    "32/0/0/2"
   ],
   [
     "timers.*self*",
@@ -133078,7 +133078,7 @@
     "12/0/0/4",
     "15/0/0/1",
     "11/0/0/5",
-    "14/0/2/0"
+    "15/0/0/1"
   ],
   [
     "timers.default.*self*",
@@ -133104,7 +133104,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "timers.default.active",
@@ -133169,7 +133169,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers.default.promises",
@@ -133299,7 +133299,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers._unrefActive",
@@ -133312,7 +133312,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "timers.active",
@@ -133377,7 +133377,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers.promises",
@@ -133546,7 +133546,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers/promises",
