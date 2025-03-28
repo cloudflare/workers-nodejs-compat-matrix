@@ -10,7 +10,6 @@ import bun from "./data/bun.json" with { type: "json" };
 import deno from "./data/deno.json" with { type: "json" };
 import workerd from "./data/workerd.json" with { type: "json" };
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json" with { type: "json" };
-import wranglerV3 from "./data/wrangler-v3-polyfills.json" with { type: "json" };
 import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -24,7 +23,6 @@ const targets = {
   bun,
   deno,
   workerd,
-  wranglerV3,
   wranglerUnenv,
 };
 
@@ -201,7 +199,6 @@ csvData.unshift([
   "bun",
   "deno",
   "workerd",
-  "wranglerV3",
   "wranglerUnenv",
 ]);
 

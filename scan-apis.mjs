@@ -125,17 +125,6 @@ if (regenerateEnvs.includes("workerd")) {
   versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
 }
 
-// wrangler-v3 (with polyfills)
-if (regenerateEnvs.includes("wrangler-v3")) {
-  shell.echo("Generate `wrangler --node_compat` apis...");
-  shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
-  shell.echo("=== Done ====================================\n\n");
-  versionMap["wranglerV3"] = extractNpmVersion(
-    "wrangler-v3-polyfills",
-    "wrangler"
-  );
-}
-
 // wrangler-unenv
 if (regenerateEnvs.includes("wrangler-unenv")) {
   shell.echo(
