@@ -9,7 +9,7 @@
   },
   "scripts": {
     "generate:script": "node ./generate-worker-script.mjs > worker.mjs && prettier worker.mjs --write && pnpm run copy:script",
-    "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
+    "copy:script": "cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
     "scan:apis": "node ./scan-apis.mjs",
     "scan:apis:unenv": "node ./scan-apis.mjs --only wrangler-unenv",
     "generate:baseline": "node ./generate-baseline.mjs",

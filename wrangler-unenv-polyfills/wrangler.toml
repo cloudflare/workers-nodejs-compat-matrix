@@ -1,4 +1,4 @@
 name = "unenv-worker"
 main = "worker.mjs"
 compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2025-01-24"
+compatibility_date = "2025-03-21"
