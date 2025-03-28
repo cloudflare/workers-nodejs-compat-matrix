@@ -28,7 +28,6 @@ const targetTitles = {
   bun: "bun",
   deno: "deno",
   workerd: "workerd",
-  wranglerV3: "wrangler",
   wranglerUnenv: "wrangler",
 };
 
