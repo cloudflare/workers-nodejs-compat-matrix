@@ -53,6 +53,7 @@ for (const mod of Object.keys(baseline)) {
     for (const key of Object.keys(baseline[mod])) {
       if (key.startsWith('_')) {
         delete baseline[mod][key];
+        delete baseline[mod].default[key];
       }
     }
   }
