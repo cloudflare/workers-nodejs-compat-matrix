@@ -1,4 +1,5 @@
 export const ignoredModules = new Set([
+  '_stream_wrap',
   'child_process',
   'constants',
   'cluster',

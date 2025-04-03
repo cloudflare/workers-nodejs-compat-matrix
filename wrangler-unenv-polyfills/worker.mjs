@@ -53,11 +53,6 @@ export default {
       _stream_transform = await import("_stream_transform");
     } catch (err) {}
 
-    let _stream_wrap = null;
-    try {
-      _stream_wrap = await import("_stream_wrap");
-    } catch (err) {}
-
     let _stream_writable = null;
     try {
       _stream_writable = await import("_stream_writable");
@@ -279,7 +274,6 @@ export default {
       _stream_passthrough: _stream_passthrough,
       _stream_readable: _stream_readable,
       _stream_transform: _stream_transform,
-      _stream_wrap: _stream_wrap,
       _stream_writable: _stream_writable,
       _tls_common: _tls_common,
       _tls_wrap: _tls_wrap,
