@@ -4,6 +4,7 @@ import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { objectSort } from "./dump-utils.mjs";
+import { ignoredModules } from "./report/src/ignored-modules.js";
 
 shell.set("-e");
 
@@ -40,6 +41,10 @@ const node22 = JSON.parse(shell.cat("data/node-22.json"));
 
 // Sort the baseline by key name
 const baseline = objectSort(deepmerge.all([node18, node20, node22]));
+
+for (const module of ignoredModules) {
+  delete baseline[module];
+}
 
 // Retain a copy of the baseline in the `node` folder for bun and deno
 await fs.writeFile(
