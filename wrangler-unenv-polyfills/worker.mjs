@@ -53,11 +53,6 @@ export default {
       _stream_transform = await import("_stream_transform");
     } catch (err) {}
 
-    let _stream_wrap = null;
-    try {
-      _stream_wrap = await import("_stream_wrap");
-    } catch (err) {}
-
     let _stream_writable = null;
     try {
       _stream_writable = await import("_stream_writable");
@@ -98,11 +93,6 @@ export default {
       console = await import("console");
     } catch (err) {}
 
-    let constants = null;
-    try {
-      constants = await import("constants");
-    } catch (err) {}
-
     let crypto = null;
     try {
       crypto = await import("crypto");
@@ -126,11 +116,6 @@ export default {
     let dns_promises = null;
     try {
       dns_promises = await import("dns/promises");
-    } catch (err) {}
-
-    let domain = null;
-    try {
-      domain = await import("domain");
     } catch (err) {}
 
     let events = null;
@@ -161,11 +146,6 @@ export default {
     let https = null;
     try {
       https = await import("https");
-    } catch (err) {}
-
-    let inspector_promises = null;
-    try {
-      inspector_promises = await import("inspector/promises");
     } catch (err) {}
 
     let module = null;
@@ -211,11 +191,6 @@ export default {
     let querystring = null;
     try {
       querystring = await import("querystring");
-    } catch (err) {}
-
-    let readline_promises = null;
-    try {
-      readline_promises = await import("readline/promises");
     } catch (err) {}
 
     let stream = null;
@@ -299,7 +274,6 @@ export default {
       _stream_passthrough: _stream_passthrough,
       _stream_readable: _stream_readable,
       _stream_transform: _stream_transform,
-      _stream_wrap: _stream_wrap,
       _stream_writable: _stream_writable,
       _tls_common: _tls_common,
       _tls_wrap: _tls_wrap,
@@ -308,20 +282,17 @@ export default {
       async_hooks: async_hooks,
       buffer: buffer,
       console: console,
-      constants: constants,
       crypto: crypto,
       dgram: dgram,
       diagnostics_channel: diagnostics_channel,
       dns: dns,
       "dns/promises": dns_promises,
-      domain: domain,
       events: events,
       fs: fs,
       "fs/promises": fs_promises,
       http: http,
       http2: http2,
       https: https,
-      "inspector/promises": inspector_promises,
       module: module,
       net: net,
       os: os,
@@ -331,7 +302,6 @@ export default {
       perf_hooks: perf_hooks,
       process: process,
       querystring: querystring,
-      "readline/promises": readline_promises,
       stream: stream,
       "stream/consumers": stream_consumers,
       "stream/promises": stream_promises,

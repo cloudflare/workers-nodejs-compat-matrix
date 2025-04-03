@@ -330,6 +330,9 @@ const App = () => {
             <li className="mb-1">
               The following modules do not fit in a serverless context, are deprecated, or are experimental, and removed from the report: {Array.from(ignoredModules).join(', ')}
             </li>
+            <li className="mb-1">
+              Functions that start with an underscore are internal APIs that we are not targeting at the moment.
+            </li>
           </ul>
         </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
