@@ -93,16 +93,6 @@ export default {
       buffer = await import("buffer");
     } catch (err) {}
 
-    let child_process = null;
-    try {
-      child_process = await import("child_process");
-    } catch (err) {}
-
-    let cluster = null;
-    try {
-      cluster = await import("cluster");
-    } catch (err) {}
-
     let console = null;
     try {
       console = await import("console");
@@ -173,11 +163,6 @@ export default {
       https = await import("https");
     } catch (err) {}
 
-    let inspector = null;
-    try {
-      inspector = await import("inspector");
-    } catch (err) {}
-
     let inspector_promises = null;
     try {
       inspector_promises = await import("inspector/promises");
@@ -223,29 +208,14 @@ export default {
       process = await import("process");
     } catch (err) {}
 
-    let punycode = null;
-    try {
-      punycode = await import("punycode");
-    } catch (err) {}
-
     let querystring = null;
     try {
       querystring = await import("querystring");
     } catch (err) {}
 
-    let readline = null;
-    try {
-      readline = await import("readline");
-    } catch (err) {}
-
     let readline_promises = null;
     try {
       readline_promises = await import("readline/promises");
-    } catch (err) {}
-
-    let repl = null;
-    try {
-      repl = await import("repl");
     } catch (err) {}
 
     let stream = null;
@@ -298,11 +268,6 @@ export default {
       trace_events = await import("trace_events");
     } catch (err) {}
 
-    let tty = null;
-    try {
-      tty = await import("tty");
-    } catch (err) {}
-
     let url = null;
     try {
       url = await import("url");
@@ -316,26 +281,6 @@ export default {
     let util_types = null;
     try {
       util_types = await import("util/types");
-    } catch (err) {}
-
-    let v8 = null;
-    try {
-      v8 = await import("v8");
-    } catch (err) {}
-
-    let vm = null;
-    try {
-      vm = await import("vm");
-    } catch (err) {}
-
-    let wasi = null;
-    try {
-      wasi = await import("wasi");
-    } catch (err) {}
-
-    let worker_threads = null;
-    try {
-      worker_threads = await import("worker_threads");
     } catch (err) {}
 
     let zlib = null;
@@ -362,8 +307,6 @@ export default {
       "assert/strict": assert_strict,
       async_hooks: async_hooks,
       buffer: buffer,
-      child_process: child_process,
-      cluster: cluster,
       console: console,
       constants: constants,
       crypto: crypto,
@@ -378,7 +321,6 @@ export default {
       http: http,
       http2: http2,
       https: https,
-      inspector: inspector,
       "inspector/promises": inspector_promises,
       module: module,
       net: net,
@@ -388,11 +330,8 @@ export default {
       "path/win32": path_win32,
       perf_hooks: perf_hooks,
       process: process,
-      punycode: punycode,
       querystring: querystring,
-      readline: readline,
       "readline/promises": readline_promises,
-      repl: repl,
       stream: stream,
       "stream/consumers": stream_consumers,
       "stream/promises": stream_promises,
@@ -403,14 +342,9 @@ export default {
       "timers/promises": timers_promises,
       tls: tls,
       trace_events: trace_events,
-      tty: tty,
       url: url,
       util: util,
       "util/types": util_types,
-      v8: v8,
-      vm: vm,
-      wasi: wasi,
-      worker_threads: worker_threads,
       zlib: zlib,
     };
 
