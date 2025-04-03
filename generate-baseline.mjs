@@ -46,6 +46,18 @@ for (const module of ignoredModules) {
   delete baseline[module];
 }
 
+// We remove everything that starts with an underscore since they're internal APIs
+// that we are not targeting at the moment.
+for (const mod of Object.keys(baseline)) {
+  if (typeof baseline[mod] === 'object') {
+    for (const key of Object.keys(baseline[mod])) {
+      if (key.startsWith('_')) {
+        delete baseline[mod][key];
+      }
+    }
+  }
+}
+
 // Retain a copy of the baseline in the `node` folder for bun and deno
 await fs.writeFile(
   path.join(__dirname, "data", "baseline.json"),
