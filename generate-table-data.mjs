@@ -3,12 +3,9 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 import baseline from "./data/baseline.json" with { type: "json" };
-import node18 from "./data/node-18.json" with { type: "json" };
-import node20 from "./data/node-20.json" with { type: "json" };
 import node22 from "./data/node-22.json" with { type: "json" };
 import bun from "./data/bun.json" with { type: "json" };
 import deno from "./data/deno.json" with { type: "json" };
-import workerd from "./data/workerd.json" with { type: "json" };
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json" with { type: "json" };
 import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
 
@@ -18,12 +15,9 @@ const __dirname = path.dirname(__filename);
 // This MUST match the ordering of `targetTitles` in `report/src/App.tsx`
 const targets = {
   node22,
-  node20,
-  node18,
+  wranglerUnenv,
   bun,
   deno,
-  workerd,
-  wranglerUnenv,
 };
 
 /* == COLUMNS ==================================
