@@ -3,71 +3,6 @@ import baseline from "../data/baseline.json";
 
 export default {
   async fetch(request, env, ctx) {
-    let _http_agent = null;
-    try {
-      _http_agent = await import("_http_agent");
-    } catch (err) {}
-
-    let _http_client = null;
-    try {
-      _http_client = await import("_http_client");
-    } catch (err) {}
-
-    let _http_common = null;
-    try {
-      _http_common = await import("_http_common");
-    } catch (err) {}
-
-    let _http_incoming = null;
-    try {
-      _http_incoming = await import("_http_incoming");
-    } catch (err) {}
-
-    let _http_outgoing = null;
-    try {
-      _http_outgoing = await import("_http_outgoing");
-    } catch (err) {}
-
-    let _http_server = null;
-    try {
-      _http_server = await import("_http_server");
-    } catch (err) {}
-
-    let _stream_duplex = null;
-    try {
-      _stream_duplex = await import("_stream_duplex");
-    } catch (err) {}
-
-    let _stream_passthrough = null;
-    try {
-      _stream_passthrough = await import("_stream_passthrough");
-    } catch (err) {}
-
-    let _stream_readable = null;
-    try {
-      _stream_readable = await import("_stream_readable");
-    } catch (err) {}
-
-    let _stream_transform = null;
-    try {
-      _stream_transform = await import("_stream_transform");
-    } catch (err) {}
-
-    let _stream_writable = null;
-    try {
-      _stream_writable = await import("_stream_writable");
-    } catch (err) {}
-
-    let _tls_common = null;
-    try {
-      _tls_common = await import("_tls_common");
-    } catch (err) {}
-
-    let _tls_wrap = null;
-    try {
-      _tls_wrap = await import("_tls_wrap");
-    } catch (err) {}
-
     let assert = null;
     try {
       assert = await import("assert");
@@ -264,19 +199,6 @@ export default {
     } catch (err) {}
 
     const importedModules = {
-      _http_agent: _http_agent,
-      _http_client: _http_client,
-      _http_common: _http_common,
-      _http_incoming: _http_incoming,
-      _http_outgoing: _http_outgoing,
-      _http_server: _http_server,
-      _stream_duplex: _stream_duplex,
-      _stream_passthrough: _stream_passthrough,
-      _stream_readable: _stream_readable,
-      _stream_transform: _stream_transform,
-      _stream_writable: _stream_writable,
-      _tls_common: _tls_common,
-      _tls_wrap: _tls_wrap,
       assert: assert,
       "assert/strict": assert_strict,
       async_hooks: async_hooks,
