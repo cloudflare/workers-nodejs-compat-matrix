@@ -49,9 +49,9 @@ const regenerateEnvs =
     ? process.argv[3].split(",")
     : supportedEnvironments;
 
-if (!shell.env.VOLTA_HOME) {
+if (!shell.env.FNM_DIR) {
   console.error(
-    "You must have volta installed to continue. Refer to README.md for instructions."
+    "You must have fnm installed to continue. Refer to README.md for instructions."
   );
   process.exit(1);
 }
@@ -70,10 +70,10 @@ if (!shell.which("deno")) {
   process.exit(1);
 }
 
-// shelljs doesn't read from .bashrc or .zshrc which normally inject VOLTA_HOME
+// shelljs doesn't read from .bashrc or .zshrc which normally inject FNM_DIR
 // into your PATH variable, so a lookup is needed.
 // Trailing space is intentional, for DX
-const volta = `${shell.env.VOLTA_HOME}/bin/volta `;
+const fnm = `${shell.env.FNM_DIR}/fnm `;
 const versionMap = {};
 
 // Compare node versions to the baseline
@@ -82,11 +82,11 @@ if (regenerateEnvs.includes("node")) {
   for (const version of nodeVersions) {
     shell.echo(`Generate node v${version} apis...`);
     shell.exec(
-      volta + `run --node ${version} node node/dump.mjs --compare-to-baseline`
+      fnm + `exec --using=${version} node node/dump.mjs --compare-to-baseline`
     );
     shell.echo("=== Done ====================================\n\n");
     const versionOutput = shell
-      .exec(volta + `run --node ${version} node --version`, { silent: true })
+      .exec(fnm + `exec --using=${version} node --version`, { silent: true })
       .stdout.match(/v(?<version>\S+)/).groups.version;
     versionMap[`node${version}`] = versionOutput;
   }
@@ -132,7 +132,7 @@ if (regenerateEnvs.includes("wrangler-unenv")) {
   );
   const compatibilityDate = getWorkerdDate("wrangler-unenv-polyfills");
   shell.exec(
-    `${volta} run --node 20 node wrangler-unenv-polyfills/dump.mjs ${compatibilityDate}`
+    `${fnm} exec --using=20 node wrangler-unenv-polyfills/dump.mjs ${compatibilityDate}`
   );
   shell.echo("=== Done ====================================\n\n");
   versionMap["wranglerUnenv"] = extractNpmVersion(
