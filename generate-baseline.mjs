@@ -11,23 +11,23 @@ shell.set("-e");
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-if (!shell.env.VOLTA_HOME) {
+if (!shell.env.FNM_DIR) {
   console.error(
-    "You must have volta installed to continue. Refer to README.md for instructions."
+    "You must have FNM installed to continue. Refer to README.md for instructions."
   );
   process.exit(1);
 }
 
-// shelljs doesn't read from .bashrc or .zshrc which normally inject VOLTA_HOME
+// shelljs doesn't read from .bashrc or .zshrc which normally inject FNM_DIR
 // into your PATH variable, so a lookup is needed.
 // Trailing space is intentional, for DX
-const volta = `${shell.env.VOLTA_HOME}/bin/volta `;
+const fnm = `${shell.env.FNM_DIR}/fnm `;
 
 // Node
 const nodeVersions = [18, 20, 22];
 for (const version of nodeVersions) {
   shell.echo(`Generate node v${version} apis...`);
-  shell.exec(volta + `run --node ${version} node node/dump.mjs`);
+  shell.exec(fnm + `exec --using=${version} node node/dump.mjs`);
   shell.echo("=== Done ====================================\n\n");
 }
 

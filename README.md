@@ -4,10 +4,10 @@ Quick and dirty audit of Node.js support across Workers. See <https://workers-no
 
 ## Install
 
-Install Volta:
+Install Fnm:
 
 ```shell
-curl https://get.volta.sh | bash
+curl -fsSL https://fnm.vercel.app/install | bash
 ```
 
 Install Deno:
@@ -37,7 +37,7 @@ pnpm install
 > Update `wrangler` and `workerd` in `pnpm-workspace.yaml` from wrangler's [package.json](https://github.com/cloudflare/workers-sdk/blob/main/packages/wrangler/package.json)
 
 > [!IMPORTANT]
-> This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm generate`.
+> This requires features from Node v22, so if it isn't your default node version, run it with `fnm exec --using=22 pnpm generate`.
 
 - Update the catalog version in `pnpm-workspace.yaml`
 
