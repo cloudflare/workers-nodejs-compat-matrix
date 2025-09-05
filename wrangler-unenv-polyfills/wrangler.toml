@@ -9,4 +9,4 @@ compatibility_flags = [
   "enable_nodejs_http_modules",
   "enable_nodejs_process_v2"
 ]
-compatibility_date = "2025-08-03"
+compatibility_date = "2025-09-02"

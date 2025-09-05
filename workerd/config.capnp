@@ -13,6 +13,6 @@ const worker :Workerd.Worker = (
   bindings = [
     ( name = "baseline", json = embed "../data/baseline.json" )
   ],
-  compatibilityDate = "2025-08-03",
+  compatibilityDate = "2025-09-02",
   compatibilityFlags = ["nodejs_compat"]
 );
