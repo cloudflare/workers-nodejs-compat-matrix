@@ -1,4 +1,4 @@
-import { mismatch, mock, matching, missing } from "./constants";
+import { mismatch, matching, missing } from "./constants";
 
 export const Legend = () => {
   return (
@@ -14,10 +14,6 @@ export const Legend = () => {
       <li>
         <span className="mr-1 text-sm font-medium">Mismatch</span>
         <span>{mismatch}</span>
-      </li>
-      <li>
-        <span className="mr-1 text-sm font-medium">Mock</span>
-        <span>{mock}</span>
       </li>
     </ul>
   );

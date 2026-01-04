@@ -44,7 +44,6 @@ const tallyColumnValues = (rows, columnIndex) => {
   let counts = {
     supported: 0,
     mismatch: 0,
-    stub: 0,
     unsupported: 0,
   };
 
@@ -59,15 +58,14 @@ const tallyColumnValues = (rows, columnIndex) => {
     counts[columnValue]++;
   }
 
-  // return count;
   return Object.values(counts).join("/");
 };
 
-const isPartOfMockModule = (target, keyPath) => {
+const isPartOfStubModule = (target, keyPath) => {
   const moduleName = keyPath[0];
   const moduleInfo = target[moduleName];
 
-  // mock module can be identified as a module that has only one key - the default,
+  // Stub module can be identified as a module that has only one key - the default,
   // which in turn has only one key, the synthetic "*default*" key
   return (
     moduleInfo &&
@@ -109,7 +107,7 @@ const visit = (node, path) => {
 
       for (const target of Object.values(targets)) {
         const targetValue = get(target, keyPath);
-        if (isPartOfMockModule(target, keyPath)) {
+        if (isPartOfStubModule(target, keyPath)) {
           row.push("unsupported");
         } else if (targetValue === "missing" && childNode !== "missing") {
           row.push("unsupported");

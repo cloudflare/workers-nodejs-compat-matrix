@@ -204,11 +204,11 @@ async function calculateSupportPercentage() {
     return typeof node === "object" && Object.keys(node).length > 0;
   };
 
-  const isPartOfMockModule = (target, keyPath) => {
+  const isPartOfStubModule = (target, keyPath) => {
     const moduleName = keyPath[0];
     const moduleInfo = target[moduleName];
 
-    // mock module can be identified as a module that has only one key - the default,
+    // Stub module can be identified as a module that has only one key - the default,
     // which in turn has only one key, the synthetic "*default*" key
     return (
       moduleInfo &&
@@ -235,7 +235,7 @@ async function calculateSupportPercentage() {
         const targetValue = get(workerdData, keyPath);
         let supportStatus;
 
-        if (isPartOfMockModule(workerdData, keyPath)) {
+        if (isPartOfStubModule(workerdData, keyPath)) {
           supportStatus = "unsupported";
         } else if (targetValue === "missing" && childNode !== "missing") {
           supportStatus = "unsupported";

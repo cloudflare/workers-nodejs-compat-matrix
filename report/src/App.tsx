@@ -4,7 +4,7 @@ import "./App.css";
 import tableData from "./data/table-data.json";
 import versionMap from "./data/versionMap.json";
 import timestamp from "./data/timestamp.json";
-import { mismatch, mock, matching, missing } from "./constants";
+import { mismatch, matching, missing } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 import { formatPct, getDocsLink, getPolyfillSearchLink, pct } from "./utils";
@@ -78,8 +78,6 @@ const App = () => {
           return matching;
         case "unsupported":
           return mismatch;
-        case "stub":
-          return mock;
         case "missing":
         default:
           return missing;
@@ -121,17 +119,16 @@ const App = () => {
             </span>
           </TableCell>
           {targets.map((target) => {
-            const [matching, mismatch, mock, missing] = (target as string)
+            const [matching, mismatch, missing] = (target as string)
               .split("/")
               .map((i) => parseInt(i as string));
 
-            const totalPresent = matching + mismatch + mock;
+            const totalPresent = matching + mismatch;
             const total = totalPresent + missing;
             const presentPct = pct(totalPresent, baselineSupport as number);
 
             const missingPct = pct(missing, total);
             const mismatchPct = pct(mismatch, total);
-            const mockPct = pct(mock, total);
 
             let bgColor = "red";
             if (presentPct > RED_THRESHOLD) {
@@ -141,7 +138,7 @@ const App = () => {
               bgColor = "green";
             }
 
-            const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}\nMatching: ${matching}`;
+            const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMatching: ${matching}`;
 
             return (
               <TableCell color={bgColor}>
@@ -152,8 +149,7 @@ const App = () => {
                   <span className="text-sm">{formatPct(presentPct)}</span>
                   <div className="text-xs">
                     <span>
-                      {formatPct(missingPct)}/{formatPct(mismatchPct)}/
-                      {formatPct(mockPct)}
+                      {formatPct(missingPct)}/{formatPct(mismatchPct)}
                     </span>
                   </div>
                 </div>
@@ -228,7 +224,7 @@ const App = () => {
         <TableCell>
           <span className="font-semibold flex justify-start ml-4">Totals</span>
           <span className="text-xs font-light flex justify-start ml-4">
-            missing / mismatched / mocked
+            missing / mismatched
           </span>
         </TableCell>
         <TableCell>
@@ -238,18 +234,17 @@ const App = () => {
           </div>
         </TableCell>
         {targetTotals.map((targetTotal) => {
-          const [matching, mismatch, mock, missing] = (targetTotal as string)
+          const [matching, mismatch, missing] = (targetTotal as string)
             .split("/")
             .map((i) => parseInt(i as string, 10));
 
-          const totalPresent = matching + mismatch + mock;
+          const totalPresent = matching + mismatch;
           const total = totalPresent + missing;
           const presentPct = pct(totalPresent, baselineCount as number);
           const missingPct = pct(missing, total);
           const mismatchPct = pct(mismatch, total);
-          const mockPct = pct(mock, total);
 
-          const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}`;
+          const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}`;
 
           return (
             <TableCell>
@@ -259,8 +254,7 @@ const App = () => {
                 </span>
                 <div className="text-xs">
                   <span>
-                    {formatPct(missingPct)}/{formatPct(mismatchPct)}/
-                    {formatPct(mockPct)}
+                    {formatPct(missingPct)}/{formatPct(mismatchPct)}
                   </span>
                 </div>
               </div>
@@ -343,19 +337,14 @@ const App = () => {
                 </li>
                 <li className="mb-1">
                   The percentages represent the API surface area that is
-                  matching, mocked, <span className="font-semibold">or</span>{" "}
-                  mismatched.
+                  matching <span className="font-semibold">or</span> mismatched.
                 </li>
                 <li className="mb-1">
                   The <span className="font-semibold">baseline</span> column
                   represents a union of Node.js v18, v20, and v22 API surfaces
                   that we use as the ideal Node.js API compatibility target.
                 </li>
-                <li className="mb-1">
-                  <span className="font-semibold">Mock</span> means that the API
-                  can still be imported but it is not implemented. It will throw
-                  an error or return an dummy value if called.
-                </li>
+
                 <li className="mb-1">
                   These values have been autogenerated and may not be 100%
                   accurate.
