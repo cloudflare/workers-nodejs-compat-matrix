@@ -6,9 +6,6 @@ settings:
 
 catalogs:
   default:
-    workerd:
-      specifier: ^1.20250905.0
-      version: 1.20260101.0
     wrangler:
       specifier: ^4.14.0
       version: 4.34.0
@@ -75,7 +72,7 @@ importers:
   workerd:
     devDependencies:
       workerd:
-        specifier: 'catalog:'
+        specifier: ^1.20260101.0
         version: 1.20260101.0
 
 packages:
@@ -874,7 +871,7 @@ packages:
     os: [win32]
 
   '@cloudflare/workers-types@4.20250905.0':
-    resolution: {integrity: sha512-K/noYRtyz+7oZCiTml2wZxpdq7D2kB8QP6DAOq4d1CYYLFZCsvKdEZdVVC3pj2MCmAdG7wDzhf2h7POA5Uw5ig==}
+    resolution: {integrity: sha512-K/noYRtyz+7oZCiTml2wZxpdq7D2kB8QP6DAOq4d1CYYLFZCsvKdEZdVVC3pj2MCmAdG7wDzhf2h7POA5Uw5ig==, tarball: https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20250905.0.tgz}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -5788,6 +5785,7 @@ packages:
 
   whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
