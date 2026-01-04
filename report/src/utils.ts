@@ -17,12 +17,6 @@ export const getPolyfillSearchLink = (target: string, symbol: string) => {
     case "workerd":
       filter = `repo:cloudflare/workerd path:/^src\\/node\\//`;
       break;
-    case "wranglerV3":
-      filter = `repo:ionic-team/rollup-plugin-node-polyfills path:/^polyfills\\//`;
-      break;
-    case "wranglerUnenv":
-      filter = `repo:unjs/unenv path:/^src\\/runtime\\/node\\//`;
-      break;
     default:
       break;
   }

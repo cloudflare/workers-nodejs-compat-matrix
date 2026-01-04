@@ -1,9 +1,8 @@
 packages:
   - "node"
   - "workerd"
-  - "wrangler-*"
   - "report"
 
 catalog:
-  wrangler: ^4.34.0
   workerd: ^1.20250905.0
+  wrangler: ^4.14.0

@@ -26,9 +26,6 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Update unenv
-        run: pnpm update unenv
-
       - name: Build
         run: pnpm --filter report build
 

@@ -2,169 +2,201 @@
   {
     "date": "2024-01",
     "workerdVersion": "1.20240117.0",
-    "supportPercentage": 13.6,
-    "totalApis": 8874,
-    "supportedApis": 1207,
+    "supportPercentage": 16.7,
+    "totalApis": 10523,
+    "supportedApis": 1753,
     "publishedAt": "2024-01-17T00:00:00.000Z"
   },
   {
     "date": "2024-02",
     "workerdVersion": "1.20240208.0",
-    "supportPercentage": 13.6,
-    "totalApis": 8874,
-    "supportedApis": 1207,
+    "supportPercentage": 16.7,
+    "totalApis": 10523,
+    "supportedApis": 1753,
     "publishedAt": "2024-02-08T00:00:00.000Z"
   },
   {
     "date": "2024-03",
     "workerdVersion": "1.20240304.0",
-    "supportPercentage": 13.6,
-    "totalApis": 8874,
-    "supportedApis": 1210,
+    "supportPercentage": 16.7,
+    "totalApis": 10523,
+    "supportedApis": 1756,
     "publishedAt": "2024-03-04T00:00:00.000Z"
   },
   {
     "date": "2024-04",
     "workerdVersion": "1.20240402.0",
-    "supportPercentage": 14.3,
-    "totalApis": 8874,
-    "supportedApis": 1268,
+    "supportPercentage": 17.2,
+    "totalApis": 10523,
+    "supportedApis": 1814,
     "publishedAt": "2024-04-02T00:00:00.000Z"
   },
   {
     "date": "2024-05",
     "workerdVersion": "1.20240502.0",
-    "supportPercentage": 14.3,
-    "totalApis": 8874,
-    "supportedApis": 1268,
+    "supportPercentage": 17.2,
+    "totalApis": 10523,
+    "supportedApis": 1814,
     "publishedAt": "2024-05-02T00:00:00.000Z"
   },
   {
     "date": "2024-06",
     "workerdVersion": "1.20240603.0",
-    "supportPercentage": 14.5,
-    "totalApis": 8874,
-    "supportedApis": 1284,
+    "supportPercentage": 17.5,
+    "totalApis": 10523,
+    "supportedApis": 1840,
     "publishedAt": "2024-06-03T00:00:00.000Z"
   },
   {
     "date": "2024-07",
     "workerdVersion": "1.20240701.0",
-    "supportPercentage": 17.2,
-    "totalApis": 8874,
-    "supportedApis": 1529,
+    "supportPercentage": 20.2,
+    "totalApis": 10523,
+    "supportedApis": 2126,
     "publishedAt": "2024-07-01T00:00:00.000Z"
   },
   {
     "date": "2024-08",
     "workerdVersion": "1.20240806.0",
-    "supportPercentage": 17.5,
-    "totalApis": 8874,
-    "supportedApis": 1553,
+    "supportPercentage": 20.4,
+    "totalApis": 10523,
+    "supportedApis": 2150,
     "publishedAt": "2024-08-06T00:00:00.000Z"
   },
   {
     "date": "2024-09",
     "workerdVersion": "1.20240903.0",
-    "supportPercentage": 21.2,
-    "totalApis": 8874,
-    "supportedApis": 1883,
+    "supportPercentage": 23.6,
+    "totalApis": 10523,
+    "supportedApis": 2480,
     "publishedAt": "2024-09-03T00:00:00.000Z"
   },
   {
     "date": "2024-10",
     "workerdVersion": "1.20241004.0",
-    "supportPercentage": 28.9,
-    "totalApis": 8874,
-    "supportedApis": 2565,
+    "supportPercentage": 30,
+    "totalApis": 10523,
+    "supportedApis": 3162,
     "publishedAt": "2024-10-04T00:00:00.000Z"
   },
   {
     "date": "2024-11",
     "workerdVersion": "1.20241106.1",
-    "supportPercentage": 33.5,
-    "totalApis": 8874,
-    "supportedApis": 2973,
+    "supportPercentage": 33.9,
+    "totalApis": 10523,
+    "supportedApis": 3570,
     "publishedAt": "2024-11-06T00:00:00.000Z"
   },
   {
     "date": "2024-12",
     "workerdVersion": "1.20241202.0",
-    "supportPercentage": 35.1,
-    "totalApis": 8874,
-    "supportedApis": 3113,
+    "supportPercentage": 35.3,
+    "totalApis": 10523,
+    "supportedApis": 3710,
     "publishedAt": "2024-12-02T00:00:00.000Z"
   },
   {
     "date": "2025-01",
     "workerdVersion": "1.20250109.0",
-    "supportPercentage": 36.7,
-    "totalApis": 8874,
-    "supportedApis": 3255,
+    "supportPercentage": 36.6,
+    "totalApis": 10523,
+    "supportedApis": 3852,
     "publishedAt": "2025-01-09T00:00:00.000Z"
   },
   {
     "date": "2025-02",
     "workerdVersion": "1.20250204.0",
-    "supportPercentage": 38,
-    "totalApis": 8874,
-    "supportedApis": 3368,
+    "supportPercentage": 37.7,
+    "totalApis": 10523,
+    "supportedApis": 3965,
     "publishedAt": "2025-02-04T00:00:00.000Z"
   },
   {
     "date": "2025-03",
     "workerdVersion": "1.20250303.0",
-    "supportPercentage": 38.1,
-    "totalApis": 8874,
-    "supportedApis": 3382,
+    "supportPercentage": 37.8,
+    "totalApis": 10523,
+    "supportedApis": 3979,
     "publishedAt": "2025-03-03T00:00:00.000Z"
   },
   {
     "date": "2025-04",
     "workerdVersion": "1.20250401.0",
-    "supportPercentage": 38.9,
-    "totalApis": 8874,
-    "supportedApis": 3451,
+    "supportPercentage": 38.6,
+    "totalApis": 10523,
+    "supportedApis": 4067,
     "publishedAt": "2025-04-01T00:00:00.000Z"
   },
   {
     "date": "2025-05",
     "workerdVersion": "1.20250502.0",
-    "supportPercentage": 40.4,
-    "totalApis": 8874,
-    "supportedApis": 3588,
+    "supportPercentage": 40,
+    "totalApis": 10523,
+    "supportedApis": 4204,
     "publishedAt": "2025-05-02T00:00:00.000Z"
   },
   {
     "date": "2025-06",
     "workerdVersion": "1.20250601.0",
-    "supportPercentage": 40.6,
-    "totalApis": 8874,
-    "supportedApis": 3605,
+    "supportPercentage": 40.1,
+    "totalApis": 10523,
+    "supportedApis": 4221,
     "publishedAt": "2025-06-01T00:00:00.000Z"
   },
   {
     "date": "2025-07",
     "workerdVersion": "1.20250701.0",
-    "supportPercentage": 42.7,
-    "totalApis": 8874,
-    "supportedApis": 3787,
+    "supportPercentage": 41.8,
+    "totalApis": 10523,
+    "supportedApis": 4403,
     "publishedAt": "2025-07-01T00:00:00.000Z"
   },
   {
     "date": "2025-08",
     "workerdVersion": "1.20250801.0",
-    "supportPercentage": 42.7,
-    "totalApis": 8874,
-    "supportedApis": 3787,
+    "supportPercentage": 41.8,
+    "totalApis": 10523,
+    "supportedApis": 4403,
     "publishedAt": "2025-08-01T00:00:00.000Z"
   },
   {
     "date": "2025-09",
     "workerdVersion": "1.20250902.0",
-    "supportPercentage": 53.6,
-    "totalApis": 8874,
-    "supportedApis": 4759,
+    "supportPercentage": 58.3,
+    "totalApis": 10523,
+    "supportedApis": 6134,
     "publishedAt": "2025-09-02T00:00:00.000Z"
+  },
+  {
+    "date": "2025-10",
+    "workerdVersion": "1.20251001.0",
+    "supportPercentage": 76.9,
+    "totalApis": 10523,
+    "supportedApis": 8095,
+    "publishedAt": "2025-10-01T00:00:00.000Z"
+  },
+  {
+    "date": "2025-11",
+    "workerdVersion": "1.20251101.0",
+    "supportPercentage": 77.1,
+    "totalApis": 10523,
+    "supportedApis": 8108,
+    "publishedAt": "2025-11-01T00:00:00.000Z"
+  },
+  {
+    "date": "2025-12",
+    "workerdVersion": "1.20251202.0",
+    "supportPercentage": 77.1,
+    "totalApis": 10523,
+    "supportedApis": 8114,
+    "publishedAt": "2025-12-02T00:00:00.000Z"
+  },
+  {
+    "date": "2026-01",
+    "workerdVersion": "1.20260101.0",
+    "supportPercentage": 77.2,
+    "totalApis": 10523,
+    "supportedApis": 8120,
+    "publishedAt": "2026-01-01T00:00:00.000Z"
   }
 ]
