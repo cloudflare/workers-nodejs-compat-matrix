@@ -82,22 +82,21 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
         visitResult[key] = partialResult;
       }
     } else {
-      // Detect unenv stubs
+      // Detect unenv stubs - treat as missing (not implemented)
       if (targetValue && targetValue.__unenv__ === true) {
-        visitResult[key] = "stub";
+        visitResult[key] = "missing";
         continue;
       }
 
       if (typeof targetValue === "function") {
         const code = targetValue.toString();
 
-        // Detect unimplemented stubs
+        // Detect unimplemented stubs - treat as missing
         if (
-          // unenv https://github.com/unjs/unenv/blob/c6dca1dfac95bd6359e8575d4456635914823701/src/runtime/_internal/utils.ts#L30
           // deno https://github.com/denoland/deno/blob/8eb1f11112c3ced0ff4a35f3487a4da507db05c2/ext/node/polyfills/_utils.ts#L25
           code.includes("notImplemented(")
         ) {
-          visitResult[key] = "stub";
+          visitResult[key] = "missing";
           continue;
         }
       }

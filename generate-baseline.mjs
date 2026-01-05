@@ -24,7 +24,7 @@ if (!shell.env.FNM_DIR) {
 const fnm = `${shell.env.FNM_DIR}/fnm `;
 
 // Node
-const nodeVersions = [18, 20, 22];
+const nodeVersions = [20, 22, 24];
 for (const version of nodeVersions) {
   shell.echo(`Generate node v${version} apis...`);
   shell.exec(fnm + `exec --using=${version} node node/dump.mjs`);
@@ -35,12 +35,12 @@ shell.echo("Generating baseline.json");
 
 // Create a merged baseline that will be used in the report
 // as well as when generating bun and deno
-const node18 = JSON.parse(shell.cat("data/node-18.json"));
 const node20 = JSON.parse(shell.cat("data/node-20.json"));
 const node22 = JSON.parse(shell.cat("data/node-22.json"));
+const node24 = JSON.parse(shell.cat("data/node-24.json"));
 
 // Sort the baseline by key name
-const baseline = objectSort(deepmerge.all([node18, node20, node22]));
+const baseline = objectSort(deepmerge.all([node20, node22, node24]));
 
 for (const module of ignoredModules) {
   delete baseline[module];
@@ -49,9 +49,9 @@ for (const module of ignoredModules) {
 // We remove everything that starts with an underscore since they're internal APIs
 // that we are not targeting at the moment.
 for (const mod of Object.keys(baseline)) {
-  if (typeof baseline[mod] === 'object') {
+  if (typeof baseline[mod] === "object") {
     for (const key of Object.keys(baseline[mod])) {
-      if (key.startsWith('_')) {
+      if (key.startsWith("_")) {
         delete baseline[mod][key];
         delete baseline[mod].default[key];
       }

@@ -3,10 +3,10 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 import baseline from "./data/baseline.json" with { type: "json" };
-import node22 from "./data/node-22.json" with { type: "json" };
+import node24 from "./data/node-24.json" with { type: "json" };
 import bun from "./data/bun.json" with { type: "json" };
 import deno from "./data/deno.json" with { type: "json" };
-import wranglerUnenv from "./data/wrangler-unenv-polyfills.json" with { type: "json" };
+import workerd from "./data/workerd.json" with { type: "json" };
 import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -14,8 +14,8 @@ const __dirname = path.dirname(__filename);
 
 // This MUST match the ordering of `targetTitles` in `report/src/App.tsx`
 const targets = {
-  node22,
-  wranglerUnenv,
+  node24,
+  workerd,
   bun,
   deno,
 };
@@ -44,7 +44,6 @@ const tallyColumnValues = (rows, columnIndex) => {
   let counts = {
     supported: 0,
     mismatch: 0,
-    stub: 0,
     unsupported: 0,
   };
 
@@ -59,15 +58,14 @@ const tallyColumnValues = (rows, columnIndex) => {
     counts[columnValue]++;
   }
 
-  // return count;
   return Object.values(counts).join("/");
 };
 
-const isPartOfMockModule = (target, keyPath) => {
+const isPartOfStubModule = (target, keyPath) => {
   const moduleName = keyPath[0];
   const moduleInfo = target[moduleName];
 
-  // mock module can be identified as a module that has only one key - the default,
+  // Stub module can be identified as a module that has only one key - the default,
   // which in turn has only one key, the synthetic "*default*" key
   return (
     moduleInfo &&
@@ -109,8 +107,8 @@ const visit = (node, path) => {
 
       for (const target of Object.values(targets)) {
         const targetValue = get(target, keyPath);
-        if (targetValue === "stub" || isPartOfMockModule(target, keyPath)) {
-          row.push("stub");
+        if (isPartOfStubModule(target, keyPath)) {
+          row.push("unsupported");
         } else if (targetValue === "missing" && childNode !== "missing") {
           row.push("unsupported");
         } else if (targetValue && targetValue !== childNode) {
@@ -183,18 +181,7 @@ csvData.unshift([
 ]);
 
 // Add a header row
-csvData.unshift([
-  "Module",
-  "Path",
-  "baseline",
-  "node22",
-  "node20",
-  "node18",
-  "bun",
-  "deno",
-  "workerd",
-  "wranglerUnenv",
-]);
+csvData.unshift(["Module", "Path", "baseline", ...Object.keys(targets)]);
 
 const csvString = csvData
   // Make each row a comma separated string

@@ -8,14 +8,7 @@ shell.set("-e");
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const supportedEnvironments = [
-  "node",
-  "bun",
-  "deno",
-  "workerd",
-  "wrangler-v3",
-  "wrangler-unenv",
-];
+const supportedEnvironments = ["node", "bun", "deno", "workerd"];
 
 // args check
 if (
@@ -36,10 +29,10 @@ if (
   This script can be called with --only option followed by comma separated list of environments to scan.
 
   Examples:
-    --only wrangler-unenv
-    --only workerd,wrangler-unenv
+    --only workerd
+    --only node,workerd
 
-  Supported environments: node, bun, deno, workerd, wrangler-v3, and wrangler-unenv
+  Supported environments: node, bun, deno, workerd
   `);
   process.exit(1);
 }
@@ -78,7 +71,7 @@ const versionMap = {};
 
 // Compare node versions to the baseline
 if (regenerateEnvs.includes("node")) {
-  const nodeVersions = [18, 20, 22];
+  const nodeVersions = [20, 22, 24];
   for (const version of nodeVersions) {
     shell.echo(`Generate node v${version} apis...`);
     shell.exec(
@@ -119,26 +112,10 @@ if (regenerateEnvs.includes("workerd")) {
   shell.echo(
     'Generate `workerd --compatibility-flags="nodejs_compat"` apis...'
   );
-  const compatibilityDate = getWorkerdDate("wrangler-unenv-polyfills");
+  const compatibilityDate = getWorkerdDate("workerd");
   shell.exec(`node workerd/dump.mjs ${compatibilityDate}`);
   shell.echo("=== Done ====================================\n\n");
   versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
-}
-
-// wrangler-unenv
-if (regenerateEnvs.includes("wrangler-unenv")) {
-  shell.echo(
-    'Generate `wrangler --compatibility-flags="nodejs_compat"` apis...'
-  );
-  const compatibilityDate = getWorkerdDate("wrangler-unenv-polyfills");
-  shell.exec(
-    `${fnm} exec --using=20 node wrangler-unenv-polyfills/dump.mjs ${compatibilityDate}`
-  );
-  shell.echo("=== Done ====================================\n\n");
-  versionMap["wranglerUnenv"] = extractNpmVersion(
-    "wrangler-unenv-polyfills",
-    "wrangler"
-  );
 }
 
 await fs.writeFile(
