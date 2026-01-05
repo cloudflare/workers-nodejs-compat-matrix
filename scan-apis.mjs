@@ -71,7 +71,7 @@ const versionMap = {};
 
 // Compare node versions to the baseline
 if (regenerateEnvs.includes("node")) {
-  const nodeVersions = [18, 20, 22];
+  const nodeVersions = [20, 22, 24];
   for (const version of nodeVersions) {
     shell.echo(`Generate node v${version} apis...`);
     shell.exec(

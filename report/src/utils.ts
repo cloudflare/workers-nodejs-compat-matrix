@@ -3,9 +3,9 @@ export const getPolyfillSearchLink = (target: string, symbol: string) => {
 
   let filter = null;
   switch (target) {
-    case "node18":
     case "node20":
     case "node22":
+    case "node24":
       filter = `repo:nodejs/node path:/^lib\\/internal\\//`;
       break;
     case "bun":

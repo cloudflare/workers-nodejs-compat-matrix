@@ -29,7 +29,7 @@ const versionSubtitles = {
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
-  node22: "Node.js",
+  node24: "Node.js",
   workerd: "Cloudflare Workers",
   bun: "Bun",
   deno: "Deno",
@@ -341,7 +341,7 @@ const App = () => {
                 </li>
                 <li className="mb-1">
                   The <span className="font-semibold">baseline</span> column
-                  represents a union of Node.js v18, v20, and v22 API surfaces
+                  represents a union of Node.js v20, v22, and v24 API surfaces
                   that we use as the ideal Node.js API compatibility target.
                 </li>
 
@@ -366,7 +366,7 @@ const App = () => {
                   <TableHeaderCell width="min-w-[25ch]">API</TableHeaderCell>
                   <TableHeaderCell width="min-w-[8ch]">
                     <div>baseline</div>
-                    <div className="text-xs font-light">22+20+18</div>
+                    <div className="text-xs font-light">24+22+20</div>
                   </TableHeaderCell>
                   {Object.entries(targetTitles).map(([targetKey, title]) => {
                     const versionSubtitle =
