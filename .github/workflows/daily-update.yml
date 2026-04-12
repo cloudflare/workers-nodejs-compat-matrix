@@ -1,0 +1,134 @@
+name: Update Workerd Data
+
+on:
+  # Run daily at 2:00am (after the deploy workflow runs at 1:15am)
+  schedule:
+    - cron: "0 2 * * *"
+  # Allow manual triggering
+  workflow_dispatch:
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need full history for creating PRs
+          fetch-depth: 0
+
+      - name: Setup fnm
+        run: |
+          # Install fnm
+          curl -fsSL https://fnm.vercel.app/install | bash
+          # Add fnm to PATH for current session
+          export PATH="$HOME/.local/share/fnm:$PATH"
+          eval "$(fnm env)"
+          # Install Node.js versions
+          fnm install 20
+          fnm install 22
+          fnm install 24
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - uses: pnpm/action-setup@v4
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Get current versions
+        id: current
+        run: |
+          workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
+          wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
+          echo "workerd=$workerd_version" >> "$GITHUB_OUTPUT"
+          echo "wrangler=$wrangler_version" >> "$GITHUB_OUTPUT"
+          echo "Current workerd version: $workerd_version"
+          echo "Current wrangler version: $wrangler_version"
+
+      - name: Update workerd and wrangler to latest
+        id: update
+        run: |
+          # Update both packages using pnpm workspace catalog
+          pnpm update workerd wrangler
+          # Get new versions from catalog
+          workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
+          wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
+          echo "workerd=$workerd_version" >> "$GITHUB_OUTPUT"
+          echo "wrangler=$wrangler_version" >> "$GITHUB_OUTPUT"
+          echo "New workerd version: $workerd_version"
+          echo "New wrangler version: $wrangler_version"
+
+      - name: Generate data
+        run: |
+          export PATH="$HOME/.local/share/fnm:$PATH"
+          eval "$(fnm env)"
+          pnpm run generate
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet HEAD -- data/ report/src/data/ pnpm-workspace.yaml pnpm-lock.yaml; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected - data is already up to date"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected - will create PR"
+          fi
+
+      - name: Create Pull Request
+        if: steps.check.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/workerd-wrangler-${{ steps.update.outputs.workerd }}
+          delete-branch: true
+          commit-message: |
+            chore: update workerd to ${{ steps.update.outputs.workerd }} and wrangler to ${{ steps.update.outputs.wrangler }}
+
+            Update workerd from ${{ steps.current.outputs.workerd }} to ${{ steps.update.outputs.workerd }}
+            and wrangler from ${{ steps.current.outputs.wrangler }} to ${{ steps.update.outputs.wrangler }}.
+            Regenerate compatibility data.
+          title: "chore: update workerd to ${{ steps.update.outputs.workerd }}"
+          body: |
+            ## 🤖 Automated Dependency Update
+
+            This PR updates workerd and wrangler, then regenerates the compatibility data.
+
+            | Package | From | To |
+            |---------|------|-----|
+            | workerd | ${{ steps.current.outputs.workerd }} | ${{ steps.update.outputs.workerd }} |
+            | wrangler | ${{ steps.current.outputs.wrangler }} | ${{ steps.update.outputs.wrangler }} |
+
+            ### Changes
+
+            - Updated `pnpm-workspace.yaml` catalog versions
+            - Regenerated all compatibility data via `pnpm run generate`
+
+            ### Checklist
+
+            - [ ] Review the data changes in `data/`
+            - [ ] Merge if changes look correct
+
+            > This PR was created automatically by the [Update Workerd](${{ github.server_url }}/${{ github.repository }}/actions/workflows/daily-update.yml) workflow.
+          labels: |
+            automated
+            dependencies
+          add-paths: |
+            data/
+            pnpm-workspace.yaml
+            pnpm-lock.yaml
+            report/src/data/
