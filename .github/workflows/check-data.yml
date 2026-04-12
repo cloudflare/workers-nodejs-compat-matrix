@@ -49,7 +49,11 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Backup original data
-        run: cp -r data data-backup
+        run: |
+          mkdir -p backup/data backup/report-src-data backup/report-public
+          cp data/*.json backup/data/
+          cp report/src/data/*.json backup/report-src-data/
+          cp report/public/runtime-support.csv backup/report-public/ || true
 
       - name: Generate data
         run: |
@@ -62,7 +66,7 @@ jobs:
         run: |
           echo "Checking for differences between generated and committed data..."
 
-          # Compare each data file
+          # Compare each data file (note: timestamp.json is excluded as it changes on every generation)
           files=(
             "data/baseline.json"
             "data/bun.json"
@@ -71,14 +75,26 @@ jobs:
             "data/node-22.json"
             "data/node-24.json"
             "data/workerd.json"
+            "report/src/data/table-data.json"
+            "report/src/data/versionMap.json"
+            "report/public/runtime-support.csv"
           )
 
           has_diff=false
           changed_files=""
           for file in "${files[@]}"; do
-            if ! diff -u "data-backup/$(basename $file)" "$file" > /dev/null 2>&1; then
+            backup_path="backup"
+            if [[ "$file" == data/* ]]; then
+              backup_file="$backup_path/data/$(basename $file)"
+            elif [[ "$file" == report/src/data/* ]]; then
+              backup_file="$backup_path/report-src-data/$(basename $file)"
+            elif [[ "$file" == report/public/* ]]; then
+              backup_file="$backup_path/report-public/$(basename $file)"
+            fi
+
+            if ! diff -u "$backup_file" "$file" > /dev/null 2>&1; then
               echo "❌ $file has changed!"
-              changed_files="$changed_files- $file\\n"
+              changed_files="$changed_files- $file\n"
               has_diff=true
             else
               echo "✅ $file is up to date"
@@ -103,7 +119,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: generated-data
-          path: data/
+          path: |
+            data/
+            report/src/data/table-data.json
+            report/src/data/versionMap.json
+            report/src/data/timestamp.json
+            report/public/runtime-support.csv
           retention-days: 7
 
       - name: Update PR comment
@@ -153,7 +174,7 @@ jobs:
               body = `<!-- check-data-comment -->
             ## ✅ Generated Data Up to Date
 
-            All data files in \`data/\` match the generated output.`;
+            All generated data files match the committed output.`;
             }
 
             if (botComment) {
