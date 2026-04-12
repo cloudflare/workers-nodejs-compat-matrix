@@ -2,6 +2,6 @@
   "name": "workerd-dump",
   "private": "true",
   "devDependencies": {
-    "workerd": "^1.20260101.0"
+    "workerd": "^1.20260412.1"
   }
 }
