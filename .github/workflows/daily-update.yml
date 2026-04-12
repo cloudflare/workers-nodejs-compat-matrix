@@ -78,15 +78,37 @@ jobs:
           eval "$(fnm env)"
           pnpm run generate
 
-      - name: Check for changes
+      - name: Check for meaningful changes
         id: check
         run: |
+          # First check if there are any changes at all
           if git diff --quiet HEAD -- data/ report/src/data/ pnpm-workspace.yaml pnpm-lock.yaml; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No changes detected - data is already up to date"
-          else
+            exit 0
+          fi
+
+          # Check if changes are only in timestamp.json (which always changes)
+          # Get list of changed files
+          changed_files=$(git diff --name-only HEAD -- data/ report/src/data/ pnpm-workspace.yaml pnpm-lock.yaml)
+          echo "Changed files:"
+          echo "$changed_files"
+
+          # Check if any meaningful files changed (excluding timestamp.json)
+          meaningful_changes=false
+          while IFS= read -r file; do
+            if [ "$file" != "report/src/data/timestamp.json" ]; then
+              meaningful_changes=true
+              break
+            fi
+          done <<< "$changed_files"
+
+          if [ "$meaningful_changes" = true ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
-            echo "Changes detected - will create PR"
+            echo "Meaningful changes detected - will create PR"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "Only timestamp.json changed - skipping PR creation"
           fi
 
       - name: Create Pull Request
