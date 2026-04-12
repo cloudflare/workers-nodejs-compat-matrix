@@ -49,6 +49,10 @@ for (const module of ignoredModules) {
 // We remove everything that starts with an underscore since they're internal APIs
 // that we are not targeting at the moment.
 for (const mod of Object.keys(baseline)) {
+  if (mod.startsWith("_")) {
+    delete baseline[mod];
+    continue;
+  }
   if (typeof baseline[mod] === "object") {
     for (const key of Object.keys(baseline[mod])) {
       if (key.startsWith("_")) {
