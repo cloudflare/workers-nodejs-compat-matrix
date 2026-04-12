@@ -1,0 +1,175 @@
+name: Check Generated Data
+
+on:
+  pull_request:
+  merge_group:
+  push:
+    branches:
+      - main
+
+concurrency:
+  # Cancel existing builds for the same PR.
+  # Otherwise, all other builds will be allowed to run through.
+  group: check-data.yml-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  check-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup fnm
+        run: |
+          # Install fnm
+          curl -fsSL https://fnm.vercel.app/install | bash
+          # Add fnm to PATH for current session
+          export PATH="$HOME/.local/share/fnm:$PATH"
+          eval "$(fnm env)"
+          # Install Node.js versions
+          fnm install 20
+          fnm install 22
+          fnm install 24
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - uses: pnpm/action-setup@v4
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Backup original data
+        run: cp -r data data-backup
+
+      - name: Generate data
+        run: |
+          export PATH="$HOME/.local/share/fnm:$PATH"
+          eval "$(fnm env)"
+          pnpm run generate
+
+      - name: Check for differences
+        id: check
+        run: |
+          echo "Checking for differences between generated and committed data..."
+
+          # Compare each data file
+          files=(
+            "data/baseline.json"
+            "data/bun.json"
+            "data/deno.json"
+            "data/node-20.json"
+            "data/node-22.json"
+            "data/node-24.json"
+            "data/workerd.json"
+          )
+
+          has_diff=false
+          changed_files=""
+          for file in "${files[@]}"; do
+            if ! diff -u "data-backup/$(basename $file)" "$file" > /dev/null 2>&1; then
+              echo "❌ $file has changed!"
+              changed_files="$changed_files- $file\\n"
+              has_diff=true
+            else
+              echo "✅ $file is up to date"
+            fi
+          done
+
+          # Output results for PR comment
+          echo "has_diff=$has_diff" >> "$GITHUB_OUTPUT"
+          echo "changed_files=$changed_files" >> "$GITHUB_OUTPUT"
+
+          if [ "$has_diff" = true ]; then
+            echo ""
+            echo "ERROR: Generated data does not match committed data!"
+            exit 1
+          fi
+
+          echo ""
+          echo "All data files are up to date!"
+
+      - name: Upload generated data
+        if: failure() && steps.check.outputs.has_diff == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-data
+          path: data/
+          retention-days: 7
+
+      - name: Update PR comment
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const hasDiff = ${{ steps.check.outputs.has_diff }};
+            const changedFiles = `${{ steps.check.outputs.changed_files }}`;
+            const runUrl = `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
+
+            // Find existing comment from this workflow
+            const { data: comments } = await github.rest.issues.listComments({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+
+            const botComment = comments.find(comment => 
+              comment.user?.login === 'github-actions[bot]' &&
+              comment.body?.includes('<!-- check-data-comment -->')
+            );
+
+            let body;
+            if (hasDiff) {
+              body = `<!-- check-data-comment -->
+            ## ❌ Generated Data Mismatch
+
+            The following data files are out of date and need to be regenerated:
+
+            ${changedFiles}
+
+            ### How to fix
+
+            Run the following command locally and commit the changes:
+
+            \`\`\`bash
+            pnpm run generate
+            \`\`\`
+
+            **Note:** This requires Node.js 20, 22, and 24 (via fnm), Bun, and Deno to be installed.
+
+            ### Download generated data
+
+            You can download the CI-generated data from the [workflow artifacts](${runUrl}).`;
+            } else {
+              body = `<!-- check-data-comment -->
+            ## ✅ Generated Data Up to Date
+
+            All data files in \`data/\` match the generated output.`;
+            }
+
+            if (botComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                comment_id: botComment.id,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              });
+            }
