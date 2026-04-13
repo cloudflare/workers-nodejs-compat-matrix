@@ -60,8 +60,11 @@ jobs:
           export PATH="$HOME/.local/share/fnm:$PATH"
           eval "$(fnm env)"
 
-          # Update catalog versions to latest and install
+          # Update catalog versions to latest
           pnpm update --latest workerd wrangler
+
+          # Install dependencies (needed after catalog update)
+          pnpm install
 
           # Get new versions from catalog
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
