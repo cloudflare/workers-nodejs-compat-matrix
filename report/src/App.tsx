@@ -8,7 +8,6 @@ import { mismatch, matching, missing } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 import { formatPct, getDocsLink, getPolyfillSearchLink, pct } from "./utils";
-import { z } from "zod";
 import { ignoredModules } from "./ignored-modules.js";
 import { TrendChart } from "./TrendChart";
 
@@ -35,15 +34,7 @@ const targetTitles = {
   deno: "Deno",
 };
 
-const rowSchema = z.tuple([
-  z.string(), // key
-  z.number(), // leaf count
-  z.number().or(z.string()), // basline
-  // targets
-  ...Object.keys(targetTitles).map(() => z.number().or(z.string())),
-]);
-
-type RowData = z.infer<typeof rowSchema>;
+type RowData = [string, number, string | number, ...(string | number)[]];
 
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
@@ -118,7 +109,7 @@ const App = () => {
               {baselineSupport}
             </span>
           </TableCell>
-          {targets.map((target) => {
+          {targets.map((target, index) => {
             const [matching, mismatch, missing] = (target as string)
               .split("/")
               .map((i) => parseInt(i as string));
@@ -141,7 +132,7 @@ const App = () => {
             const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMatching: ${matching}`;
 
             return (
-              <TableCell color={bgColor}>
+              <TableCell key={index} color={bgColor}>
                 <div
                   title={tooltip}
                   className={`flex gap-3 justify-center items-center`}
@@ -233,7 +224,7 @@ const App = () => {
             <div className="text-xs">{baselineCount}</div>
           </div>
         </TableCell>
-        {targetTotals.map((targetTotal) => {
+        {targetTotals.map((targetTotal, index) => {
           const [matching, mismatch, missing] = (targetTotal as string)
             .split("/")
             .map((i) => parseInt(i as string, 10));
@@ -247,7 +238,7 @@ const App = () => {
           const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}`;
 
           return (
-            <TableCell>
+            <TableCell key={index}>
               <div title={tooltip}>
                 <span className="text-sm font-semibold">
                   {formatPct(presentPct)}
