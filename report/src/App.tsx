@@ -63,13 +63,12 @@ const App = () => {
     }
 
     const renderSupportValue = (value: string) => {
-      console.log(value);
       switch (value) {
         case "supported":
           return matching;
-        case "unsupported":
+        case "mismatch":
           return mismatch;
-        case "missing":
+        case "unsupported":
         default:
           return missing;
       }

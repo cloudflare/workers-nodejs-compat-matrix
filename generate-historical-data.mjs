@@ -209,11 +209,11 @@ async function calculateSupportPercentage() {
     const moduleInfo = target[moduleName];
 
     // Stub module can be identified as a module that has only one key - the default,
-    // which in turn has only one key, the synthetic "*default*" key
+    // which in turn has only one key, the synthetic "*self*" key
     return (
       moduleInfo &&
       Object.keys(moduleInfo).length === 1 &&
-      moduleInfo.default?.["*default*"] &&
+      moduleInfo.default?.["*self*"] &&
       Object.keys(moduleInfo.default).length === 1
     );
   };
