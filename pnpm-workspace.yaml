@@ -4,5 +4,5 @@ packages:
   - "report"
 
 catalog:
-  workerd: ^1.20260412.1
-  wrangler: ^4.81.1
+  workerd: ^1.20260413.1
+  wrangler: ^4.82.0
