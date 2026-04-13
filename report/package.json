@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,17 +35,17 @@
     ]
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260412.1",
+    "@cloudflare/workers-types": "^4.20260413.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^16.18.126",
-    "@types/react": "^18.3.28",
-    "@types/react-dom": "^18.3.7",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "jest-canvas-mock": "^2.5.2",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^4.9.5",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
     "wrangler": "catalog:"
   }
 }
