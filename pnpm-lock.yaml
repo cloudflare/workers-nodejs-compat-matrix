@@ -6,6 +6,9 @@ settings:
 
 catalogs:
   default:
+    workerd:
+      specifier: ^1.20260412.1
+      version: 1.20260412.1
     wrangler:
       specifier: ^4.81.1
       version: 4.81.1
@@ -72,7 +75,7 @@ importers:
   workerd:
     devDependencies:
       workerd:
-        specifier: ^1.20260412.1
+        specifier: 'catalog:'
         version: 1.20260412.1
 
 packages:
