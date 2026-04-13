@@ -3,6 +3,9 @@ packages:
   - "workerd"
   - "report"
 
+onlyBuiltDependencies:
+  - workerd
+
 catalog:
   workerd: ^1.20260412.1
   wrangler: ^4.81.1
