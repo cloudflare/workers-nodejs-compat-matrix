@@ -62,8 +62,8 @@ jobs:
       - name: Update workerd and wrangler to latest
         id: update
         run: |
-          # Update both packages using pnpm workspace catalog
-          pnpm update workerd wrangler
+          # Update both packages using pnpm workspace catalog (--latest to bump catalog version)
+          pnpm update --latest workerd wrangler
           # Get new versions from catalog
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
