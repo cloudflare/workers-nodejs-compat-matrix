@@ -46,47 +46,30 @@ jobs:
 
       - uses: pnpm/action-setup@v4
 
-      - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Get current versions
+      - name: Save current versions
         id: current
         run: |
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           echo "workerd=$workerd_version" >> "$GITHUB_OUTPUT"
           echo "wrangler=$wrangler_version" >> "$GITHUB_OUTPUT"
-          echo "Current workerd version: $workerd_version"
-          echo "Current wrangler version: $wrangler_version"
 
-      - name: Update workerd and wrangler to latest
+      - name: Update dependencies and generate data
         id: update
         run: |
-          # Get latest versions from npm
-          latest_workerd=$(npm view workerd version)
-          latest_wrangler=$(npm view wrangler version)
-          echo "Latest workerd: $latest_workerd"
-          echo "Latest wrangler: $latest_wrangler"
+          export PATH="$HOME/.local/share/fnm:$PATH"
+          eval "$(fnm env)"
 
-          # Update catalog versions in pnpm-workspace.yaml
-          sed -i "s/workerd: \\^[0-9.]*/workerd: ^$latest_workerd/" pnpm-workspace.yaml
-          sed -i "s/wrangler: \\^[0-9.]*/wrangler: ^$latest_wrangler/" pnpm-workspace.yaml
-
-          # Update lockfile
-          pnpm install
+          # Update catalog versions to latest and install
+          pnpm update --latest workerd wrangler
 
           # Get new versions from catalog
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           echo "workerd=$workerd_version" >> "$GITHUB_OUTPUT"
           echo "wrangler=$wrangler_version" >> "$GITHUB_OUTPUT"
-          echo "New workerd version: $workerd_version"
-          echo "New wrangler version: $wrangler_version"
 
-      - name: Generate data
-        run: |
-          export PATH="$HOME/.local/share/fnm:$PATH"
-          eval "$(fnm env)"
+          # Generate data with updated packages
           pnpm run generate
 
       - name: Check for meaningful changes
@@ -100,7 +83,6 @@ jobs:
           fi
 
           # Check if changes are only in timestamp.json (which always changes)
-          # Get list of changed files
           changed_files=$(git diff --name-only HEAD -- data/ report/src/data/ pnpm-workspace.yaml pnpm-lock.yaml)
           echo "Changed files:"
           echo "$changed_files"
