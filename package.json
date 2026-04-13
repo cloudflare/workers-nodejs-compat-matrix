@@ -18,5 +18,10 @@
     "report:deploy": "pnpm run --filter report deploy",
     "update:compat-date": "node ./update-compat-date.mjs"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "workerd"
+    ]
+  },
   "packageManager": "pnpm@10.0.0"
 }
