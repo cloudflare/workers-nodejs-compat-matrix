@@ -60,13 +60,18 @@ jobs:
           export PATH="$HOME/.local/share/fnm:$PATH"
           eval "$(fnm env)"
 
-          # Update catalog versions to latest
-          pnpm update --latest workerd wrangler
+          # Get latest versions from npm
+          latest_workerd=$(npm view workerd version)
+          latest_wrangler=$(npm view wrangler version)
 
-          # Install dependencies (needed after catalog update)
+          # Update catalog versions in pnpm-workspace.yaml
+          sed -i "s/workerd: \\^[0-9.]*/workerd: ^$latest_workerd/" pnpm-workspace.yaml
+          sed -i "s/wrangler: \\^[0-9.]*/wrangler: ^$latest_wrangler/" pnpm-workspace.yaml
+
+          # Install updated dependencies
           pnpm install
 
-          # Get new versions from catalog
+          # Get new versions from catalog for outputs
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           wrangler_version=$(grep -o 'wrangler: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
           echo "workerd=$workerd_version" >> "$GITHUB_OUTPUT"
