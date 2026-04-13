@@ -48,19 +48,28 @@ for (const module of ignoredModules) {
 
 // We remove everything that starts with an underscore since they're internal APIs
 // that we are not targeting at the moment.
+function removeUnderscoreProperties(obj) {
+  if (typeof obj !== "object" || obj === null) {
+    return obj;
+  }
+
+  for (const key of Object.keys(obj)) {
+    if (key.startsWith("_")) {
+      delete obj[key];
+    } else if (typeof obj[key] === "object" && obj[key] !== null) {
+      removeUnderscoreProperties(obj[key]);
+    }
+  }
+
+  return obj;
+}
+
 for (const mod of Object.keys(baseline)) {
   if (mod.startsWith("_")) {
     delete baseline[mod];
     continue;
   }
-  if (typeof baseline[mod] === "object") {
-    for (const key of Object.keys(baseline[mod])) {
-      if (key.startsWith("_")) {
-        delete baseline[mod][key];
-        delete baseline[mod].default[key];
-      }
-    }
-  }
+  removeUnderscoreProperties(baseline[mod]);
 }
 
 // Retain a copy of the baseline in the `node` folder for bun and deno
