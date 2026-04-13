@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.3.1",
+    "react": "^19.2.5",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -41,7 +41,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@types/node": "^16.18.126",
-    "@types/react": "^18.3.28",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^18.3.7",
     "jest-canvas-mock": "^2.5.2",
     "tailwindcss": "^3.4.19",
