@@ -56,8 +56,8 @@ importers:
         specifier: ^4.9.5
         version: 4.9.5
       web-vitals:
-        specifier: ^2.1.4
-        version: 2.1.4
+        specifier: ^5.2.0
+        version: 5.2.0
       zod:
         specifier: ^4.3.6
         version: 4.3.6
@@ -5665,8 +5665,8 @@ packages:
   wbuf@1.7.3:
     resolution: {integrity: sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==}
 
-  web-vitals@2.1.4:
-    resolution: {integrity: sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==}
+  web-vitals@5.2.0:
+    resolution: {integrity: sha512-i2z98bEmaCqSDiHEDu+gHl/dmR4Q+TxFmG3/13KkMO+o8UxQzCqWaDRCiLgEa41nlO4VpXSI0ASa1xWmO9sBlA==}
 
   webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
@@ -12485,7 +12485,7 @@ snapshots:
     dependencies:
       minimalistic-assert: 1.0.1
 
-  web-vitals@2.1.4: {}
+  web-vitals@5.2.0: {}
 
   webidl-conversions@4.0.2: {}
 
