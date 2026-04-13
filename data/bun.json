@@ -5542,31 +5542,31 @@
     }
   },
   "node:test": {
-    "*self*": "missing",
-    "after": "missing",
-    "afterEach": "missing",
+    "*self*": "object",
+    "after": "function",
+    "afterEach": "function",
     "assert": {
-      "*self*": "missing",
+      "*self*": "object",
       "register": "missing"
     },
-    "before": "missing",
-    "beforeEach": "missing",
+    "before": "function",
+    "beforeEach": "function",
     "default": {
-      "*self*": "missing",
-      "after": "missing",
-      "afterEach": "missing",
+      "*self*": "function",
+      "after": "function",
+      "afterEach": "function",
       "assert": {
-        "*self*": "missing",
+        "*self*": "object",
         "register": "missing"
       },
-      "before": "missing",
-      "beforeEach": "missing",
-      "describe": "missing",
+      "before": "function",
+      "beforeEach": "function",
+      "describe": "function",
       "expectFailure": "missing",
-      "it": "missing",
-      "length": "missing",
+      "it": "function",
+      "length": "number",
       "mock": {
-        "*self*": "missing",
+        "*self*": "function",
         "fn": "missing",
         "getter": "missing",
         "method": "missing",
@@ -5576,24 +5576,24 @@
         "setter": "missing",
         "timers": "missing"
       },
-      "name": "missing",
-      "only": "missing",
-      "run": "missing",
-      "skip": "missing",
+      "name": "string",
+      "only": "function",
+      "run": "function",
+      "skip": "function",
       "snapshot": {
-        "*self*": "missing",
+        "*self*": "object",
         "setDefaultSnapshotSerializers": "missing",
-        "setResolveSnapshotPath": "missing"
+        "setResolveSnapshotPath": "function"
       },
-      "suite": "missing",
-      "test": "missing",
-      "todo": "missing"
+      "suite": "function",
+      "test": "function",
+      "todo": "function"
     },
-    "describe": "missing",
+    "describe": "function",
     "expectFailure": "missing",
-    "it": "missing",
+    "it": "function",
     "mock": {
-      "*self*": "missing",
+      "*self*": "function",
       "fn": "missing",
       "getter": "missing",
       "method": "missing",
@@ -5610,17 +5610,17 @@
         "tick": "missing"
       }
     },
-    "only": "missing",
-    "run": "missing",
-    "skip": "missing",
+    "only": "function",
+    "run": "function",
+    "skip": "function",
     "snapshot": {
-      "*self*": "missing",
+      "*self*": "object",
       "setDefaultSnapshotSerializers": "missing",
-      "setResolveSnapshotPath": "missing"
+      "setResolveSnapshotPath": "function"
     },
-    "suite": "missing",
-    "test": "missing",
-    "todo": "missing"
+    "suite": "function",
+    "test": "function",
+    "todo": "function"
   },
   "node:test/reporters": {
     "*self*": "missing",

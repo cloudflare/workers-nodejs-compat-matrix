@@ -25,7 +25,8 @@ for (const name of Object.keys(baseline)) {
   }
 
   try {
-    const module = await import(`node:${name}`);
+    const moduleName = name.startsWith("node:") ? name : `node:${name}`;
+    const module = await import(moduleName);
     importedModules[name] = module;
   } catch {
     continue;

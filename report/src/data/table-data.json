@@ -4,9 +4,9 @@
     8408,
     8408,
     "8291/0/117",
-    "7466/19/923",
-    "7245/15/1148",
-    "6829/3/1576"
+    "7581/20/807",
+    "7279/17/1112",
+    "6956/3/1449"
   ],
   [
     "*globals*",
@@ -47659,45 +47659,45 @@
     102,
     102,
     "102/0/0",
+    "100/0/2",
     "0/0/102",
-    "0/0/102",
-    "0/0/102"
+    "100/0/2"
   ],
   [
     "node:sqlite.*self*",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default",
     51,
     51,
     "51/0/0",
+    "50/0/1",
     "0/0/51",
-    "0/0/51",
-    "0/0/51"
+    "50/0/1"
   ],
   [
     "node:sqlite.default.*self*",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.DatabaseSync",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.Session",
@@ -47713,450 +47713,450 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.backup",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants",
     46,
     46,
     "46/0/0",
+    "46/0/0",
     "0/0/46",
-    "0/0/46",
-    "0/0/46"
+    "46/0/0"
   ],
   [
     "node:sqlite.default.constants.*self*",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_ALTER_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_ANALYZE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_ATTACH",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_ABORT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_CONFLICT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_CONSTRAINT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_DATA",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_FOREIGN_KEY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_NOTFOUND",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_OMIT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CHANGESET_REPLACE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_COPY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TEMP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TEMP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TEMP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TEMP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_CREATE_VTABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DELETE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DENY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DETACH",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TEMP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TEMP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TEMP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TEMP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_DROP_VTABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_FUNCTION",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_IGNORE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_INSERT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_OK",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_PRAGMA",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_READ",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_RECURSIVE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_REINDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_SAVEPOINT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_SELECT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_TRANSACTION",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.default.constants.SQLITE_UPDATE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.DatabaseSync",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.Session",
@@ -48172,477 +48172,477 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.backup",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants",
     46,
     46,
     "46/0/0",
+    "46/0/0",
     "0/0/46",
-    "0/0/46",
-    "0/0/46"
+    "46/0/0"
   ],
   [
     "node:sqlite.constants.*self*",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_ALTER_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_ANALYZE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_ATTACH",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_ABORT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_CONFLICT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_CONSTRAINT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_DATA",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_FOREIGN_KEY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_NOTFOUND",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_OMIT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CHANGESET_REPLACE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_COPY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TEMP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TEMP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TEMP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TEMP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_CREATE_VTABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DELETE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DENY",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DETACH",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TEMP_INDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TEMP_TABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TEMP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TEMP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_TRIGGER",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_VIEW",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_DROP_VTABLE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_FUNCTION",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_IGNORE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_INSERT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_OK",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_PRAGMA",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_READ",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_RECURSIVE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_REINDEX",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_SAVEPOINT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_SELECT",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_TRANSACTION",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:sqlite.constants.SQLITE_UPDATE",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test",
     63,
     63,
     "63/0/0",
-    "0/0/63",
-    "0/0/63",
-    "0/0/63"
+    "15/1/47",
+    "34/2/27",
+    "27/0/36"
   ],
   [
     "node:test.*self*",
     0,
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported",
+    "supported"
   ],
   [
     "node:test.default",
     30,
     30,
     "30/0/0",
-    "0/0/30",
-    "0/0/30",
-    "0/0/30"
+    "7/1/22",
+    "18/1/11",
+    "16/0/14"
   ],
   [
     "node:test.default.*self*",
     0,
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
+    "mismatch",
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.after",
@@ -48650,7 +48650,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48659,7 +48659,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48668,7 +48668,7 @@
     2,
     "2/0/0",
     "0/0/2",
-    "0/0/2",
+    "1/0/1",
     "0/0/2"
   ],
   [
@@ -48677,7 +48677,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48695,7 +48695,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48704,7 +48704,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48713,8 +48713,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.expectFailure",
@@ -48731,8 +48731,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.length",
@@ -48740,42 +48740,42 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.mock",
     9,
     9,
     "9/0/0",
-    "0/0/9",
-    "0/0/9",
-    "0/0/9"
+    "7/0/2",
+    "0/1/8",
+    "6/0/3"
   ],
   [
     "node:test.default.mock.*self*",
     0,
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "mismatch",
+    "supported"
   ],
   [
     "node:test.default.mock.fn",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.default.mock.getter",
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported"
   ],
@@ -48784,9 +48784,9 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.default.mock.property",
@@ -48802,25 +48802,25 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.default.mock.restoreAll",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.default.mock.setter",
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported"
   ],
@@ -48831,7 +48831,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.default.name",
@@ -48839,8 +48839,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.only",
@@ -48848,8 +48848,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.run",
@@ -48857,7 +48857,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48866,8 +48866,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.snapshot",
@@ -48875,7 +48875,7 @@
     3,
     "3/0/0",
     "0/0/3",
-    "0/0/3",
+    "2/0/1",
     "0/0/3"
   ],
   [
@@ -48884,7 +48884,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48902,7 +48902,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48911,8 +48911,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.test",
@@ -48920,8 +48920,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.default.todo",
@@ -48929,8 +48929,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.after",
@@ -48938,7 +48938,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48947,7 +48947,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48956,7 +48956,7 @@
     2,
     "2/0/0",
     "0/0/2",
-    "0/0/2",
+    "1/0/1",
     "0/0/2"
   ],
   [
@@ -48965,7 +48965,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48983,7 +48983,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -48992,7 +48992,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49001,8 +49001,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.expectFailure",
@@ -49019,42 +49019,42 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.mock",
     14,
     14,
     "14/0/0",
-    "0/0/14",
-    "0/0/14",
-    "0/0/14"
+    "7/0/7",
+    "0/1/13",
+    "6/0/8"
   ],
   [
     "node:test.mock.*self*",
     0,
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "mismatch",
+    "supported"
   ],
   [
     "node:test.mock.fn",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.mock.getter",
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported"
   ],
@@ -49063,9 +49063,9 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.mock.property",
@@ -49081,25 +49081,25 @@
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.mock.restoreAll",
     0,
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.mock.setter",
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported"
   ],
@@ -49110,7 +49110,7 @@
     "6/0/0",
     "0/0/6",
     "0/0/6",
-    "0/0/6"
+    "1/0/5"
   ],
   [
     "node:test.mock.timers.*self*",
@@ -49119,7 +49119,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "node:test.mock.timers.enable",
@@ -49172,7 +49172,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49181,7 +49181,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49190,7 +49190,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49199,7 +49199,7 @@
     3,
     "3/0/0",
     "0/0/3",
-    "0/0/3",
+    "2/0/1",
     "0/0/3"
   ],
   [
@@ -49208,7 +49208,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49226,7 +49226,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -49235,8 +49235,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.test",
@@ -49244,8 +49244,8 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported",
+    "supported"
   ],
   [
     "node:test.todo",
@@ -49253,7 +49253,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
