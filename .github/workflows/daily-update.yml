@@ -68,8 +68,8 @@ jobs:
           sed -i "s/workerd: \\^[0-9.]*/workerd: ^$latest_workerd/" pnpm-workspace.yaml
           sed -i "s/wrangler: \\^[0-9.]*/wrangler: ^$latest_wrangler/" pnpm-workspace.yaml
 
-          # Install updated dependencies
-          pnpm install
+          # Force lockfile update and install
+          pnpm install --force
 
           # Get new versions from catalog for outputs
           workerd_version=$(grep -o 'workerd: \^[^ ]*' pnpm-workspace.yaml | cut -d'^' -f2)
