@@ -1,21 +1,21 @@
 [
   [
     "Totals",
-    8408,
-    8408,
-    "8291/0/117",
-    "7862/20/526",
-    "7279/17/1112",
-    "6956/3/1449"
+    8427,
+    8427,
+    "8310/0/117",
+    "7862/20/545",
+    "7279/17/1131",
+    "6956/3/1468"
   ],
   [
     "*globals*",
-    2046,
-    2046,
-    "2039/0/7",
-    "1903/3/140",
-    "1811/2/233",
-    "1824/0/222"
+    2052,
+    2052,
+    "2045/0/7",
+    "1903/3/146",
+    "1811/2/239",
+    "1824/0/228"
   ],
   [
     "*globals*.*self*",
@@ -14842,12 +14842,12 @@
   ],
   [
     "*globals*.process",
-    434,
-    434,
-    "429/0/5",
-    "317/3/114",
-    "264/2/168",
-    "270/0/164"
+    440,
+    440,
+    "435/0/5",
+    "317/3/120",
+    "264/2/174",
+    "270/0/170"
   ],
   [
     "*globals*.process.*self*",
@@ -16003,12 +16003,12 @@
   ],
   [
     "*globals*.process.stderr",
-    92,
-    92,
-    "91/0/1",
-    "50/0/42",
-    "40/0/52",
-    "37/0/55"
+    94,
+    94,
+    "93/0/1",
+    "50/0/44",
+    "40/0/54",
+    "37/0/57"
   ],
   [
     "*globals*.process.stderr.*self*",
@@ -16261,6 +16261,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "*globals*.process.stderr.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.isPaused",
@@ -16677,6 +16686,15 @@
     "unsupported"
   ],
   [
+    "*globals*.process.stderr.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.process.stderr.some",
     0,
     "supported",
@@ -16840,12 +16858,12 @@
   ],
   [
     "*globals*.process.stdin",
-    93,
-    93,
-    "92/0/1",
-    "62/1/30",
-    "58/1/34",
-    "69/0/24"
+    95,
+    95,
+    "94/0/1",
+    "62/1/32",
+    "58/1/36",
+    "69/0/26"
   ],
   [
     "*globals*.process.stdin.*self*",
@@ -17107,6 +17125,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "*globals*.process.stdin.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.isPaused",
@@ -17523,6 +17550,15 @@
     "unsupported"
   ],
   [
+    "*globals*.process.stdin.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.process.stdin.some",
     0,
     "supported",
@@ -17686,12 +17722,12 @@
   ],
   [
     "*globals*.process.stdout",
-    93,
-    93,
-    "92/0/1",
-    "51/0/42",
-    "40/0/53",
-    "37/0/56"
+    95,
+    95,
+    "94/0/1",
+    "51/0/44",
+    "40/0/55",
+    "37/0/58"
   ],
   [
     "*globals*.process.stdout.*self*",
@@ -17953,6 +17989,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "*globals*.process.stdout.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.isPaused",
@@ -18361,6 +18406,15 @@
   ],
   [
     "*globals*.process.stdout.setTimeout",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "*globals*.process.stdout.setTypeOfService",
     0,
     "supported",
     "supported",
@@ -56953,12 +57007,12 @@
   ],
   [
     "process",
-    968,
-    968,
-    "954/0/14",
-    "726/6/236",
-    "530/5/433",
-    "483/0/485"
+    981,
+    981,
+    "967/0/14",
+    "726/6/249",
+    "530/5/446",
+    "483/0/498"
   ],
   [
     "process.*self*",
@@ -56971,12 +57025,12 @@
   ],
   [
     "process.default",
-    434,
-    434,
-    "429/0/5",
-    "317/3/114",
-    "264/2/168",
-    "270/0/164"
+    440,
+    440,
+    "435/0/5",
+    "317/3/120",
+    "264/2/174",
+    "270/0/170"
   ],
   [
     "process.default.*self*",
@@ -58132,12 +58186,12 @@
   ],
   [
     "process.default.stderr",
-    92,
-    92,
-    "91/0/1",
-    "50/0/42",
-    "40/0/52",
-    "37/0/55"
+    94,
+    94,
+    "93/0/1",
+    "50/0/44",
+    "40/0/54",
+    "37/0/57"
   ],
   [
     "process.default.stderr.*self*",
@@ -58390,6 +58444,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.default.stderr.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.default.stderr.isPaused",
@@ -58806,6 +58869,15 @@
     "unsupported"
   ],
   [
+    "process.default.stderr.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.default.stderr.some",
     0,
     "supported",
@@ -58969,12 +59041,12 @@
   ],
   [
     "process.default.stdin",
-    93,
-    93,
-    "92/0/1",
-    "62/1/30",
-    "58/1/34",
-    "69/0/24"
+    95,
+    95,
+    "94/0/1",
+    "62/1/32",
+    "58/1/36",
+    "69/0/26"
   ],
   [
     "process.default.stdin.*self*",
@@ -59236,6 +59308,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.default.stdin.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.default.stdin.isPaused",
@@ -59652,6 +59733,15 @@
     "unsupported"
   ],
   [
+    "process.default.stdin.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.default.stdin.some",
     0,
     "supported",
@@ -59815,12 +59905,12 @@
   ],
   [
     "process.default.stdout",
-    93,
-    93,
-    "92/0/1",
-    "51/0/42",
-    "40/0/53",
-    "37/0/56"
+    95,
+    95,
+    "94/0/1",
+    "51/0/44",
+    "40/0/55",
+    "37/0/58"
   ],
   [
     "process.default.stdout.*self*",
@@ -60082,6 +60172,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.default.stdout.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.default.stdout.isPaused",
@@ -60490,6 +60589,15 @@
   ],
   [
     "process.default.stdout.setTimeout",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.default.stdout.setTypeOfService",
     0,
     "supported",
     "supported",
@@ -61219,12 +61327,12 @@
   ],
   [
     "process.config",
-    118,
-    118,
-    "114/0/4",
-    "110/0/8",
-    "20/1/97",
-    "0/0/118"
+    119,
+    119,
+    "115/0/4",
+    "110/0/9",
+    "20/1/98",
+    "0/0/119"
   ],
   [
     "process.config.*self*",
@@ -61309,12 +61417,12 @@
   ],
   [
     "process.config.variables",
-    110,
-    110,
-    "106/0/4",
-    "107/0/3",
-    "18/1/91",
-    "0/0/110"
+    111,
+    111,
+    "107/0/4",
+    "107/0/4",
+    "18/1/92",
+    "0/0/111"
   ],
   [
     "process.config.variables.*self*",
@@ -61386,6 +61494,15 @@
     "supported",
     "supported",
     "supported",
+    "unsupported"
+  ],
+  [
+    "process.config.variables.debug_symbols",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -63046,12 +63163,12 @@
   ],
   [
     "process.stderr",
-    92,
-    92,
-    "91/0/1",
-    "50/0/42",
-    "40/0/52",
-    "37/0/55"
+    94,
+    94,
+    "93/0/1",
+    "50/0/44",
+    "40/0/54",
+    "37/0/57"
   ],
   [
     "process.stderr.*self*",
@@ -63304,6 +63421,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.stderr.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.stderr.isPaused",
@@ -63720,6 +63846,15 @@
     "unsupported"
   ],
   [
+    "process.stderr.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.stderr.some",
     0,
     "supported",
@@ -63883,12 +64018,12 @@
   ],
   [
     "process.stdin",
-    93,
-    93,
-    "92/0/1",
-    "62/1/30",
-    "58/1/34",
-    "69/0/24"
+    95,
+    95,
+    "94/0/1",
+    "62/1/32",
+    "58/1/36",
+    "69/0/26"
   ],
   [
     "process.stdin.*self*",
@@ -64150,6 +64285,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.stdin.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.stdin.isPaused",
@@ -64566,6 +64710,15 @@
     "unsupported"
   ],
   [
+    "process.stdin.setTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.stdin.some",
     0,
     "supported",
@@ -64729,12 +64882,12 @@
   ],
   [
     "process.stdout",
-    93,
-    93,
-    "92/0/1",
-    "51/0/42",
-    "40/0/53",
-    "37/0/56"
+    95,
+    95,
+    "94/0/1",
+    "51/0/44",
+    "40/0/55",
+    "37/0/58"
   ],
   [
     "process.stdout.*self*",
@@ -64996,6 +65149,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "process.stdout.getTypeOfService",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "process.stdout.isPaused",
@@ -65404,6 +65566,15 @@
   ],
   [
     "process.stdout.setTimeout",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.stdout.setTypeOfService",
     0,
     "supported",
     "supported",
