@@ -1,5 +1,5 @@
 Module,Path,baseline,node24,workerd,bun,deno
-,,,24.14.1,1.20260416.2,1.3.12,2.7.12
+,,,24.15.0,1.20260421.1,1.3.13,2.7.12
 *globals*,*self*,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported
@@ -1754,6 +1754,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.listenerCount,supported,supported,supported,supported,supported
@@ -1800,6 +1801,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stderr.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.some,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.take,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -1847,6 +1849,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdin.flatMap,supported,supported,supported,supported,supported
 *globals*,process.stdin.forEach,supported,supported,supported,supported,supported
 *globals*,process.stdin.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.isPaused,supported,supported,supported,supported,supported
 *globals*,process.stdin.iterator,supported,supported,supported,supported,supported
 *globals*,process.stdin.listenerCount,supported,supported,supported,supported,supported
@@ -1893,6 +1896,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdin.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.some,supported,supported,supported,supported,supported
 *globals*,process.stdin.take,supported,supported,supported,supported,supported
 *globals*,process.stdin.toArray,supported,supported,supported,supported,supported
@@ -1940,6 +1944,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.listenerCount,supported,supported,supported,supported,supported
@@ -1986,6 +1991,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdout.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.some,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.take,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6279,6 +6285,7 @@ process,default.stderr.find,supported,supported,unsupported,unsupported,unsuppor
 process,default.stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.listenerCount,supported,supported,supported,supported,supported
@@ -6325,6 +6332,7 @@ process,default.stderr.setKeepAlive,supported,supported,unsupported,unsupported,
 process,default.stderr.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.some,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.take,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6372,6 +6380,7 @@ process,default.stdin.find,supported,supported,supported,supported,supported
 process,default.stdin.flatMap,supported,supported,supported,supported,supported
 process,default.stdin.forEach,supported,supported,supported,supported,supported
 process,default.stdin.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.isPaused,supported,supported,supported,supported,supported
 process,default.stdin.iterator,supported,supported,supported,supported,supported
 process,default.stdin.listenerCount,supported,supported,supported,supported,supported
@@ -6418,6 +6427,7 @@ process,default.stdin.setKeepAlive,supported,supported,unsupported,unsupported,u
 process,default.stdin.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.some,supported,supported,supported,supported,supported
 process,default.stdin.take,supported,supported,supported,supported,supported
 process,default.stdin.toArray,supported,supported,supported,supported,supported
@@ -6465,6 +6475,7 @@ process,default.stdout.find,supported,supported,unsupported,unsupported,unsuppor
 process,default.stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.listenerCount,supported,supported,supported,supported,supported
@@ -6511,6 +6522,7 @@ process,default.stdout.setKeepAlive,supported,supported,unsupported,unsupported,
 process,default.stdout.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.some,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.take,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6605,6 +6617,7 @@ process,config.variables.coverage,supported,supported,supported,supported,unsupp
 process,config.variables.dcheck_always_on,supported,supported,supported,supported,unsupported
 process,config.variables.debug_nghttp2,supported,supported,supported,supported,unsupported
 process,config.variables.debug_node,supported,supported,supported,supported,unsupported
+process,config.variables.debug_symbols,supported,supported,unsupported,unsupported,unsupported
 process,config.variables.enable_lto,supported,supported,supported,supported,unsupported
 process,config.variables.enable_pgo_generate,supported,supported,supported,supported,unsupported
 process,config.variables.enable_pgo_use,supported,supported,supported,supported,unsupported
@@ -6812,6 +6825,7 @@ process,stderr.find,supported,supported,unsupported,unsupported,unsupported
 process,stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 process,stderr.getMaxListeners,supported,supported,supported,supported,supported
+process,stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 process,stderr.listenerCount,supported,supported,supported,supported,supported
@@ -6858,6 +6872,7 @@ process,stderr.setKeepAlive,supported,supported,unsupported,unsupported,unsuppor
 process,stderr.setMaxListeners,supported,supported,supported,supported,supported
 process,stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stderr.some,supported,supported,unsupported,unsupported,unsupported
 process,stderr.take,supported,supported,unsupported,unsupported,unsupported
 process,stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6905,6 +6920,7 @@ process,stdin.find,supported,supported,supported,supported,supported
 process,stdin.flatMap,supported,supported,supported,supported,supported
 process,stdin.forEach,supported,supported,supported,supported,supported
 process,stdin.getMaxListeners,supported,supported,supported,supported,supported
+process,stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdin.isPaused,supported,supported,supported,supported,supported
 process,stdin.iterator,supported,supported,supported,supported,supported
 process,stdin.listenerCount,supported,supported,supported,supported,supported
@@ -6951,6 +6967,7 @@ process,stdin.setKeepAlive,supported,supported,unsupported,unsupported,unsupport
 process,stdin.setMaxListeners,supported,supported,supported,supported,supported
 process,stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdin.some,supported,supported,supported,supported,supported
 process,stdin.take,supported,supported,supported,supported,supported
 process,stdin.toArray,supported,supported,supported,supported,supported
@@ -6998,6 +7015,7 @@ process,stdout.find,supported,supported,unsupported,unsupported,unsupported
 process,stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 process,stdout.getMaxListeners,supported,supported,supported,supported,supported
+process,stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 process,stdout.listenerCount,supported,supported,supported,supported,supported
@@ -7044,6 +7062,7 @@ process,stdout.setKeepAlive,supported,supported,unsupported,unsupported,unsuppor
 process,stdout.setMaxListeners,supported,supported,supported,supported,supported
 process,stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdout.some,supported,supported,unsupported,unsupported,unsupported
 process,stdout.take,supported,supported,unsupported,unsupported,unsupported
 process,stdout.toArray,supported,supported,unsupported,unsupported,unsupported
