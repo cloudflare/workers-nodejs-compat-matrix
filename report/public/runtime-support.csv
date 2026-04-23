@@ -1,5 +1,5 @@
 Module,Path,baseline,node24,workerd,bun,deno
-,,,24.14.1,1.20260416.2,1.3.12,2.7.12
+,,,24.15.0,1.20260423.1,1.3.13,2.7.13
 *globals*,*self*,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported
@@ -1754,6 +1754,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.listenerCount,supported,supported,supported,supported,supported
@@ -1800,6 +1801,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stderr.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.some,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.take,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -1847,6 +1849,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdin.flatMap,supported,supported,supported,supported,supported
 *globals*,process.stdin.forEach,supported,supported,supported,supported,supported
 *globals*,process.stdin.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.isPaused,supported,supported,supported,supported,supported
 *globals*,process.stdin.iterator,supported,supported,supported,supported,supported
 *globals*,process.stdin.listenerCount,supported,supported,supported,supported,supported
@@ -1893,6 +1896,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdin.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdin.some,supported,supported,supported,supported,supported
 *globals*,process.stdin.take,supported,supported,supported,supported,supported
 *globals*,process.stdin.toArray,supported,supported,supported,supported,supported
@@ -1940,6 +1944,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.getMaxListeners,supported,supported,supported,supported,supported
+*globals*,process.stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.listenerCount,supported,supported,supported,supported,supported
@@ -1986,6 +1991,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.stdout.setMaxListeners,supported,supported,supported,supported,supported
 *globals*,process.stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+*globals*,process.stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.some,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.take,supported,supported,unsupported,unsupported,unsupported
 *globals*,process.stdout.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -3528,7 +3534,7 @@ events,EventEmitter,supported,supported,supported,supported,supported
 events,EventEmitterAsyncResource,supported,supported,supported,supported,supported
 events,addAbortListener,supported,supported,supported,supported,supported
 events,captureRejectionSymbol,supported,supported,supported,supported,supported
-events,captureRejections,supported,supported,mismatch,supported,unsupported
+events,captureRejections,supported,supported,supported,supported,unsupported
 events,defaultMaxListeners,supported,supported,supported,supported,supported
 events,errorMonitor,supported,supported,supported,supported,mismatch
 events,getEventListeners,supported,supported,supported,supported,supported
@@ -4182,7 +4188,7 @@ fs/promises,writeFile,supported,supported,supported,supported,supported
 http,*self*,supported,supported,supported,supported,supported
 http,default.*self*,supported,supported,supported,supported,supported
 http,default.Agent,supported,supported,supported,supported,supported
-http,default.ClientRequest,supported,supported,supported,supported,unsupported
+http,default.ClientRequest,supported,supported,supported,supported,supported
 http,default.CloseEvent,supported,supported,supported,supported,unsupported
 http,default.IncomingMessage,supported,supported,supported,supported,supported
 http,default.METHODS,supported,supported,supported,supported,supported
@@ -4248,7 +4254,7 @@ http,default.STATUS_CODES.505,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.506,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.507,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.508,supported,supported,supported,supported,supported
-http,default.STATUS_CODES.509,supported,supported,supported,supported,unsupported
+http,default.STATUS_CODES.509,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.510,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.511,supported,supported,supported,supported,supported
 http,default.STATUS_CODES.*self*,supported,supported,supported,supported,supported
@@ -4260,7 +4266,7 @@ http,default.get,supported,supported,supported,supported,supported
 http,default.globalAgent.*self*,supported,supported,supported,supported,supported
 http,default.globalAgent.addListener,supported,supported,supported,supported,supported
 http,default.globalAgent.addRequest,supported,supported,supported,supported,supported
-http,default.globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,unsupported
+http,default.globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,supported
 http,default.globalAgent.createConnection,supported,supported,supported,supported,supported
 http,default.globalAgent.createSocket,supported,supported,supported,supported,supported
 http,default.globalAgent.defaultPort,supported,supported,supported,supported,supported
@@ -4298,11 +4304,11 @@ http,default.globalAgent.totalSocketCount,supported,supported,supported,supporte
 http,default.maxHeaderSize,supported,supported,supported,supported,supported
 http,default.request,supported,supported,supported,supported,supported
 http,default.setGlobalProxyFromEnv,supported,supported,unsupported,unsupported,unsupported
-http,default.setMaxIdleHTTPParsers,supported,supported,supported,supported,unsupported
+http,default.setMaxIdleHTTPParsers,supported,supported,supported,supported,supported
 http,default.validateHeaderName,supported,supported,supported,supported,supported
 http,default.validateHeaderValue,supported,supported,supported,supported,supported
 http,Agent,supported,supported,supported,supported,supported
-http,ClientRequest,supported,supported,supported,supported,unsupported
+http,ClientRequest,supported,supported,supported,supported,supported
 http,CloseEvent,supported,supported,supported,supported,unsupported
 http,IncomingMessage,supported,supported,supported,supported,supported
 http,METHODS,supported,supported,supported,supported,supported
@@ -4368,7 +4374,7 @@ http,STATUS_CODES.505,supported,supported,supported,supported,supported
 http,STATUS_CODES.506,supported,supported,supported,supported,supported
 http,STATUS_CODES.507,supported,supported,supported,supported,supported
 http,STATUS_CODES.508,supported,supported,supported,supported,supported
-http,STATUS_CODES.509,supported,supported,supported,supported,unsupported
+http,STATUS_CODES.509,supported,supported,supported,supported,supported
 http,STATUS_CODES.510,supported,supported,supported,supported,supported
 http,STATUS_CODES.511,supported,supported,supported,supported,supported
 http,STATUS_CODES.*self*,supported,supported,supported,supported,supported
@@ -4380,7 +4386,7 @@ http,get,supported,supported,supported,supported,supported
 http,globalAgent.*self*,supported,supported,supported,supported,supported
 http,globalAgent.addListener,supported,supported,supported,supported,supported
 http,globalAgent.addRequest,supported,supported,supported,supported,supported
-http,globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,unsupported
+http,globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,supported
 http,globalAgent.createConnection,supported,supported,supported,supported,supported
 http,globalAgent.createSocket,supported,supported,supported,supported,supported
 http,globalAgent.defaultPort,supported,supported,supported,supported,supported
@@ -4402,12 +4408,12 @@ http,globalAgent.off,supported,supported,supported,supported,supported
 http,globalAgent.on,supported,supported,supported,supported,supported
 http,globalAgent.once,supported,supported,supported,supported,supported
 http,globalAgent.options.*self*,supported,supported,supported,supported,supported
-http,globalAgent.options.keepAlive,supported,supported,supported,supported,unsupported
-http,globalAgent.options.noDelay,supported,supported,supported,supported,unsupported
+http,globalAgent.options.keepAlive,supported,supported,supported,supported,supported
+http,globalAgent.options.noDelay,supported,supported,supported,supported,supported
 http,globalAgent.options.path,supported,supported,supported,supported,supported
 http,globalAgent.options.proxyEnv,supported,supported,supported,supported,unsupported
-http,globalAgent.options.scheduling,supported,supported,supported,supported,unsupported
-http,globalAgent.options.timeout,supported,supported,supported,supported,unsupported
+http,globalAgent.options.scheduling,supported,supported,supported,supported,supported
+http,globalAgent.options.timeout,supported,supported,supported,supported,supported
 http,globalAgent.prependListener,supported,supported,supported,supported,supported
 http,globalAgent.prependOnceListener,supported,supported,supported,supported,supported
 http,globalAgent.protocol,supported,supported,supported,supported,supported
@@ -4424,7 +4430,7 @@ http,globalAgent.totalSocketCount,supported,supported,supported,supported,suppor
 http,maxHeaderSize,supported,supported,supported,supported,supported
 http,request,supported,supported,supported,supported,supported
 http,setGlobalProxyFromEnv,supported,supported,unsupported,unsupported,unsupported
-http,setMaxIdleHTTPParsers,supported,supported,supported,supported,unsupported
+http,setMaxIdleHTTPParsers,supported,supported,supported,supported,supported
 http,validateHeaderName,supported,supported,supported,supported,supported
 http,validateHeaderValue,supported,supported,supported,supported,supported
 http2,*self*,supported,supported,supported,supported,supported
@@ -4960,13 +4966,13 @@ http2,sensitiveHeaders,supported,supported,supported,supported,supported
 https,*self*,supported,supported,supported,supported,supported
 https,default.*self*,supported,supported,supported,supported,supported
 https,default.Agent,supported,supported,supported,supported,supported
-https,default.Server,supported,supported,supported,supported,unsupported
+https,default.Server,supported,supported,supported,supported,supported
 https,default.createServer,supported,supported,supported,supported,supported
 https,default.get,supported,supported,supported,supported,supported
 https,default.globalAgent.*self*,supported,supported,supported,supported,supported
 https,default.globalAgent.addListener,supported,supported,supported,supported,supported
 https,default.globalAgent.addRequest,supported,supported,supported,supported,supported
-https,default.globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,unsupported
+https,default.globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,supported
 https,default.globalAgent.createConnection,supported,supported,supported,mismatch,supported
 https,default.globalAgent.createSocket,supported,supported,supported,supported,supported
 https,default.globalAgent.defaultPort,supported,supported,supported,supported,supported
@@ -5005,13 +5011,13 @@ https,default.globalAgent.sockets,supported,supported,supported,supported,suppor
 https,default.globalAgent.totalSocketCount,supported,supported,supported,supported,supported
 https,default.request,supported,supported,supported,supported,supported
 https,Agent,supported,supported,supported,supported,supported
-https,Server,supported,supported,supported,supported,unsupported
+https,Server,supported,supported,supported,supported,supported
 https,createServer,supported,supported,supported,supported,supported
 https,get,supported,supported,supported,supported,supported
 https,globalAgent.*self*,supported,supported,supported,supported,supported
 https,globalAgent.addListener,supported,supported,supported,supported,supported
 https,globalAgent.addRequest,supported,supported,supported,supported,supported
-https,globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,unsupported
+https,globalAgent.agentKeepAliveTimeoutBuffer,supported,supported,supported,supported,supported
 https,globalAgent.createConnection,supported,supported,supported,mismatch,supported
 https,globalAgent.createSocket,supported,supported,supported,supported,supported
 https,globalAgent.defaultPort,supported,supported,supported,supported,supported
@@ -5035,11 +5041,11 @@ https,globalAgent.off,supported,supported,supported,supported,supported
 https,globalAgent.on,supported,supported,supported,supported,supported
 https,globalAgent.once,supported,supported,supported,supported,supported
 https,globalAgent.options.*self*,supported,supported,supported,supported,supported
-https,globalAgent.options.defaultPort,supported,supported,supported,unsupported,unsupported
+https,globalAgent.options.defaultPort,supported,supported,supported,unsupported,supported
 https,globalAgent.options.keepAlive,supported,supported,supported,supported,supported
-https,globalAgent.options.noDelay,supported,supported,supported,supported,unsupported
+https,globalAgent.options.noDelay,supported,supported,supported,supported,supported
 https,globalAgent.options.path,supported,supported,supported,supported,supported
-https,globalAgent.options.protocol,supported,supported,supported,unsupported,unsupported
+https,globalAgent.options.protocol,supported,supported,supported,unsupported,supported
 https,globalAgent.options.proxyEnv,supported,supported,supported,unsupported,unsupported
 https,globalAgent.options.scheduling,supported,supported,supported,supported,supported
 https,globalAgent.options.timeout,supported,supported,supported,supported,supported
@@ -6279,6 +6285,7 @@ process,default.stderr.find,supported,supported,unsupported,unsupported,unsuppor
 process,default.stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.listenerCount,supported,supported,supported,supported,supported
@@ -6325,6 +6332,7 @@ process,default.stderr.setKeepAlive,supported,supported,unsupported,unsupported,
 process,default.stderr.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.some,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.take,supported,supported,unsupported,unsupported,unsupported
 process,default.stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6372,6 +6380,7 @@ process,default.stdin.find,supported,supported,supported,supported,supported
 process,default.stdin.flatMap,supported,supported,supported,supported,supported
 process,default.stdin.forEach,supported,supported,supported,supported,supported
 process,default.stdin.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.isPaused,supported,supported,supported,supported,supported
 process,default.stdin.iterator,supported,supported,supported,supported,supported
 process,default.stdin.listenerCount,supported,supported,supported,supported,supported
@@ -6418,6 +6427,7 @@ process,default.stdin.setKeepAlive,supported,supported,unsupported,unsupported,u
 process,default.stdin.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdin.some,supported,supported,supported,supported,supported
 process,default.stdin.take,supported,supported,supported,supported,supported
 process,default.stdin.toArray,supported,supported,supported,supported,supported
@@ -6465,6 +6475,7 @@ process,default.stdout.find,supported,supported,unsupported,unsupported,unsuppor
 process,default.stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.getMaxListeners,supported,supported,supported,supported,supported
+process,default.stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.listenerCount,supported,supported,supported,supported,supported
@@ -6511,6 +6522,7 @@ process,default.stdout.setKeepAlive,supported,supported,unsupported,unsupported,
 process,default.stdout.setMaxListeners,supported,supported,supported,supported,supported
 process,default.stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,default.stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.some,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.take,supported,supported,unsupported,unsupported,unsupported
 process,default.stdout.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6605,6 +6617,7 @@ process,config.variables.coverage,supported,supported,supported,supported,unsupp
 process,config.variables.dcheck_always_on,supported,supported,supported,supported,unsupported
 process,config.variables.debug_nghttp2,supported,supported,supported,supported,unsupported
 process,config.variables.debug_node,supported,supported,supported,supported,unsupported
+process,config.variables.debug_symbols,supported,supported,unsupported,unsupported,unsupported
 process,config.variables.enable_lto,supported,supported,supported,supported,unsupported
 process,config.variables.enable_pgo_generate,supported,supported,supported,supported,unsupported
 process,config.variables.enable_pgo_use,supported,supported,supported,supported,unsupported
@@ -6812,6 +6825,7 @@ process,stderr.find,supported,supported,unsupported,unsupported,unsupported
 process,stderr.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,stderr.forEach,supported,supported,unsupported,unsupported,unsupported
 process,stderr.getMaxListeners,supported,supported,supported,supported,supported
+process,stderr.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stderr.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,stderr.iterator,supported,supported,unsupported,unsupported,unsupported
 process,stderr.listenerCount,supported,supported,supported,supported,supported
@@ -6858,6 +6872,7 @@ process,stderr.setKeepAlive,supported,supported,unsupported,unsupported,unsuppor
 process,stderr.setMaxListeners,supported,supported,supported,supported,supported
 process,stderr.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stderr.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stderr.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stderr.some,supported,supported,unsupported,unsupported,unsupported
 process,stderr.take,supported,supported,unsupported,unsupported,unsupported
 process,stderr.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -6905,6 +6920,7 @@ process,stdin.find,supported,supported,supported,supported,supported
 process,stdin.flatMap,supported,supported,supported,supported,supported
 process,stdin.forEach,supported,supported,supported,supported,supported
 process,stdin.getMaxListeners,supported,supported,supported,supported,supported
+process,stdin.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdin.isPaused,supported,supported,supported,supported,supported
 process,stdin.iterator,supported,supported,supported,supported,supported
 process,stdin.listenerCount,supported,supported,supported,supported,supported
@@ -6951,6 +6967,7 @@ process,stdin.setKeepAlive,supported,supported,unsupported,unsupported,unsupport
 process,stdin.setMaxListeners,supported,supported,supported,supported,supported
 process,stdin.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stdin.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stdin.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdin.some,supported,supported,supported,supported,supported
 process,stdin.take,supported,supported,supported,supported,supported
 process,stdin.toArray,supported,supported,supported,supported,supported
@@ -6998,6 +7015,7 @@ process,stdout.find,supported,supported,unsupported,unsupported,unsupported
 process,stdout.flatMap,supported,supported,unsupported,unsupported,unsupported
 process,stdout.forEach,supported,supported,unsupported,unsupported,unsupported
 process,stdout.getMaxListeners,supported,supported,supported,supported,supported
+process,stdout.getTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdout.isPaused,supported,supported,unsupported,unsupported,unsupported
 process,stdout.iterator,supported,supported,unsupported,unsupported,unsupported
 process,stdout.listenerCount,supported,supported,supported,supported,supported
@@ -7044,6 +7062,7 @@ process,stdout.setKeepAlive,supported,supported,unsupported,unsupported,unsuppor
 process,stdout.setMaxListeners,supported,supported,supported,supported,supported
 process,stdout.setNoDelay,supported,supported,unsupported,unsupported,unsupported
 process,stdout.setTimeout,supported,supported,unsupported,unsupported,unsupported
+process,stdout.setTypeOfService,supported,supported,unsupported,unsupported,unsupported
 process,stdout.some,supported,supported,unsupported,unsupported,unsupported
 process,stdout.take,supported,supported,unsupported,unsupported,unsupported
 process,stdout.toArray,supported,supported,unsupported,unsupported,unsupported
@@ -7496,7 +7515,7 @@ tls,default.Server,supported,supported,supported,supported,supported
 tls,default.TLSSocket,supported,supported,supported,supported,supported
 tls,default.checkServerIdentity,supported,supported,supported,supported,supported
 tls,default.connect,supported,supported,supported,supported,supported
-tls,default.convertALPNProtocols,supported,supported,supported,supported,unsupported
+tls,default.convertALPNProtocols,supported,supported,supported,supported,supported
 tls,default.createSecureContext,supported,supported,supported,supported,supported
 tls,default.createSecurePair,supported,unsupported,supported,unsupported,unsupported
 tls,default.createServer,supported,supported,supported,supported,supported
