@@ -5421,22 +5421,6 @@
     "setDefaultAutoSelectFamily": "function",
     "setDefaultAutoSelectFamilyAttemptTimeout": "function"
   },
-  "node:sea": {
-    "*self*": "missing",
-    "default": {
-      "*self*": "missing",
-      "getAsset": "missing",
-      "getAssetAsBlob": "missing",
-      "getAssetKeys": "missing",
-      "getRawAsset": "missing",
-      "isSea": "missing"
-    },
-    "getAsset": "missing",
-    "getAssetAsBlob": "missing",
-    "getAssetKeys": "missing",
-    "getRawAsset": "missing",
-    "isSea": "missing"
-  },
   "node:sqlite": {
     "*self*": "object",
     "DatabaseSync": "function",
@@ -5546,103 +5530,6 @@
         "SQLITE_UPDATE": "number"
       }
     }
-  },
-  "node:test": {
-    "*self*": "object",
-    "after": "missing",
-    "afterEach": "missing",
-    "assert": {
-      "*self*": "missing",
-      "register": "missing"
-    },
-    "before": "missing",
-    "beforeEach": "missing",
-    "default": {
-      "*self*": "function",
-      "after": "missing",
-      "afterEach": "missing",
-      "assert": {
-        "*self*": "missing",
-        "register": "missing"
-      },
-      "before": "missing",
-      "beforeEach": "missing",
-      "describe": "function",
-      "expectFailure": "missing",
-      "it": "function",
-      "length": "number",
-      "mock": {
-        "*self*": "object",
-        "fn": "function",
-        "getter": "missing",
-        "method": "function",
-        "property": "missing",
-        "reset": "function",
-        "restoreAll": "function",
-        "setter": "missing",
-        "timers": "object"
-      },
-      "name": "string",
-      "only": "function",
-      "run": "missing",
-      "skip": "function",
-      "snapshot": {
-        "*self*": "missing",
-        "setDefaultSnapshotSerializers": "missing",
-        "setResolveSnapshotPath": "missing"
-      },
-      "suite": "function",
-      "test": "function",
-      "todo": "function"
-    },
-    "describe": "function",
-    "expectFailure": "missing",
-    "it": "function",
-    "mock": {
-      "*self*": "object",
-      "fn": "function",
-      "getter": "missing",
-      "method": "function",
-      "property": "missing",
-      "reset": "function",
-      "restoreAll": "function",
-      "setter": "missing",
-      "timers": {
-        "*self*": "object",
-        "enable": "missing",
-        "reset": "missing",
-        "runAll": "missing",
-        "setTime": "missing",
-        "tick": "missing"
-      }
-    },
-    "only": "missing",
-    "run": "missing",
-    "skip": "missing",
-    "snapshot": {
-      "*self*": "missing",
-      "setDefaultSnapshotSerializers": "missing",
-      "setResolveSnapshotPath": "missing"
-    },
-    "suite": "function",
-    "test": "function",
-    "todo": "missing"
-  },
-  "node:test/reporters": {
-    "*self*": "missing",
-    "default": {
-      "*self*": "missing",
-      "dot": "missing",
-      "junit": "missing",
-      "lcov": "missing",
-      "spec": "missing",
-      "tap": "missing"
-    },
-    "dot": "missing",
-    "junit": "missing",
-    "lcov": "missing",
-    "spec": "missing",
-    "tap": "missing"
   },
   "os": {
     "*self*": "object",
