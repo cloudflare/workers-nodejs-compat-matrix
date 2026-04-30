@@ -1,5 +1,5 @@
 Module,Path,baseline,node24,workerd,bun,deno
-,,,24.15.0,1.20260424.1,1.3.13,2.7.13
+,,,24.15.0,1.20260430.1,1.3.13,2.7.13
 *globals*,*self*,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported
