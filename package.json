@@ -5,7 +5,7 @@
     "date-fns": "^4.1.0",
     "deepmerge": "^4.3.1",
     "prettier": "^3.8.2",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.10.0"
   },
   "scripts": {
     "scan:apis": "node ./scan-apis.mjs",
