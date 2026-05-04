@@ -1,5 +1,5 @@
 Module,Path,baseline,node24,workerd,bun,deno
-,,,24.15.0,1.20260424.1,1.3.13,2.7.13
+,,,24.15.0,1.20260504.1,1.3.13,2.7.14
 *globals*,*self*,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported
@@ -838,7 +838,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,global.process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,global.process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,global.process.cwd,supported,supported,supported,supported,supported
-*globals*,global.process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,global.process.debugPort,supported,supported,supported,supported,supported
 *globals*,global.process.dlopen,supported,supported,supported,supported,supported
 *globals*,global.process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,global.process.emit,supported,supported,supported,supported,supported
@@ -1483,7 +1483,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,globalThis.process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,globalThis.process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,globalThis.process.cwd,supported,supported,supported,supported,supported
-*globals*,globalThis.process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,globalThis.process.debugPort,supported,supported,supported,supported,supported
 *globals*,globalThis.process.dlopen,supported,supported,supported,supported,supported
 *globals*,globalThis.process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,globalThis.process.emit,supported,supported,supported,supported,supported
@@ -1638,7 +1638,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,process.cwd,supported,supported,supported,supported,supported
-*globals*,process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,process.debugPort,supported,supported,supported,supported,supported
 *globals*,process.dlopen,supported,supported,supported,supported,supported
 *globals*,process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,process.emit,supported,supported,supported,supported,supported
@@ -2981,7 +2981,7 @@ crypto,default.pbkdf2,supported,supported,supported,supported,supported
 crypto,default.pbkdf2Sync,supported,supported,supported,supported,supported
 crypto,default.privateDecrypt,supported,supported,supported,supported,supported
 crypto,default.privateEncrypt,supported,supported,supported,supported,supported
-crypto,default.prng,supported,supported,unsupported,supported,unsupported
+crypto,default.prng,supported,supported,unsupported,supported,supported
 crypto,default.pseudoRandomBytes,supported,supported,supported,supported,supported
 crypto,default.publicDecrypt,supported,supported,supported,supported,supported
 crypto,default.publicEncrypt,supported,supported,supported,supported,supported
@@ -2990,7 +2990,7 @@ crypto,default.randomFill,supported,supported,supported,supported,supported
 crypto,default.randomFillSync,supported,supported,supported,supported,supported
 crypto,default.randomInt,supported,supported,supported,supported,supported
 crypto,default.randomUUID,supported,supported,supported,supported,supported
-crypto,default.rng,supported,supported,unsupported,supported,unsupported
+crypto,default.rng,supported,supported,unsupported,supported,supported
 crypto,default.scrypt,supported,supported,supported,supported,supported
 crypto,default.scryptSync,supported,supported,supported,supported,supported
 crypto,default.secureHeapUsed,supported,supported,supported,supported,unsupported
@@ -3555,7 +3555,7 @@ fs,default.FileWriteStream,supported,supported,supported,supported,unsupported
 fs,default.R_OK,supported,supported,supported,supported,unsupported
 fs,default.ReadStream,supported,supported,supported,supported,supported
 fs,default.Stats,supported,supported,supported,supported,supported
-fs,default.Utf8Stream,supported,supported,unsupported,unsupported,unsupported
+fs,default.Utf8Stream,supported,supported,unsupported,unsupported,supported
 fs,default.W_OK,supported,supported,supported,supported,unsupported
 fs,default.WriteStream,supported,supported,supported,supported,supported
 fs,default.X_OK,supported,supported,supported,supported,unsupported
@@ -3665,7 +3665,7 @@ fs,default.lutimesSync,supported,supported,supported,supported,supported
 fs,default.mkdir,supported,supported,supported,supported,supported
 fs,default.mkdirSync,supported,supported,supported,supported,supported
 fs,default.mkdtemp,supported,supported,supported,supported,supported
-fs,default.mkdtempDisposableSync,supported,supported,unsupported,unsupported,unsupported
+fs,default.mkdtempDisposableSync,supported,supported,unsupported,unsupported,supported
 fs,default.mkdtempSync,supported,supported,supported,supported,supported
 fs,default.open,supported,supported,supported,supported,supported
 fs,default.openAsBlob,supported,supported,supported,supported,supported
@@ -3688,7 +3688,7 @@ fs,default.promises.lstat,supported,supported,supported,supported,supported
 fs,default.promises.lutimes,supported,supported,supported,supported,supported
 fs,default.promises.mkdir,supported,supported,supported,supported,supported
 fs,default.promises.mkdtemp,supported,supported,supported,supported,supported
-fs,default.promises.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs,default.promises.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs,default.promises.open,supported,supported,supported,supported,supported
 fs,default.promises.opendir,supported,supported,supported,supported,supported
 fs,default.promises.readFile,supported,supported,supported,supported,supported
@@ -3753,7 +3753,7 @@ fs,FileWriteStream,supported,supported,supported,supported,unsupported
 fs,R_OK,supported,unsupported,supported,supported,unsupported
 fs,ReadStream,supported,supported,supported,supported,supported
 fs,Stats,supported,supported,supported,supported,supported
-fs,Utf8Stream,supported,supported,unsupported,unsupported,unsupported
+fs,Utf8Stream,supported,supported,unsupported,unsupported,supported
 fs,W_OK,supported,unsupported,supported,supported,unsupported
 fs,WriteStream,supported,supported,supported,supported,supported
 fs,X_OK,supported,unsupported,supported,supported,unsupported
@@ -3863,7 +3863,7 @@ fs,lutimesSync,supported,supported,supported,supported,supported
 fs,mkdir,supported,supported,supported,supported,supported
 fs,mkdirSync,supported,supported,supported,supported,supported
 fs,mkdtemp,supported,supported,supported,supported,supported
-fs,mkdtempDisposableSync,supported,supported,unsupported,unsupported,unsupported
+fs,mkdtempDisposableSync,supported,supported,unsupported,unsupported,supported
 fs,mkdtempSync,supported,supported,supported,supported,supported
 fs,open,supported,supported,supported,supported,supported
 fs,openAsBlob,supported,supported,supported,supported,supported
@@ -3944,7 +3944,7 @@ fs,promises.lstat,supported,supported,supported,supported,supported
 fs,promises.lutimes,supported,supported,supported,supported,supported
 fs,promises.mkdir,supported,supported,supported,supported,supported
 fs,promises.mkdtemp,supported,supported,supported,supported,supported
-fs,promises.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs,promises.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs,promises.open,supported,supported,supported,supported,supported
 fs,promises.opendir,supported,supported,supported,supported,supported
 fs,promises.readFile,supported,supported,supported,supported,supported
@@ -4076,7 +4076,7 @@ fs/promises,default.lstat,supported,supported,supported,supported,supported
 fs/promises,default.lutimes,supported,supported,supported,supported,supported
 fs/promises,default.mkdir,supported,supported,supported,supported,supported
 fs/promises,default.mkdtemp,supported,supported,supported,supported,supported
-fs/promises,default.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs/promises,default.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs/promises,default.open,supported,supported,supported,supported,supported
 fs/promises,default.opendir,supported,supported,supported,supported,supported
 fs/promises,default.readFile,supported,supported,supported,supported,supported
@@ -4167,7 +4167,7 @@ fs/promises,lstat,supported,supported,supported,supported,supported
 fs/promises,lutimes,supported,supported,supported,supported,supported
 fs/promises,mkdir,supported,supported,supported,supported,supported
 fs/promises,mkdtemp,supported,supported,supported,supported,supported
-fs/promises,mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs/promises,mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs/promises,open,supported,supported,supported,supported,supported
 fs/promises,opendir,supported,supported,supported,supported,supported
 fs/promises,readFile,supported,supported,supported,supported,supported
@@ -5954,7 +5954,7 @@ perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN,supported,su
 perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN_TIMESTAMP,supported,supported,supported,supported,unsupported
 perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_V8_START,supported,supported,supported,supported,unsupported
 perf_hooks,default.createHistogram,supported,supported,supported,supported,unsupported
-perf_hooks,default.eventLoopUtilization,supported,supported,supported,unsupported,unsupported
+perf_hooks,default.eventLoopUtilization,supported,supported,supported,unsupported,supported
 perf_hooks,default.monitorEventLoopDelay,supported,supported,supported,supported,supported
 perf_hooks,default.performance.*self*,supported,supported,supported,supported,supported
 perf_hooks,default.performance.addEventListener,supported,supported,supported,unsupported,supported
@@ -5977,7 +5977,7 @@ perf_hooks,default.performance.setResourceTimingBufferSize,supported,supported,s
 perf_hooks,default.performance.timeOrigin,supported,supported,supported,supported,supported
 perf_hooks,default.performance.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,default.performance.toJSON,supported,supported,supported,supported,supported
-perf_hooks,default.timerify,supported,supported,supported,unsupported,unsupported
+perf_hooks,default.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,Performance,supported,supported,supported,supported,unsupported
 perf_hooks,PerformanceEntry,supported,supported,supported,supported,supported
 perf_hooks,PerformanceMark,supported,supported,supported,supported,unsupported
@@ -6011,7 +6011,7 @@ perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN,supported,supported,
 perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN_TIMESTAMP,supported,supported,supported,supported,unsupported
 perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_V8_START,supported,supported,supported,supported,unsupported
 perf_hooks,createHistogram,supported,supported,supported,supported,unsupported
-perf_hooks,eventLoopUtilization,supported,supported,supported,unsupported,unsupported
+perf_hooks,eventLoopUtilization,supported,supported,supported,unsupported,supported
 perf_hooks,monitorEventLoopDelay,supported,supported,supported,supported,supported
 perf_hooks,performance.*self*,supported,supported,supported,supported,supported
 perf_hooks,performance.addEventListener,supported,supported,supported,unsupported,supported
@@ -6047,7 +6047,7 @@ perf_hooks,performance.setResourceTimingBufferSize,supported,supported,supported
 perf_hooks,performance.timeOrigin,supported,supported,supported,supported,supported
 perf_hooks,performance.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,performance.toJSON,supported,supported,supported,supported,supported
-perf_hooks,timerify,supported,supported,supported,unsupported,unsupported
+perf_hooks,timerify,supported,supported,supported,unsupported,supported
 process,*self*,supported,supported,supported,supported,supported
 process,default.*self*,supported,supported,supported,supported,supported
 process,default.abort,supported,supported,supported,supported,supported
@@ -6082,7 +6082,7 @@ process,default.config.variables,supported,supported,supported,supported,support
 process,default.constrainedMemory,supported,supported,supported,supported,supported
 process,default.cpuUsage,supported,supported,supported,supported,supported
 process,default.cwd,supported,supported,supported,supported,supported
-process,default.debugPort,supported,supported,supported,supported,unsupported
+process,default.debugPort,supported,supported,supported,supported,supported
 process,default.dlopen,supported,supported,supported,supported,supported
 process,default.domain,supported,supported,supported,unsupported,unsupported
 process,default.emit,supported,supported,supported,supported,supported
@@ -7132,13 +7132,13 @@ stream/consumers,default.*self*,supported,supported,supported,supported,supporte
 stream/consumers,default.arrayBuffer,supported,supported,supported,supported,supported
 stream/consumers,default.blob,supported,supported,supported,supported,supported
 stream/consumers,default.buffer,supported,supported,supported,supported,supported
-stream/consumers,default.bytes,supported,supported,unsupported,supported,unsupported
+stream/consumers,default.bytes,supported,supported,unsupported,supported,supported
 stream/consumers,default.json,supported,supported,supported,supported,supported
 stream/consumers,default.text,supported,supported,supported,supported,supported
 stream/consumers,arrayBuffer,supported,supported,supported,supported,supported
 stream/consumers,blob,supported,supported,supported,supported,supported
 stream/consumers,buffer,supported,supported,supported,supported,supported
-stream/consumers,bytes,supported,supported,unsupported,supported,unsupported
+stream/consumers,bytes,supported,supported,unsupported,supported,supported
 stream/consumers,json,supported,supported,supported,supported,supported
 stream/consumers,text,supported,supported,supported,supported,supported
 stream/promises,*self*,supported,supported,supported,supported,supported
