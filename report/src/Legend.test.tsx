@@ -13,10 +13,10 @@ describe("Legend", () => {
     expect(screen.getByText("✅")).toBeInTheDocument();
   });
 
-  it("displays 'Missing' label with correct emoji", () => {
+  it("displays 'Unsupported' label with correct emoji", () => {
     render(<Legend />);
 
-    expect(screen.getByText("Missing")).toBeInTheDocument();
+    expect(screen.getByText("Unsupported")).toBeInTheDocument();
     expect(screen.getByText("❌")).toBeInTheDocument();
   });
 
@@ -57,7 +57,7 @@ describe("Legend", () => {
     render(<Legend />);
 
     const matchingLabel = screen.getByText("Matching");
-    const missingLabel = screen.getByText("Missing");
+    const missingLabel = screen.getByText("Unsupported");
     const mismatchLabel = screen.getByText("Mismatch");
 
     expect(matchingLabel).toHaveClass("font-medium");

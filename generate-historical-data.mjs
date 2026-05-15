@@ -201,7 +201,9 @@ async function calculateSupportPercentage() {
   };
 
   const isObject = (node) => {
-    return typeof node === "object" && Object.keys(node).length > 0;
+    return (
+      node !== null && typeof node === "object" && Object.keys(node).length > 0
+    );
   };
 
   const isPartOfStubModule = (target, keyPath) => {
@@ -218,6 +220,93 @@ async function calculateSupportPercentage() {
     );
   };
 
+  const callableTypes = new Set(["function", "class"]);
+  const supportedStatuses = new Set(["supported", "mismatch"]);
+
+  const getLeafEntries = (node, path = []) => {
+    const leaves = [];
+
+    for (const [key, childNode] of Object.entries(node)) {
+      const keyPath = [...path, key];
+      if (isObject(childNode)) {
+        leaves.push(...getLeafEntries(childNode, keyPath));
+      } else {
+        leaves.push([keyPath, childNode]);
+      }
+    }
+
+    return leaves;
+  };
+
+  let unsupportedModules = new Set();
+
+  const getSupportStatus = (
+    keyPath,
+    baselineValue,
+    { applyModuleOverrides = true } = {}
+  ) => {
+    if (applyModuleOverrides && unsupportedModules.has(keyPath[0])) {
+      return "unsupported";
+    }
+
+    const targetValue = get(workerdData, keyPath);
+    if (isPartOfStubModule(workerdData, keyPath)) {
+      return "unsupported";
+    }
+    if (targetValue === "missing" && baselineValue !== "missing") {
+      return "unsupported";
+    }
+    if (targetValue && targetValue !== baselineValue) {
+      // Don't detect mismatches between functions and classes.
+      if (
+        (targetValue === "function" && baselineValue === "class") ||
+        (baselineValue === "function" && targetValue === "class")
+      ) {
+        return "supported";
+      }
+      return "mismatch";
+    }
+    if (targetValue) {
+      return "supported";
+    }
+    return "unsupported";
+  };
+
+  const findModulesWithNoSupportedCallables = () => {
+    const modules = new Set();
+
+    for (const [moduleName, moduleNode] of Object.entries(baseline)) {
+      if (moduleName === "*globals*") {
+        continue;
+      }
+
+      const callableLeaves = getLeafEntries(moduleNode, [moduleName]).filter(
+        ([, baselineValue]) => callableTypes.has(baselineValue)
+      );
+
+      if (callableLeaves.length === 0) {
+        continue;
+      }
+
+      const hasSupportedCallable = callableLeaves.some(
+        ([keyPath, baselineValue]) =>
+          supportedStatuses.has(
+            getSupportStatus(keyPath, baselineValue, {
+              applyModuleOverrides: false,
+            })
+          )
+      );
+
+      if (!hasSupportedCallable) {
+        modules.add(moduleName);
+      }
+    }
+
+    return modules;
+  };
+
+  unsupportedModules = findModulesWithNoSupportedCallables();
+
   const visit = (node, path) => {
     const rows = [];
 
@@ -232,28 +321,7 @@ async function calculateSupportPercentage() {
         rows.push(...children);
       } else {
         // render a leaf node
-        const targetValue = get(workerdData, keyPath);
-        let supportStatus;
-
-        if (isPartOfStubModule(workerdData, keyPath)) {
-          supportStatus = "unsupported";
-        } else if (targetValue === "missing" && childNode !== "missing") {
-          supportStatus = "unsupported";
-        } else if (targetValue && targetValue !== childNode) {
-          // Don't detect mismatches between functions and classes
-          if (
-            (targetValue === "function" && childNode === "class") ||
-            (childNode === "function" && targetValue === "class")
-          ) {
-            supportStatus = "supported";
-          } else {
-            supportStatus = "mismatch";
-          }
-        } else if (targetValue) {
-          supportStatus = "supported";
-        } else {
-          supportStatus = "unsupported";
-        }
+        const supportStatus = getSupportStatus(keyPath, childNode);
 
         rows.push(supportStatus);
         leafTotal += 1;

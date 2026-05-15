@@ -8,7 +8,7 @@ export const Legend = () => {
         <span>{matching}</span>
       </li>
       <li>
-        <span className="mr-1 text-sm font-medium">Missing</span>
+        <span className="mr-1 text-sm font-medium">Unsupported</span>
         <span>{missing}</span>
       </li>
       <li>

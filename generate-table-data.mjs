@@ -34,7 +34,9 @@ const get = (node, path) => {
 };
 
 const isObject = (node) => {
-  return typeof node === "object" && Object.keys(node).length > 0;
+  return (
+    node !== null && typeof node === "object" && Object.keys(node).length > 0
+  );
 };
 
 // For a set of rows, tally up how many rows contain non-falsy values for the provided index
@@ -75,6 +77,100 @@ const isPartOfStubModule = (target, keyPath) => {
   );
 };
 
+const callableTypes = new Set(["function", "class"]);
+const supportedStatuses = new Set(["supported", "mismatch"]);
+
+const getLeafEntries = (node, path = []) => {
+  const leaves = [];
+
+  for (const [key, childNode] of Object.entries(node)) {
+    const keyPath = [...path, key];
+    if (isObject(childNode)) {
+      leaves.push(...getLeafEntries(childNode, keyPath));
+    } else {
+      leaves.push([keyPath, childNode]);
+    }
+  }
+
+  return leaves;
+};
+
+const getSupportStatus = (
+  target,
+  keyPath,
+  baselineValue,
+  { applyModuleOverrides = true } = {}
+) => {
+  if (
+    applyModuleOverrides &&
+    unsupportedModulesByTarget.get(target)?.has(keyPath[0])
+  ) {
+    return "unsupported";
+  }
+
+  const targetValue = get(target, keyPath);
+  if (isPartOfStubModule(target, keyPath)) {
+    return "unsupported";
+  }
+  if (targetValue === "missing" && baselineValue !== "missing") {
+    return "unsupported";
+  }
+  if (targetValue && targetValue !== baselineValue) {
+    // Don't detect mismatches between functions and classes.
+    if (
+      (targetValue === "function" && baselineValue === "class") ||
+      (baselineValue === "function" && targetValue === "class")
+    ) {
+      return "supported";
+    }
+    return "mismatch";
+  }
+  if (targetValue) {
+    return "supported";
+  }
+  return "unsupported";
+};
+
+const findModulesWithNoSupportedCallables = (target) => {
+  const unsupportedModules = new Set();
+
+  for (const [moduleName, moduleNode] of Object.entries(baseline)) {
+    if (moduleName === "*globals*") {
+      continue;
+    }
+
+    const callableLeaves = getLeafEntries(moduleNode, [moduleName]).filter(
+      ([, baselineValue]) => callableTypes.has(baselineValue)
+    );
+
+    if (callableLeaves.length === 0) {
+      continue;
+    }
+
+    const hasSupportedCallable = callableLeaves.some(
+      ([keyPath, baselineValue]) =>
+        supportedStatuses.has(
+          getSupportStatus(target, keyPath, baselineValue, {
+            applyModuleOverrides: false,
+          })
+        )
+    );
+
+    if (!hasSupportedCallable) {
+      unsupportedModules.add(moduleName);
+    }
+  }
+
+  return unsupportedModules;
+};
+
+const unsupportedModulesByTarget = new Map(
+  Object.values(targets).map((target) => [
+    target,
+    findModulesWithNoSupportedCallables(target),
+  ])
+);
+
 const visit = (node, path) => {
   const rows = [];
 
@@ -106,26 +202,7 @@ const visit = (node, path) => {
       const row = [rowKey, 0, "supported"];
 
       for (const target of Object.values(targets)) {
-        const targetValue = get(target, keyPath);
-        if (isPartOfStubModule(target, keyPath)) {
-          row.push("unsupported");
-        } else if (targetValue === "missing" && childNode !== "missing") {
-          row.push("unsupported");
-        } else if (targetValue && targetValue !== childNode) {
-          // Don't detect mismatches between functions and classes
-          if (
-            (targetValue === "function" && childNode === "class") ||
-            (childNode === "function" && targetValue === "class")
-          ) {
-            row.push("supported");
-          } else {
-            row.push("mismatch");
-          }
-        } else if (targetValue) {
-          row.push("supported");
-        } else {
-          row.push("unsupported");
-        }
+        row.push(getSupportStatus(target, keyPath, childNode));
       }
 
       rows.push(row);
@@ -191,6 +268,11 @@ const csvString = csvData
 await fs.writeFile(
   path.join(__dirname, "report", "public", "runtime-support.csv"),
   csvString
+);
+
+await fs.writeFile(
+  path.join(__dirname, "report", "src", "data", "timestamp.json"),
+  JSON.stringify({ timestamp: Date.now() })
 );
 
 console.log("=== Done ====================================\n");

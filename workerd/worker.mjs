@@ -24,10 +24,16 @@ export default {
       }
     }
 
-    const result = visit(env.baseline, {
-      "*globals*": workerdGlobals,
-      ...importedModules,
-    });
+    const result = visit(
+      env.baseline,
+      {
+        "*globals*": workerdGlobals,
+        ...importedModules,
+      },
+      {
+        detectWorkerdStubs: true,
+      }
+    );
 
     return new Response(JSON.stringify(result, null, 2), {
       headers: { "Content-Type": "application/json" },
