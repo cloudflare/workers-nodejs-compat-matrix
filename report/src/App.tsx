@@ -109,15 +109,15 @@ const App = () => {
             </span>
           </TableCell>
           {targets.map((target, index) => {
-            const [matching, mismatch, missing] = (target as string)
+            const [matching, mismatch, unsupported] = (target as string)
               .split("/")
               .map((i) => parseInt(i as string));
 
             const totalPresent = matching + mismatch;
-            const total = totalPresent + missing;
+            const total = totalPresent + unsupported;
             const presentPct = pct(totalPresent, baselineSupport as number);
 
-            const missingPct = pct(missing, total);
+            const unsupportedPct = pct(unsupported, total);
             const mismatchPct = pct(mismatch, total);
 
             let bgColor = "red";
@@ -128,7 +128,7 @@ const App = () => {
               bgColor = "green";
             }
 
-            const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMatching: ${matching}`;
+            const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nMatching: ${matching}`;
 
             return (
               <TableCell key={index} color={bgColor}>
@@ -139,7 +139,7 @@ const App = () => {
                   <span className="text-sm">{formatPct(presentPct)}</span>
                   <div className="text-xs">
                     <span>
-                      {formatPct(missingPct)}/{formatPct(mismatchPct)}
+                      {formatPct(unsupportedPct)}/{formatPct(mismatchPct)}
                     </span>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ const App = () => {
         <TableCell>
           <span className="font-semibold flex justify-start ml-4">Totals</span>
           <span className="text-xs font-light flex justify-start ml-4">
-            missing / mismatched
+            unsupported / mismatched
           </span>
         </TableCell>
         <TableCell>
@@ -224,17 +224,17 @@ const App = () => {
           </div>
         </TableCell>
         {targetTotals.map((targetTotal, index) => {
-          const [matching, mismatch, missing] = (targetTotal as string)
+          const [matching, mismatch, unsupported] = (targetTotal as string)
             .split("/")
             .map((i) => parseInt(i as string, 10));
 
           const totalPresent = matching + mismatch;
-          const total = totalPresent + missing;
+          const total = totalPresent + unsupported;
           const presentPct = pct(totalPresent, baselineCount as number);
-          const missingPct = pct(missing, total);
+          const unsupportedPct = pct(unsupported, total);
           const mismatchPct = pct(mismatch, total);
 
-          const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}`;
+          const tooltip = `Matching: ${matching}\nUnsupported: ${unsupported}\nMismatch: ${mismatch}`;
 
           return (
             <TableCell key={index}>
@@ -244,7 +244,7 @@ const App = () => {
                 </span>
                 <div className="text-xs">
                   <span>
-                    {formatPct(missingPct)}/{formatPct(mismatchPct)}
+                    {formatPct(unsupportedPct)}/{formatPct(mismatchPct)}
                   </span>
                 </div>
               </div>
@@ -319,11 +319,15 @@ const App = () => {
               <h3 className="font-semibold text-lg mb-1">Notes</h3>
               <ul className="list-disc list-inside">
                 <li className="mb-1">
-                  All percentages in the table represent whether the shape of
-                  the API matches against the baseline.
+                  All percentages in the table represent whether the non-stubbed
+                  API shape matches against the baseline.
                   <span className="font-bold">
                     They are not a calculation of implementation compliance.
                   </span>
+                </li>
+                <li className="mb-1">
+                  Known stubs are treated as unsupported, even when the module
+                  or method exists at runtime.
                 </li>
                 <li className="mb-1">
                   The percentages represent the API surface area that is

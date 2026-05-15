@@ -4,7 +4,11 @@ export const sortFn = (a, b) => {
   return a < b ? -1 : 1;
 };
 
-export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
+export function visit(traversalNode, targetNode = traversalNode, options = {}) {
+  return visitNode(traversalNode, targetNode, 0, [], options);
+}
+
+function visitNode(traversalNode, targetNode, depth, path, options) {
   // create a unique object to mark keys that errored during inspection
   const INSPECTION_ERROR = {};
 
@@ -66,10 +70,12 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
       if (depth === 3) {
         visitResult[key] = "object";
       } else {
-        const partialResult = visit(
+        const partialResult = visitNode(
           traversalValue,
           targetValue === "missing" ? {} : targetValue || {},
-          depth + 1
+          depth + 1,
+          [...path, key],
+          options
         );
 
         partialResult["*self*"] =
@@ -82,23 +88,9 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
         visitResult[key] = partialResult;
       }
     } else {
-      // Detect unenv stubs - treat as missing (not implemented)
-      if (targetValue && targetValue.__unenv__ === true) {
+      if (isStubValue(targetValue, [...path, key], options)) {
         visitResult[key] = "missing";
         continue;
-      }
-
-      if (typeof targetValue === "function") {
-        const code = targetValue.toString();
-
-        // Detect unimplemented stubs - treat as missing
-        if (
-          // deno https://github.com/denoland/deno/blob/8eb1f11112c3ced0ff4a35f3487a4da507db05c2/ext/node/polyfills/_utils.ts#L25
-          code.includes("notImplemented(")
-        ) {
-          visitResult[key] = "missing";
-          continue;
-        }
       }
 
       if (targetValue === "missing") {
@@ -116,6 +108,234 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
   return Object.keys(visitResult)
     .sort(sortFn)
     .reduce((acc, key) => ({ ...acc, [key]: visitResult[key] }), {});
+}
+
+function isStubValue(targetValue, keyPath, options) {
+  // Detect unenv stubs.
+  if (targetValue && targetValue.__unenv__ === true) {
+    return true;
+  }
+
+  if (typeof targetValue === "function") {
+    let code = "";
+    try {
+      code = targetValue.toString();
+    } catch {}
+
+    if (isStubFunctionSource(code)) {
+      return true;
+    }
+  }
+
+  return options.detectWorkerdStubs === true &&
+    typeof targetValue === "function"
+    ? isWorkerdStubValue(targetValue, keyPath)
+    : false;
+}
+
+function isStubFunctionSource(code) {
+  const source = stripJsComments(code);
+
+  // deno https://github.com/denoland/deno/blob/8eb1f11112c3ced0ff4a35f3487a4da507db05c2/ext/node/polyfills/_utils.ts#L25
+  if (source.includes("notImplemented(")) {
+    return true;
+  }
+
+  const hasNotImplementedThrow =
+    /throw\s+new\s+ERR_METHOD_NOT_IMPLEMENTED\b/.test(source) ||
+    /throw\s+new\s+\w*Error\s*\([\s\S]*?not implemented/i.test(source);
+
+  // Avoid false positives for functions that have a not-implemented fallback
+  // branch but return a real implementation when the relevant compat flag is on.
+  return hasNotImplementedThrow && !/\breturn\b/.test(source);
+}
+
+function stripJsComments(code) {
+  return code
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .replace(/(^|[^:])\/\/.*$/gm, "$1");
+}
+
+function isWorkerdStubValue(targetValue, keyPath) {
+  const pathParts = keyPath
+    .filter((part) => part !== "default")
+    .map((part, index) => (index === 0 ? part.replace(/^node:/, "") : part));
+  const normalizedPath = pathParts.join(".");
+  const tailPath = pathParts.slice(-2).join(".");
+
+  if (
+    WORKERD_CALL_STUB_PROBES.has(normalizedPath) ||
+    WORKERD_CALL_STUB_PROBES.has(tailPath)
+  ) {
+    return throwsWorkerdStubError(() => targetValue());
+  }
+
+  if (
+    WORKERD_CONSTRUCTOR_STUB_PROBES.has(normalizedPath) ||
+    WORKERD_CONSTRUCTOR_STUB_PROBES.has(tailPath)
+  ) {
+    return throwsWorkerdStubError(() => new targetValue());
+  }
+
+  const behaviorProbe =
+    WORKERD_BEHAVIOR_STUB_PROBES[normalizedPath] ||
+    WORKERD_BEHAVIOR_STUB_PROBES[tailPath];
+  return behaviorProbe ? behaviorProbe(targetValue) : false;
+}
+
+const WORKERD_CALL_STUB_PROBES = new Set([
+  "console.Console",
+  "console.context",
+  "console.createTask",
+  "perf_hooks.createHistogram",
+  "perf_hooks.monitorEventLoopDelay",
+  "sqlite.backup",
+  "timers.enroll",
+]);
+
+const WORKERD_CONSTRUCTOR_STUB_PROBES = new Set([
+  "sqlite.DatabaseSync",
+  "sqlite.Session",
+  "sqlite.StatementSync",
+]);
+
+const WORKERD_BEHAVIOR_STUB_PROBES = {
+  "async_hooks.createHook": isCreateHookStub,
+  "async_hooks.executionAsyncId": isZeroReturnStub,
+  "async_hooks.triggerAsyncId": isZeroReturnStub,
+  "async_hooks.executionAsyncResource": isEmptyObjectStub,
+  "dgram.Socket": isDgramSocketConstructorStub,
+  "dgram.createSocket": isDgramCreateSocketStub,
+  "perf_hooks.eventLoopUtilization": isEventLoopUtilizationStub,
+  "perf_hooks.timerify": isTimerifyStub,
+  "trace_events.createTracing": isTraceEventsCreateTracingStub,
+  "trace_events.getEnabledCategories": isUndefinedReturnStub,
+};
+
+function throwsWorkerdStubError(fn) {
+  try {
+    fn();
+    return false;
+  } catch (error) {
+    return isWorkerdStubError(error);
+  }
+}
+
+function isWorkerdStubError(error) {
+  return (
+    error?.code === "ERR_METHOD_NOT_IMPLEMENTED" ||
+    /\b(not implemented|not yet implemented|illegal constructor)\b/i.test(
+      error?.message ?? ""
+    )
+  );
+}
+
+function isCreateHookStub(createHook) {
+  try {
+    const hook = createHook({});
+    return (
+      hook &&
+      typeof hook.enable === "function" &&
+      typeof hook.disable === "function" &&
+      hook.enable() === hook &&
+      hook.disable() === hook
+    );
+  } catch {
+    return false;
+  }
+}
+
+function isZeroReturnStub(fn) {
+  try {
+    return fn() === 0;
+  } catch {
+    return false;
+  }
+}
+
+function isEmptyObjectStub(fn) {
+  try {
+    const result = fn();
+    return (
+      result != null &&
+      typeof result === "object" &&
+      Object.getPrototypeOf(result) === null &&
+      Object.keys(result).length === 0
+    );
+  } catch {
+    return false;
+  }
+}
+
+function isUndefinedReturnStub(fn) {
+  try {
+    return /\{\s*return\s+undefined;?\s*\}$/s.test(
+      stripJsComments(fn.toString())
+    );
+  } catch {
+    return false;
+  }
+}
+
+function isDgramCreateSocketStub(createSocket) {
+  try {
+    return isDgramSocketInstanceStub(createSocket("udp4"));
+  } catch {
+    return false;
+  }
+}
+
+function isDgramSocketConstructorStub(Socket) {
+  try {
+    return isDgramSocketInstanceStub(new Socket("udp4"));
+  } catch {
+    try {
+      return isDgramSocketInstanceStub(Socket("udp4"));
+    } catch {
+      return false;
+    }
+  }
+}
+
+function isDgramSocketInstanceStub(socket) {
+  return ["connect", "disconnect", "send"].every((method) => {
+    const value = socket?.[method];
+    return typeof value === "function" && /\bno-op\b/i.test(value.toString());
+  });
+}
+
+function isTraceEventsCreateTracingStub(createTracing) {
+  try {
+    const tracing = createTracing({ categories: ["node"] });
+    return ["enable", "disable"].every((method) => {
+      const value = tracing?.[method];
+      return (
+        typeof value === "function" && /\bnon-op\b/i.test(value.toString())
+      );
+    });
+  } catch {
+    return false;
+  }
+}
+
+function isEventLoopUtilizationStub(fn) {
+  try {
+    const result = fn();
+    return (
+      result?.idle === 0 && result?.active === 0 && result?.utilization === 0
+    );
+  } catch {
+    return false;
+  }
+}
+
+function isTimerifyStub(fn) {
+  try {
+    const input = () => {};
+    return fn(input) === input;
+  } catch {
+    return false;
+  }
 }
 
 const isClass = (node) =>

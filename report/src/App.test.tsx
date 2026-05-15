@@ -109,7 +109,7 @@ describe("App", () => {
     render(<App />);
 
     expect(screen.getByText("Matching")).toBeInTheDocument();
-    expect(screen.getByText("Missing")).toBeInTheDocument();
+    expect(screen.getByText("Unsupported")).toBeInTheDocument();
     expect(screen.getByText("Mismatch")).toBeInTheDocument();
   });
 
