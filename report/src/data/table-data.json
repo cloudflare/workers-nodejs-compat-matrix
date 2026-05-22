@@ -1,21 +1,21 @@
 [
   [
     "Totals",
-    8340,
-    8340,
-    "8223/0/117",
-    "7848/18/474",
-    "7245/15/1080",
-    "6949/3/1388"
+    8351,
+    8351,
+    "8231/0/120",
+    "7847/18/486",
+    "7250/15/1086",
+    "6977/3/1371"
   ],
   [
     "*globals*",
-    2052,
-    2052,
-    "2045/0/7",
-    "1903/3/146",
-    "1811/2/239",
-    "1824/0/228"
+    2055,
+    2055,
+    "2048/0/7",
+    "1903/3/149",
+    "1814/2/239",
+    "1830/0/225"
   ],
   [
     "*globals*.*self*",
@@ -2525,8 +2525,8 @@
     645,
     "644/0/1",
     "638/0/7",
-    "627/0/18",
-    "628/0/17"
+    "628/0/17",
+    "629/0/16"
   ],
   [
     "*globals*.global.*self*",
@@ -7637,8 +7637,8 @@
     83,
     "82/0/1",
     "83/0/0",
-    "76/0/7",
-    "72/0/11"
+    "77/0/6",
+    "73/0/10"
   ],
   [
     "*globals*.global.process.*self*",
@@ -7782,7 +7782,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.dlopen",
@@ -7862,7 +7862,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -8456,8 +8456,8 @@
     645,
     "644/0/1",
     "638/0/7",
-    "627/0/18",
-    "628/0/17"
+    "628/0/17",
+    "629/0/16"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -13568,8 +13568,8 @@
     83,
     "82/0/1",
     "83/0/0",
-    "76/0/7",
-    "72/0/11"
+    "77/0/6",
+    "73/0/10"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -13713,7 +13713,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.dlopen",
@@ -13793,7 +13793,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -14842,12 +14842,12 @@
   ],
   [
     "*globals*.process",
-    440,
-    440,
-    "435/0/5",
-    "317/3/120",
-    "264/2/174",
-    "270/0/170"
+    443,
+    443,
+    "438/0/5",
+    "317/3/123",
+    "265/2/176",
+    "274/0/169"
   ],
   [
     "*globals*.process.*self*",
@@ -15171,7 +15171,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.dlopen",
@@ -15260,7 +15260,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -15283,12 +15283,12 @@
   ],
   [
     "*globals*.process.features",
-    13,
-    13,
-    "13/0/0",
-    "12/1/0",
-    "13/0/0",
-    "13/0/0"
+    14,
+    14,
+    "14/0/0",
+    "12/1/1",
+    "13/0/1",
+    "14/0/0"
   ],
   [
     "*globals*.process.features.*self*",
@@ -15342,6 +15342,15 @@
     "supported",
     "supported",
     "supported",
+    "supported"
+  ],
+  [
+    "*globals*.process.features.quic",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "supported"
   ],
   [
@@ -18640,12 +18649,12 @@
   ],
   [
     "*globals*.process.versions",
-    29,
-    29,
-    "28/0/1",
-    "29/0/0",
-    "13/0/16",
-    "17/0/12"
+    31,
+    31,
+    "30/0/1",
+    "29/0/2",
+    "13/0/18",
+    "19/0/12"
   ],
   [
     "*globals*.process.versions.*self*",
@@ -18788,6 +18797,24 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "*globals*.process.versions.nghttp3",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "*globals*.process.versions.ngtcp2",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
     "unsupported",
     "supported"
   ],
@@ -19911,7 +19938,7 @@
     "async_hooks",
     154,
     154,
-    "154/0/0",
+    "152/0/2",
     "154/0/0",
     "128/0/26",
     "142/0/12"
@@ -19929,7 +19956,7 @@
     "async_hooks.default",
     77,
     77,
-    "77/0/0",
+    "76/0/1",
     "77/0/0",
     "64/0/13",
     "71/0/6"
@@ -19965,7 +19992,7 @@
     "async_hooks.default.asyncWrapProviders",
     70,
     70,
-    "70/0/0",
+    "69/0/1",
     "70/0/0",
     "57/0/13",
     "64/0/6"
@@ -20343,7 +20370,7 @@
     "async_hooks.default.asyncWrapProviders.QUIC_PACKET",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "unsupported",
     "supported"
@@ -20658,7 +20685,7 @@
     "async_hooks.asyncWrapProviders",
     70,
     70,
-    "70/0/0",
+    "69/0/1",
     "70/0/0",
     "57/0/13",
     "64/0/6"
@@ -21036,7 +21063,7 @@
     "async_hooks.asyncWrapProviders.QUIC_PACKET",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "unsupported",
     "supported"
@@ -26461,12 +26488,12 @@
   ],
   [
     "crypto",
-    319,
-    319,
-    "313/0/6",
-    "288/5/26",
-    "290/0/29",
-    "279/2/38"
+    321,
+    321,
+    "315/0/6",
+    "288/5/28",
+    "290/0/31",
+    "281/2/38"
   ],
   [
     "crypto.*self*",
@@ -26479,12 +26506,12 @@
   ],
   [
     "crypto.default",
-    154,
-    154,
-    "150/0/4",
-    "139/3/12",
-    "141/0/13",
-    "134/1/19"
+    155,
+    155,
+    "151/0/4",
+    "139/3/13",
+    "141/0/14",
+    "136/1/18"
   ],
   [
     "crypto.default.*self*",
@@ -27528,7 +27555,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.pseudoRandomBytes",
@@ -27603,13 +27630,22 @@
     "supported"
   ],
   [
+    "crypto.default.randomUUIDv7",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "crypto.default.rng",
     0,
     "supported",
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.scrypt",
@@ -28960,6 +28996,15 @@
     "supported",
     "supported",
     "supported"
+  ],
+  [
+    "crypto.randomUUIDv7",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "crypto.scrypt",
@@ -32775,7 +32820,7 @@
     "446/0/10",
     "446/4/6",
     "450/0/6",
-    "432/0/24"
+    "438/0/18"
   ],
   [
     "fs.*self*",
@@ -32793,7 +32838,7 @@
     "197/0/2",
     "194/2/3",
     "196/0/3",
-    "188/0/11"
+    "191/0/8"
   ],
   [
     "fs.default.*self*",
@@ -32883,7 +32928,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.default.W_OK",
@@ -33882,7 +33927,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.default.mkdtempSync",
@@ -33945,7 +33990,7 @@
     "34/0/0",
     "33/0/1",
     "33/0/1",
-    "33/0/1"
+    "34/0/0"
   ],
   [
     "fs.default.promises.*self*",
@@ -34098,7 +34143,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.default.promises.open",
@@ -34683,7 +34728,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.W_OK",
@@ -35682,7 +35727,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.mkdtempSync",
@@ -35745,7 +35790,7 @@
     "90/0/2",
     "91/0/1",
     "91/0/1",
-    "89/0/3"
+    "90/0/2"
   ],
   [
     "fs.promises.*self*",
@@ -36429,7 +36474,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs.promises.open",
@@ -36942,7 +36987,7 @@
     "180/0/4",
     "182/0/2",
     "182/0/2",
-    "178/0/6"
+    "180/0/4"
   ],
   [
     "fs/promises.*self*",
@@ -36960,7 +37005,7 @@
     "90/0/2",
     "91/0/1",
     "91/0/1",
-    "89/0/3"
+    "90/0/2"
   ],
   [
     "fs/promises.default.*self*",
@@ -37644,7 +37689,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs/promises.default.open",
@@ -38472,7 +38517,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "fs/promises.open",
@@ -54888,7 +54933,7 @@
     "129/0/0",
     "127/0/2",
     "110/4/15",
-    "62/0/67"
+    "66/0/63"
   ],
   [
     "perf_hooks.*self*",
@@ -54906,7 +54951,7 @@
     "58/0/0",
     "57/0/1",
     "51/0/7",
-    "31/0/27"
+    "33/0/25"
   ],
   [
     "perf_hooks.default.*self*",
@@ -55230,7 +55275,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "perf_hooks.default.monitorEventLoopDelay",
@@ -55446,7 +55491,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "perf_hooks.Performance",
@@ -55761,7 +55806,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "perf_hooks.monitorEventLoopDelay",
@@ -56103,16 +56148,16 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process",
-    981,
-    981,
-    "967/0/14",
-    "726/6/249",
-    "530/5/446",
-    "483/0/498"
+    987,
+    987,
+    "972/0/15",
+    "725/6/256",
+    "532/5/450",
+    "489/0/498"
   ],
   [
     "process.*self*",
@@ -56125,12 +56170,12 @@
   ],
   [
     "process.default",
-    440,
-    440,
-    "435/0/5",
-    "317/3/120",
-    "264/2/174",
-    "270/0/170"
+    443,
+    443,
+    "438/0/5",
+    "317/3/123",
+    "265/2/176",
+    "274/0/169"
   ],
   [
     "process.default.*self*",
@@ -56454,7 +56499,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.default.dlopen",
@@ -56543,7 +56588,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -56566,12 +56611,12 @@
   ],
   [
     "process.default.features",
-    13,
-    13,
-    "13/0/0",
-    "12/1/0",
-    "13/0/0",
-    "13/0/0"
+    14,
+    14,
+    "14/0/0",
+    "12/1/1",
+    "13/0/1",
+    "14/0/0"
   ],
   [
     "process.default.features.*self*",
@@ -56625,6 +56670,15 @@
     "supported",
     "supported",
     "supported",
+    "supported"
+  ],
+  [
+    "process.default.features.quic",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "supported"
   ],
   [
@@ -59923,12 +59977,12 @@
   ],
   [
     "process.default.versions",
-    29,
-    29,
-    "28/0/1",
-    "29/0/0",
-    "13/0/16",
-    "17/0/12"
+    31,
+    31,
+    "30/0/1",
+    "29/0/2",
+    "13/0/18",
+    "19/0/12"
   ],
   [
     "process.default.versions.*self*",
@@ -60071,6 +60125,24 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.default.versions.nghttp3",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.default.versions.ngtcp2",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
     "unsupported",
     "supported"
   ],
@@ -60429,8 +60501,8 @@
     "process.config",
     119,
     119,
-    "115/0/4",
-    "110/0/9",
+    "114/0/5",
+    "109/0/10",
     "20/1/98",
     "0/0/119"
   ],
@@ -60519,8 +60591,8 @@
     "process.config.variables",
     111,
     111,
-    "107/0/4",
-    "107/0/4",
+    "106/0/5",
+    "106/0/5",
     "18/1/92",
     "0/0/111"
   ],
@@ -60885,15 +60957,6 @@
     "unsupported"
   ],
   [
-    "process.config.variables.node_quic",
-    0,
-    "supported",
-    "supported",
-    "supported",
-    "unsupported",
-    "unsupported"
-  ],
-  [
     "process.config.variables.node_release_urlbase",
     0,
     "supported",
@@ -61155,6 +61218,15 @@
     "unsupported"
   ],
   [
+    "process.config.variables.node_use_quic",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.config.variables.node_use_sqlite",
     0,
     "supported",
@@ -61212,7 +61284,7 @@
     "process.config.variables.openssl_quic",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "unsupported",
     "unsupported"
@@ -61628,7 +61700,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported"
   ],
   [
@@ -61651,12 +61723,12 @@
   ],
   [
     "process.features",
-    13,
-    13,
-    "13/0/0",
-    "12/1/0",
-    "13/0/0",
-    "0/0/13"
+    14,
+    14,
+    "14/0/0",
+    "12/1/1",
+    "13/0/1",
+    "0/0/14"
   ],
   [
     "process.features.*self*",
@@ -61710,6 +61782,15 @@
     "supported",
     "supported",
     "supported",
+    "unsupported"
+  ],
+  [
+    "process.features.quic",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "unsupported"
   ],
   [
@@ -64900,12 +64981,12 @@
   ],
   [
     "process.versions",
-    29,
-    29,
-    "28/0/1",
-    "29/0/0",
-    "13/0/16",
-    "17/0/12"
+    31,
+    31,
+    "30/0/1",
+    "29/0/2",
+    "13/0/18",
+    "19/0/12"
   ],
   [
     "process.versions.*self*",
@@ -65048,6 +65129,24 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.versions.nghttp3",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.versions.ngtcp2",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
     "unsupported",
     "supported"
   ],
@@ -66120,7 +66219,7 @@
     "14/0/0",
     "12/0/2",
     "14/0/0",
-    "12/0/2"
+    "14/0/0"
   ],
   [
     "stream/consumers.*self*",
@@ -66138,7 +66237,7 @@
     "7/0/0",
     "6/0/1",
     "7/0/0",
-    "6/0/1"
+    "7/0/0"
   ],
   [
     "stream/consumers.default.*self*",
@@ -66183,7 +66282,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/consumers.default.json",
@@ -66237,7 +66336,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/consumers.json",
