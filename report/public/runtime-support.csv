@@ -1,5 +1,5 @@
 Module,Path,baseline,node24,workerd,bun,deno
-,,,24.15.0,1.20260424.1,1.3.13,2.7.13
+,,,24.16.0,1.20260522.1,1.3.14,2.7.14
 *globals*,*self*,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported
@@ -838,7 +838,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,global.process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,global.process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,global.process.cwd,supported,supported,supported,supported,supported
-*globals*,global.process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,global.process.debugPort,supported,supported,supported,supported,supported
 *globals*,global.process.dlopen,supported,supported,supported,supported,supported
 *globals*,global.process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,global.process.emit,supported,supported,supported,supported,supported
@@ -847,7 +847,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,global.process.eventNames,supported,supported,supported,supported,supported
 *globals*,global.process.execArgv,supported,supported,supported,supported,supported
 *globals*,global.process.execPath,supported,supported,supported,supported,supported
-*globals*,global.process.execve,supported,supported,supported,unsupported,unsupported
+*globals*,global.process.execve,supported,supported,supported,supported,unsupported
 *globals*,global.process.exit,supported,supported,supported,supported,supported
 *globals*,global.process.exitCode,supported,supported,supported,supported,supported
 *globals*,global.process.features,supported,supported,supported,supported,supported
@@ -1483,7 +1483,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,globalThis.process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,globalThis.process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,globalThis.process.cwd,supported,supported,supported,supported,supported
-*globals*,globalThis.process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,globalThis.process.debugPort,supported,supported,supported,supported,supported
 *globals*,globalThis.process.dlopen,supported,supported,supported,supported,supported
 *globals*,globalThis.process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,globalThis.process.emit,supported,supported,supported,supported,supported
@@ -1492,7 +1492,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,globalThis.process.eventNames,supported,supported,supported,supported,supported
 *globals*,globalThis.process.execArgv,supported,supported,supported,supported,supported
 *globals*,globalThis.process.execPath,supported,supported,supported,supported,supported
-*globals*,globalThis.process.execve,supported,supported,supported,unsupported,unsupported
+*globals*,globalThis.process.execve,supported,supported,supported,supported,unsupported
 *globals*,globalThis.process.exit,supported,supported,supported,supported,supported
 *globals*,globalThis.process.exitCode,supported,supported,supported,supported,supported
 *globals*,globalThis.process.features,supported,supported,supported,supported,supported
@@ -1638,7 +1638,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.constrainedMemory,supported,supported,supported,supported,supported
 *globals*,process.cpuUsage,supported,supported,supported,supported,supported
 *globals*,process.cwd,supported,supported,supported,supported,supported
-*globals*,process.debugPort,supported,supported,supported,supported,unsupported
+*globals*,process.debugPort,supported,supported,supported,supported,supported
 *globals*,process.dlopen,supported,supported,supported,supported,supported
 *globals*,process.domain,supported,supported,supported,unsupported,unsupported
 *globals*,process.emit,supported,supported,supported,supported,supported
@@ -1647,7 +1647,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.eventNames,supported,supported,supported,supported,supported
 *globals*,process.execArgv,supported,supported,supported,supported,supported
 *globals*,process.execPath,supported,supported,supported,supported,supported
-*globals*,process.execve,supported,supported,supported,unsupported,unsupported
+*globals*,process.execve,supported,supported,supported,supported,unsupported
 *globals*,process.exit,supported,supported,supported,supported,supported
 *globals*,process.exitCode,supported,supported,supported,supported,supported
 *globals*,process.features.*self*,supported,supported,supported,supported,supported
@@ -1656,6 +1656,7 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.features.inspector,supported,supported,supported,supported,supported
 *globals*,process.features.ipv6,supported,supported,supported,supported,supported
 *globals*,process.features.openssl_is_boringssl,supported,supported,supported,supported,supported
+*globals*,process.features.quic,supported,supported,unsupported,unsupported,supported
 *globals*,process.features.require_module,supported,supported,supported,supported,supported
 *globals*,process.features.tls,supported,supported,supported,supported,supported
 *globals*,process.features.tls_alpn,supported,supported,supported,supported,supported
@@ -2032,6 +2033,8 @@ Module,Path,baseline,node24,workerd,bun,deno
 *globals*,process.versions.nbytes,supported,supported,supported,unsupported,unsupported
 *globals*,process.versions.ncrypto,supported,supported,supported,unsupported,unsupported
 *globals*,process.versions.nghttp2,supported,supported,supported,unsupported,supported
+*globals*,process.versions.nghttp3,supported,supported,unsupported,unsupported,supported
+*globals*,process.versions.ngtcp2,supported,supported,unsupported,unsupported,supported
 *globals*,process.versions.node,supported,supported,supported,supported,supported
 *globals*,process.versions.openssl,supported,supported,supported,supported,supported
 *globals*,process.versions.simdjson,supported,supported,supported,unsupported,unsupported
@@ -2195,7 +2198,7 @@ async_hooks,default.asyncWrapProviders.PROMISE,supported,supported,supported,sup
 async_hooks,default.asyncWrapProviders.QUERYWRAP,supported,supported,supported,supported,supported
 async_hooks,default.asyncWrapProviders.QUIC_ENDPOINT,supported,supported,supported,unsupported,supported
 async_hooks,default.asyncWrapProviders.QUIC_LOGSTREAM,supported,supported,supported,unsupported,supported
-async_hooks,default.asyncWrapProviders.QUIC_PACKET,supported,supported,supported,unsupported,supported
+async_hooks,default.asyncWrapProviders.QUIC_PACKET,supported,unsupported,supported,unsupported,supported
 async_hooks,default.asyncWrapProviders.QUIC_SESSION,supported,supported,supported,unsupported,supported
 async_hooks,default.asyncWrapProviders.QUIC_STREAM,supported,supported,supported,unsupported,supported
 async_hooks,default.asyncWrapProviders.QUIC_UDP,supported,supported,supported,unsupported,supported
@@ -2271,7 +2274,7 @@ async_hooks,asyncWrapProviders.PROMISE,supported,supported,supported,supported,s
 async_hooks,asyncWrapProviders.QUERYWRAP,supported,supported,supported,supported,supported
 async_hooks,asyncWrapProviders.QUIC_ENDPOINT,supported,supported,supported,unsupported,supported
 async_hooks,asyncWrapProviders.QUIC_LOGSTREAM,supported,supported,supported,unsupported,supported
-async_hooks,asyncWrapProviders.QUIC_PACKET,supported,supported,supported,unsupported,supported
+async_hooks,asyncWrapProviders.QUIC_PACKET,supported,unsupported,supported,unsupported,supported
 async_hooks,asyncWrapProviders.QUIC_SESSION,supported,supported,supported,unsupported,supported
 async_hooks,asyncWrapProviders.QUIC_STREAM,supported,supported,supported,unsupported,supported
 async_hooks,asyncWrapProviders.QUIC_UDP,supported,supported,supported,unsupported,supported
@@ -2981,7 +2984,7 @@ crypto,default.pbkdf2,supported,supported,supported,supported,supported
 crypto,default.pbkdf2Sync,supported,supported,supported,supported,supported
 crypto,default.privateDecrypt,supported,supported,supported,supported,supported
 crypto,default.privateEncrypt,supported,supported,supported,supported,supported
-crypto,default.prng,supported,supported,unsupported,supported,unsupported
+crypto,default.prng,supported,supported,unsupported,supported,supported
 crypto,default.pseudoRandomBytes,supported,supported,supported,supported,supported
 crypto,default.publicDecrypt,supported,supported,supported,supported,supported
 crypto,default.publicEncrypt,supported,supported,supported,supported,supported
@@ -2990,7 +2993,8 @@ crypto,default.randomFill,supported,supported,supported,supported,supported
 crypto,default.randomFillSync,supported,supported,supported,supported,supported
 crypto,default.randomInt,supported,supported,supported,supported,supported
 crypto,default.randomUUID,supported,supported,supported,supported,supported
-crypto,default.rng,supported,supported,unsupported,supported,unsupported
+crypto,default.randomUUIDv7,supported,supported,unsupported,unsupported,unsupported
+crypto,default.rng,supported,supported,unsupported,supported,supported
 crypto,default.scrypt,supported,supported,supported,supported,supported
 crypto,default.scryptSync,supported,supported,supported,supported,supported
 crypto,default.secureHeapUsed,supported,supported,supported,supported,unsupported
@@ -3138,6 +3142,7 @@ crypto,randomFill,supported,supported,supported,supported,supported
 crypto,randomFillSync,supported,supported,supported,supported,supported
 crypto,randomInt,supported,supported,supported,supported,supported
 crypto,randomUUID,supported,supported,supported,supported,supported
+crypto,randomUUIDv7,supported,supported,unsupported,unsupported,unsupported
 crypto,scrypt,supported,supported,supported,supported,supported
 crypto,scryptSync,supported,supported,supported,supported,supported
 crypto,secureHeapUsed,supported,supported,supported,supported,unsupported
@@ -3555,7 +3560,7 @@ fs,default.FileWriteStream,supported,supported,supported,supported,unsupported
 fs,default.R_OK,supported,supported,supported,supported,unsupported
 fs,default.ReadStream,supported,supported,supported,supported,supported
 fs,default.Stats,supported,supported,supported,supported,supported
-fs,default.Utf8Stream,supported,supported,unsupported,unsupported,unsupported
+fs,default.Utf8Stream,supported,supported,unsupported,unsupported,supported
 fs,default.W_OK,supported,supported,supported,supported,unsupported
 fs,default.WriteStream,supported,supported,supported,supported,supported
 fs,default.X_OK,supported,supported,supported,supported,unsupported
@@ -3665,7 +3670,7 @@ fs,default.lutimesSync,supported,supported,supported,supported,supported
 fs,default.mkdir,supported,supported,supported,supported,supported
 fs,default.mkdirSync,supported,supported,supported,supported,supported
 fs,default.mkdtemp,supported,supported,supported,supported,supported
-fs,default.mkdtempDisposableSync,supported,supported,unsupported,unsupported,unsupported
+fs,default.mkdtempDisposableSync,supported,supported,unsupported,unsupported,supported
 fs,default.mkdtempSync,supported,supported,supported,supported,supported
 fs,default.open,supported,supported,supported,supported,supported
 fs,default.openAsBlob,supported,supported,supported,supported,supported
@@ -3688,7 +3693,7 @@ fs,default.promises.lstat,supported,supported,supported,supported,supported
 fs,default.promises.lutimes,supported,supported,supported,supported,supported
 fs,default.promises.mkdir,supported,supported,supported,supported,supported
 fs,default.promises.mkdtemp,supported,supported,supported,supported,supported
-fs,default.promises.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs,default.promises.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs,default.promises.open,supported,supported,supported,supported,supported
 fs,default.promises.opendir,supported,supported,supported,supported,supported
 fs,default.promises.readFile,supported,supported,supported,supported,supported
@@ -3753,7 +3758,7 @@ fs,FileWriteStream,supported,supported,supported,supported,unsupported
 fs,R_OK,supported,unsupported,supported,supported,unsupported
 fs,ReadStream,supported,supported,supported,supported,supported
 fs,Stats,supported,supported,supported,supported,supported
-fs,Utf8Stream,supported,supported,unsupported,unsupported,unsupported
+fs,Utf8Stream,supported,supported,unsupported,unsupported,supported
 fs,W_OK,supported,unsupported,supported,supported,unsupported
 fs,WriteStream,supported,supported,supported,supported,supported
 fs,X_OK,supported,unsupported,supported,supported,unsupported
@@ -3863,7 +3868,7 @@ fs,lutimesSync,supported,supported,supported,supported,supported
 fs,mkdir,supported,supported,supported,supported,supported
 fs,mkdirSync,supported,supported,supported,supported,supported
 fs,mkdtemp,supported,supported,supported,supported,supported
-fs,mkdtempDisposableSync,supported,supported,unsupported,unsupported,unsupported
+fs,mkdtempDisposableSync,supported,supported,unsupported,unsupported,supported
 fs,mkdtempSync,supported,supported,supported,supported,supported
 fs,open,supported,supported,supported,supported,supported
 fs,openAsBlob,supported,supported,supported,supported,supported
@@ -3944,7 +3949,7 @@ fs,promises.lstat,supported,supported,supported,supported,supported
 fs,promises.lutimes,supported,supported,supported,supported,supported
 fs,promises.mkdir,supported,supported,supported,supported,supported
 fs,promises.mkdtemp,supported,supported,supported,supported,supported
-fs,promises.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs,promises.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs,promises.open,supported,supported,supported,supported,supported
 fs,promises.opendir,supported,supported,supported,supported,supported
 fs,promises.readFile,supported,supported,supported,supported,supported
@@ -4076,7 +4081,7 @@ fs/promises,default.lstat,supported,supported,supported,supported,supported
 fs/promises,default.lutimes,supported,supported,supported,supported,supported
 fs/promises,default.mkdir,supported,supported,supported,supported,supported
 fs/promises,default.mkdtemp,supported,supported,supported,supported,supported
-fs/promises,default.mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs/promises,default.mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs/promises,default.open,supported,supported,supported,supported,supported
 fs/promises,default.opendir,supported,supported,supported,supported,supported
 fs/promises,default.readFile,supported,supported,supported,supported,supported
@@ -4167,7 +4172,7 @@ fs/promises,lstat,supported,supported,supported,supported,supported
 fs/promises,lutimes,supported,supported,supported,supported,supported
 fs/promises,mkdir,supported,supported,supported,supported,supported
 fs/promises,mkdtemp,supported,supported,supported,supported,supported
-fs/promises,mkdtempDisposable,supported,supported,unsupported,unsupported,unsupported
+fs/promises,mkdtempDisposable,supported,supported,unsupported,unsupported,supported
 fs/promises,open,supported,supported,supported,supported,supported
 fs/promises,opendir,supported,supported,supported,supported,supported
 fs/promises,readFile,supported,supported,supported,supported,supported
@@ -5954,7 +5959,7 @@ perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN,supported,su
 perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN_TIMESTAMP,supported,supported,supported,supported,unsupported
 perf_hooks,default.constants.NODE_PERFORMANCE_MILESTONE_V8_START,supported,supported,supported,supported,unsupported
 perf_hooks,default.createHistogram,supported,supported,supported,supported,unsupported
-perf_hooks,default.eventLoopUtilization,supported,supported,supported,unsupported,unsupported
+perf_hooks,default.eventLoopUtilization,supported,supported,supported,unsupported,supported
 perf_hooks,default.monitorEventLoopDelay,supported,supported,supported,supported,supported
 perf_hooks,default.performance.*self*,supported,supported,supported,supported,supported
 perf_hooks,default.performance.addEventListener,supported,supported,supported,unsupported,supported
@@ -5977,7 +5982,7 @@ perf_hooks,default.performance.setResourceTimingBufferSize,supported,supported,s
 perf_hooks,default.performance.timeOrigin,supported,supported,supported,supported,supported
 perf_hooks,default.performance.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,default.performance.toJSON,supported,supported,supported,supported,supported
-perf_hooks,default.timerify,supported,supported,supported,unsupported,unsupported
+perf_hooks,default.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,Performance,supported,supported,supported,supported,unsupported
 perf_hooks,PerformanceEntry,supported,supported,supported,supported,supported
 perf_hooks,PerformanceMark,supported,supported,supported,supported,unsupported
@@ -6011,7 +6016,7 @@ perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN,supported,supported,
 perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_TIME_ORIGIN_TIMESTAMP,supported,supported,supported,supported,unsupported
 perf_hooks,constants.NODE_PERFORMANCE_MILESTONE_V8_START,supported,supported,supported,supported,unsupported
 perf_hooks,createHistogram,supported,supported,supported,supported,unsupported
-perf_hooks,eventLoopUtilization,supported,supported,supported,unsupported,unsupported
+perf_hooks,eventLoopUtilization,supported,supported,supported,unsupported,supported
 perf_hooks,monitorEventLoopDelay,supported,supported,supported,supported,supported
 perf_hooks,performance.*self*,supported,supported,supported,supported,supported
 perf_hooks,performance.addEventListener,supported,supported,supported,unsupported,supported
@@ -6047,7 +6052,7 @@ perf_hooks,performance.setResourceTimingBufferSize,supported,supported,supported
 perf_hooks,performance.timeOrigin,supported,supported,supported,supported,supported
 perf_hooks,performance.timerify,supported,supported,supported,unsupported,supported
 perf_hooks,performance.toJSON,supported,supported,supported,supported,supported
-perf_hooks,timerify,supported,supported,supported,unsupported,unsupported
+perf_hooks,timerify,supported,supported,supported,unsupported,supported
 process,*self*,supported,supported,supported,supported,supported
 process,default.*self*,supported,supported,supported,supported,supported
 process,default.abort,supported,supported,supported,supported,supported
@@ -6082,7 +6087,7 @@ process,default.config.variables,supported,supported,supported,supported,support
 process,default.constrainedMemory,supported,supported,supported,supported,supported
 process,default.cpuUsage,supported,supported,supported,supported,supported
 process,default.cwd,supported,supported,supported,supported,supported
-process,default.debugPort,supported,supported,supported,supported,unsupported
+process,default.debugPort,supported,supported,supported,supported,supported
 process,default.dlopen,supported,supported,supported,supported,supported
 process,default.domain,supported,supported,supported,unsupported,unsupported
 process,default.emit,supported,supported,supported,supported,supported
@@ -6091,7 +6096,7 @@ process,default.env.*self*,supported,supported,supported,supported,supported
 process,default.eventNames,supported,supported,supported,supported,supported
 process,default.execArgv,supported,supported,supported,supported,supported
 process,default.execPath,supported,supported,supported,supported,supported
-process,default.execve,supported,supported,supported,unsupported,unsupported
+process,default.execve,supported,supported,supported,supported,unsupported
 process,default.exit,supported,supported,supported,supported,supported
 process,default.exitCode,supported,supported,supported,supported,supported
 process,default.features.*self*,supported,supported,supported,supported,supported
@@ -6100,6 +6105,7 @@ process,default.features.debug,supported,supported,supported,supported,supported
 process,default.features.inspector,supported,supported,supported,supported,supported
 process,default.features.ipv6,supported,supported,supported,supported,supported
 process,default.features.openssl_is_boringssl,supported,supported,supported,supported,supported
+process,default.features.quic,supported,supported,unsupported,unsupported,supported
 process,default.features.require_module,supported,supported,supported,supported,supported
 process,default.features.tls,supported,supported,supported,supported,supported
 process,default.features.tls_alpn,supported,supported,supported,supported,supported
@@ -6476,6 +6482,8 @@ process,default.versions.napi,supported,supported,supported,supported,supported
 process,default.versions.nbytes,supported,supported,supported,unsupported,unsupported
 process,default.versions.ncrypto,supported,supported,supported,unsupported,unsupported
 process,default.versions.nghttp2,supported,supported,supported,unsupported,supported
+process,default.versions.nghttp3,supported,supported,unsupported,unsupported,supported
+process,default.versions.ngtcp2,supported,supported,unsupported,unsupported,supported
 process,default.versions.node,supported,supported,supported,supported,supported
 process,default.versions.openssl,supported,supported,supported,supported,supported
 process,default.versions.simdjson,supported,supported,supported,unsupported,unsupported
@@ -6562,7 +6570,6 @@ process,config.variables.node_library_files,supported,supported,unsupported,unsu
 process,config.variables.node_module_version,supported,supported,supported,supported,unsupported
 process,config.variables.node_no_browser_globals,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_prefix,supported,supported,supported,unsupported,unsupported
-process,config.variables.node_quic,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_release_urlbase,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_section_ordering_info,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_shared,supported,supported,supported,unsupported,unsupported
@@ -6592,13 +6599,14 @@ process,config.variables.node_use_bundled_v8,supported,supported,supported,unsup
 process,config.variables.node_use_node_code_cache,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_use_node_snapshot,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_use_openssl,supported,supported,supported,unsupported,unsupported
+process,config.variables.node_use_quic,supported,supported,unsupported,unsupported,unsupported
 process,config.variables.node_use_sqlite,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_use_v8_platform,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_with_ltcg,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_without_node_options,supported,supported,supported,unsupported,unsupported
 process,config.variables.node_write_snapshot_as_array_literals,supported,supported,supported,unsupported,unsupported
 process,config.variables.openssl_is_fips,supported,supported,supported,unsupported,unsupported
-process,config.variables.openssl_quic,supported,supported,supported,unsupported,unsupported
+process,config.variables.openssl_quic,supported,unsupported,supported,unsupported,unsupported
 process,config.variables.ossfuzz,supported,supported,supported,unsupported,unsupported
 process,config.variables.shlib_suffix,supported,supported,supported,unsupported,unsupported
 process,config.variables.single_executable_application,supported,supported,supported,unsupported,unsupported
@@ -6643,7 +6651,7 @@ process,emitWarning,supported,supported,supported,supported,supported
 process,env.*self*,supported,supported,supported,supported,supported
 process,execArgv,supported,supported,supported,supported,supported
 process,execPath,supported,supported,supported,supported,supported
-process,execve,supported,supported,supported,unsupported,unsupported
+process,execve,supported,supported,supported,supported,unsupported
 process,exit,supported,supported,supported,supported,supported
 process,exitCode,supported,supported,supported,supported,unsupported
 process,features.*self*,supported,supported,supported,supported,unsupported
@@ -6652,6 +6660,7 @@ process,features.debug,supported,supported,supported,supported,unsupported
 process,features.inspector,supported,supported,supported,supported,unsupported
 process,features.ipv6,supported,supported,supported,supported,unsupported
 process,features.openssl_is_boringssl,supported,supported,supported,supported,unsupported
+process,features.quic,supported,supported,unsupported,unsupported,unsupported
 process,features.require_module,supported,supported,supported,supported,unsupported
 process,features.tls,supported,supported,supported,supported,unsupported
 process,features.tls_alpn,supported,supported,supported,supported,unsupported
@@ -7016,6 +7025,8 @@ process,versions.napi,supported,supported,supported,supported,supported
 process,versions.nbytes,supported,supported,supported,unsupported,unsupported
 process,versions.ncrypto,supported,supported,supported,unsupported,unsupported
 process,versions.nghttp2,supported,supported,supported,unsupported,supported
+process,versions.nghttp3,supported,supported,unsupported,unsupported,supported
+process,versions.ngtcp2,supported,supported,unsupported,unsupported,supported
 process,versions.node,supported,supported,supported,supported,supported
 process,versions.openssl,supported,supported,supported,supported,supported
 process,versions.simdjson,supported,supported,supported,unsupported,unsupported
@@ -7132,13 +7143,13 @@ stream/consumers,default.*self*,supported,supported,supported,supported,supporte
 stream/consumers,default.arrayBuffer,supported,supported,supported,supported,supported
 stream/consumers,default.blob,supported,supported,supported,supported,supported
 stream/consumers,default.buffer,supported,supported,supported,supported,supported
-stream/consumers,default.bytes,supported,supported,unsupported,supported,unsupported
+stream/consumers,default.bytes,supported,supported,unsupported,supported,supported
 stream/consumers,default.json,supported,supported,supported,supported,supported
 stream/consumers,default.text,supported,supported,supported,supported,supported
 stream/consumers,arrayBuffer,supported,supported,supported,supported,supported
 stream/consumers,blob,supported,supported,supported,supported,supported
 stream/consumers,buffer,supported,supported,supported,supported,supported
-stream/consumers,bytes,supported,supported,unsupported,supported,unsupported
+stream/consumers,bytes,supported,supported,unsupported,supported,supported
 stream/consumers,json,supported,supported,supported,supported,supported
 stream/consumers,text,supported,supported,supported,supported,supported
 stream/promises,*self*,supported,supported,supported,supported,supported
